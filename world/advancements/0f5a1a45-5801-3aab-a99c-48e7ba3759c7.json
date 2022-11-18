@@ -71,12 +71,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/spruce_trapdoor": {
-    "criteria": {
-      "has_planks": "2022-11-18 16:22:14 +0100"
-    },
-    "done": true
-  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:forest": "2022-11-18 16:19:38 +0100",
@@ -84,6 +78,12 @@
       "minecraft:plains": "2022-11-18 16:21:40 +0100"
     },
     "done": false
+  },
+  "minecraft:recipes/redstone/spruce_trapdoor": {
+    "criteria": {
+      "has_planks": "2022-11-18 16:22:14 +0100"
+    },
+    "done": true
   },
   "DataVersion": 3120
 }

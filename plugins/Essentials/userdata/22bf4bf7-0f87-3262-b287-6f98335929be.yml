@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 79.116.132.19
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1668794256038
+  login: 1668790844822
+money: '0'
+last-account-name: Dropeao
+logoutlocation:
+  world: 7e41ec44-729a-4440-9812-99e728587efb
+  world-name: world
+  x: -370.5446065123574
+  y: -7.0
+  z: 396.69999998807907
+  yaw: -175.5048828125
+  pitch: 23.32065200805664

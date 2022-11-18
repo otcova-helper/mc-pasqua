@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 90.162.230.95
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1668794415513
+  login: 1668793290922
+money: '0'
+last-account-name: pauurbano_
+logoutlocation:
+  world: 7e41ec44-729a-4440-9812-99e728587efb
+  world-name: world
+  x: -6.770280910329768
+  y: 90.0
+  z: 213.19595775429343
+  yaw: 140.98207092285156
+  pitch: 31.626920700073242

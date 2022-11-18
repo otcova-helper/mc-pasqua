@@ -3,7 +3,7 @@ teleportauto: false
 godmode: true
 muted: false
 jailed: false
-ip-address: 127.0.0.1
+ip-address: 90.168.174.228
 afk: false
 socialspy: false
 npc: false
@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1668785196446
-  login: 1668784777929
+  logout: 1668792396437
+  login: 1668792332042
 money: '0'
 last-account-name: Otms
 logoutlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: -40.313479927345334
+  x: -40.99091353650976
   y: 101.37380377484874
-  z: 155.236691431535
-  yaw: 72.7515869140625
-  pitch: 34.95002365112305
+  z: 155.78639831725178
+  yaw: -73.49837493896484
+  pitch: 75.14999389648438
 lastlocation:
   world: ba998add-ef94-411b-bac0-dcb5082ca2cb
   world-name: world
