@@ -68,7 +68,7 @@ world-settings:
     merge-radius:
       item: 2.5
       exp: 3.0
-    item-despawn-rate: 6000
+    item-despawn-rate: 9600
     enable-zombie-pigmen-portal-spawns: true
     mob-spawn-range: 8
     arrow-despawn-rate: 1200
@@ -144,9 +144,9 @@ world-settings:
     seed-mineshaft: default
     seed-stronghold: default
     entity-tracking-range:
-      players: 48
-      animals: 48
-      monsters: 48
+      players: 128
+      animals: 64
+      monsters: 64
       misc: 32
       other: 64
     ticks-per:
@@ -165,7 +165,7 @@ world-settings:
     max-tick-time:
       tile: 50
       entity: 50
-    max-tnt-per-tick: 100
+    max-tnt-per-tick: 50
     verbose: false
 config-version: 12
 stats:
