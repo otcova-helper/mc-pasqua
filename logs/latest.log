@@ -1,0 +1,160 @@
+[16:18:14] [ServerMain/INFO]: Building unoptimized datafixer
+[16:18:15] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:18:15] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[16:18:17] [ServerMain/INFO]: Loaded 7 recipes
+[16:18:18] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[16:18:18] [Server thread/INFO]: Loading properties
+[16:18:18] [Server thread/INFO]: This server is running Paper version git-Paper-271 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: 2151112)
+[16:18:18] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:18:18] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:18:18] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[16:18:19] [Server console handler/ERROR]: [TerminalConsole] Failed to read console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:107) ~[paper-1.19.2.jar:git-Paper-271]
+	Suppressed: java.io.IOException: The handle is invalid
+		at java.io.FileDescriptor.close0(Native Method) ~[?:?]
+		at java.io.FileDescriptor.close(FileDescriptor.java:297) ~[?:?]
+		at java.io.FileInputStream$1.close(FileInputStream.java:459) ~[?:?]
+		at java.io.FileDescriptor.closeAll(FileDescriptor.java:355) ~[?:?]
+		at java.io.FileInputStream.close(FileInputStream.java:457) ~[?:?]
+		at java.io.BufferedInputStream.close(BufferedInputStream.java:481) ~[?:?]
+		at sun.nio.cs.StreamDecoder.implClose(StreamDecoder.java:366) ~[?:?]
+		at sun.nio.cs.StreamDecoder.close(StreamDecoder.java:204) ~[?:?]
+		at java.io.InputStreamReader.close(InputStreamReader.java:192) ~[?:?]
+		at java.io.BufferedReader.close(BufferedReader.java:525) ~[?:?]
+		at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:183) ~[terminalconsoleappender-1.3.0.jar:?]
+		at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
+		at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:107) ~[paper-1.19.2.jar:git-Paper-271]
+[16:18:19] [Server thread/INFO]: Default game type: SURVIVAL
+[16:18:19] [Server thread/INFO]: Generating keypair
+[16:18:19] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:18:19] [Server thread/INFO]: Using default channel type
+[16:18:19] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[16:18:19] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[16:18:19] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_19_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[16:18:22] [Server thread/WARN]: Legacy plugin MCAuthenticator v2.0.4 does not specify an api-version.
+[16:18:22] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.52
+[16:18:22] [Server thread/INFO]: [voicechat] Loading voicechat v1.19.2-2.3.15
+[16:18:22] [Server thread/INFO]: [FartherViewDistance] Loading FartherViewDistance v9.7.3
+[16:18:22] [Server thread/INFO]: [MCAuthenticator] Loading MCAuthenticator v2.0.4
+[16:18:22] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.0-dev+17-6e931b2
+[16:18:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:18:22] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.52
+[16:18:22] [Server thread/INFO]:         __    
+[16:18:22] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.52
+[16:18:22] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[16:18:22] [Server thread/INFO]: 
+[16:18:22] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[16:18:23] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[16:18:23] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[16:18:23] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[16:18:23] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1032ms)
+[16:18:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:18:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:18:23] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:18:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:18:23] [Server thread/INFO]: Preparing level "world"
+[16:18:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:18:34] [Server thread/INFO]: Time elapsed: 108 ms
+[16:18:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:18:34] [Server thread/INFO]: Time elapsed: 53 ms
+[16:18:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:18:34] [Server thread/INFO]: Time elapsed: 58 ms
+[16:18:34] [Server thread/INFO]: [voicechat] Enabling voicechat v1.19.2-2.3.15
+[16:18:34] [Server thread/INFO]: [voicechat] Compatibility version 15
+[16:18:34] [Server thread/INFO]: [voicechat] Loading translations
+[16:18:34] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[16:18:34] [Server thread/INFO]: [FartherViewDistance] Enabling FartherViewDistance v9.7.3
+[16:18:35] [Server thread/INFO]: [MCAuthenticator] Enabling MCAuthenticator v2.0.4*
+[16:18:35] [Server thread/INFO]: [MCAuthenticator] Using RFC6238 (Google Authenticator 2FA) based authentication.
+[16:18:35] [Server thread/INFO]: [MCAuthenticator] Could not validate the server's time! Ensure that the server's time is within specification!
+[16:18:35] [Server thread/INFO]: [MCAuthenticator] Using data source: (SingleFileDataSource: plugins\MCAuthenticator\playerData.json)
+[16:18:35] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.0-dev+17-6e931b2
+[16:18:36] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[16:18:36] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[16:18:36] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[16:18:36] [Server thread/INFO]: [Essentials] Using locale en_GB
+[16:18:36] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[16:18:36] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[16:18:36] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[16:18:36] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[16:18:36] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[16:18:36] [Server thread/INFO]: Running delayed init tasks
+[16:18:36] [Craft Scheduler Thread - 0 - Essentials/INFO]: [Essentials] Fetching version information...
+[16:18:36] [Server thread/INFO]: [voicechat] Loading plugins
+[16:18:36] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[16:18:36] [Server thread/INFO]: [voicechat] Initializing plugins
+[16:18:36] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[16:18:36] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[16:18:36] [Server thread/INFO]: [voicechat] Using default voicechat socket implementation
+[16:18:36] [Server thread/INFO]: Done (17.874s)! For help, type "help"
+[16:18:36] [Server thread/INFO]: Timings Reset
+[16:18:36] [VoiceChatServerThread/INFO]: [voicechat] Server started at port 25565
+[16:19:37] [User Authenticator #0/INFO]: UUID of player Otms is 0f5a1a45-5801-3aab-a99c-48e7ba3759c7
+[16:19:37] [Server thread/INFO]: Otms joined the game
+[16:19:37] [Server thread/INFO]: Otms[/127.0.0.1:54425] logged in with entity id 524 at ([world]-3.5, 109.0, 40.5)
+[16:19:39] [Server thread/INFO]: [voicechat] Received secret request of Otms (15)
+[16:19:39] [Server thread/INFO]: [voicechat] Sent secret to Otms
+[16:19:40] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 0f5a1a45-5801-3aab-a99c-48e7ba3759c7
+[16:20:37] [Server thread/INFO]: Otms issued server command: /gamemode creative
+[16:24:26] [Server thread/INFO]: Otms issued server command: /setworldspawn
+[16:24:26] [Server thread/INFO]: [Otms: Set the world spawn point to -41, 97, 155 [0.0]]
+[16:24:33] [Server thread/INFO]: Otms issued server command: /gamerule playersSleepingPercentage
+[16:24:36] [Server thread/INFO]: Otms issued server command: /gamerule playersSleepingPercentage 500
+[16:24:36] [Server thread/INFO]: [Otms: Gamerule playersSleepingPercentage is now set to: 500]
+[16:24:38] [Server thread/INFO]: Otms issued server command: /gamerule playersSleepingPercentage 50
+[16:24:38] [Server thread/INFO]: [Otms: Gamerule playersSleepingPercentage is now set to: 50]
+[16:24:44] [Server thread/INFO]: Otms issued server command: /gamerule doFireTick false
+[16:24:44] [Server thread/INFO]: [Otms: Gamerule doFireTick is now set to: false]
+[16:24:52] [Server thread/INFO]: Otms issued server command: /gamerule spawnRadius 2
+[16:24:52] [Server thread/INFO]: [Otms: Gamerule spawnRadius is now set to: 2]
+[16:26:32] [Server thread/INFO]: Otms issued server command: /time set 0
+[16:26:36] [Server thread/INFO]: Otms lost connection: Disconnected
+[16:26:36] [Server thread/INFO]: [voicechat] Disconnecting client Otms
+[16:26:36] [Server thread/INFO]: Otms left the game
+[16:26:47] [Server thread/INFO]: Stopping server
+[16:26:47] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.0-dev+17-6e931b2
+[16:26:47] [Server thread/INFO]: [MCAuthenticator] Disabling MCAuthenticator v2.0.4
+[16:26:47] [Server thread/INFO]: [FartherViewDistance] Disabling FartherViewDistance v9.7.3
+[16:26:47] [Server thread/INFO]: [voicechat] Disabling voicechat v1.19.2-2.3.15
+[16:26:47] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.52
+[16:26:47] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[16:26:47] [Server thread/INFO]: [LuckPerms] Closing storage...
+[16:26:47] [Server thread/INFO]: [LuckPerms] Goodbye!
+[16:26:47] [Server thread/INFO]: Saving players
+[16:26:47] [Server thread/INFO]: Saving worlds
+[16:26:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:26:47] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[16:26:47] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[16:26:47] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[16:26:48] [Server thread/INFO]: [ChunkHolderManager] Saved 1268 block chunks, 625 entity chunks, 8 poi chunks in world 'world' in 1.16s
+[16:26:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:26:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:26:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[16:26:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[16:26:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[16:26:49] [Server thread/INFO]: [ChunkHolderManager] Saved 1499 block chunks, 8 entity chunks, 0 poi chunks in world 'world_nether' in 0.45s
+[16:26:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:26:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:26:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[16:26:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[16:26:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[16:26:49] [Server thread/INFO]: [ChunkHolderManager] Saved 1506 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.29s
+[16:26:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:26:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:26:49] [Server thread/INFO]: Flushing Chunk IO
+[16:26:49] [Server thread/INFO]: Closing Thread Pool
+[16:26:49] [Server thread/INFO]: Closing Server

@@ -1,0 +1,37 @@
+[
+  {
+    "uuid": "b65c9cc1-a53f-3fdb-b2b3-50406966516f",
+    "ip": "139.47.33.85",
+    "secret": "AOMMIT4DLECXIQ5J",
+    "locked": false,
+    "authtype": 0
+  },
+  {
+    "uuid": "97c6bfe1-70d9-38c9-8126-7398ae90901c",
+    "ip": "79.155.0.245",
+    "secret": "YWHEWMD5CX4KAZMV",
+    "locked": false,
+    "authtype": 0
+  },
+  {
+    "uuid": "ed3c1a2d-930e-3887-ba63-f8b41c70c134",
+    "ip": "90.168.174.228",
+    "secret": "WCCQY5QFN4S7VZVS",
+    "locked": false,
+    "authtype": 0
+  },
+  {
+    "uuid": "0f5a1a45-5801-3aab-a99c-48e7ba3759c7",
+    "ip": "127.0.0.1",
+    "secret": "VCAEO623KRTQ4VIX",
+    "locked": true,
+    "authtype": 0
+  },
+  {
+    "uuid": "191cbce6-a575-3c1d-b5a1-0d7bd165b4a2",
+    "ip": "83.41.112.222",
+    "secret": "F3E3EK6SH33ZS6CS",
+    "locked": false,
+    "authtype": 0
+  }
+]

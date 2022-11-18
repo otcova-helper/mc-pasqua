@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 139.47.33.85
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1668715305955
+  login: 1668714887251
+money: '0'
+last-account-name: FerranPussyLover
+logoutlocation:
+  world: ba998add-ef94-411b-bac0-dcb5082ca2cb
+  world-name: world
+  x: 3.622832424139577
+  y: 101.0
+  z: -372.1062898345595
+  yaw: -141.072021484375
+  pitch: 20.850067138671875
