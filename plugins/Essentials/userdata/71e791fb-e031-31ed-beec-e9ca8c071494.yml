@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 83.43.145.30
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1668981116565
+  login: 1668981000063
+money: '0'
+last-account-name: Melvin20019
+logoutlocation:
+  world: 7e41ec44-729a-4440-9812-99e728587efb
+  world-name: world
+  x: 50.79529872302545
+  y: 96.0
+  z: 249.4623780479477
+  yaw: -62.69978332519531
+  pitch: 13.350050926208496

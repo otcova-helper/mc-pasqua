@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1668896678782
-  login: 1668896343776
+  logout: 1668974250909
+  login: 1668971846048
 money: '0'
 last-account-name: Solo3d
 logoutlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: 23.222371943822605
-  y: 87.0
-  z: 173.90237213079612
-  yaw: 68.27337646484375
-  pitch: 25.205772399902344
+  x: 7.699999988079071
+  y: 95.0
+  z: 248.69999998807907
+  yaw: 150.610107421875
+  pitch: 21.933372497558594

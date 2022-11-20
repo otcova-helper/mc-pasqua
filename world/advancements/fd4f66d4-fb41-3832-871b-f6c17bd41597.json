@@ -1,0 +1,18 @@
+{
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2022-11-20 20:50:29 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:jagged_peaks": "2022-11-20 20:50:15 +0100",
+      "minecraft:forest": "2022-11-20 20:48:29 +0100",
+      "minecraft:meadow": "2022-11-20 20:49:34 +0100",
+      "minecraft:plains": "2022-11-20 20:47:12 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}
