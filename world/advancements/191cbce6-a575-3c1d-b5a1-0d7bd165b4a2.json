@@ -782,6 +782,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/jack_o_lantern": {
+    "criteria": {
+      "has_carved_pumpkin": "2022-11-21 00:40:14 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/brick_wall_from_bricks_stonecutting": {
     "criteria": {
       "has_bricks": "2022-11-19 13:38:20 +0100"
