@@ -1,48 +1,34 @@
-[00:00:18] [Server thread/INFO]: Lynx has made the advancement [Suit Up]
-[00:06:02] [Server thread/INFO]: Lynx fell from a high place
-[00:06:34] [Server thread/INFO]: yiyi2003 has made the advancement [Sweet Dreams]
-[00:06:41] [Server thread/INFO]: pauurbano_ has made the advancement [Sweet Dreams]
-[00:11:49] [Server thread/INFO]: [Not Secure] [Server] El server s'apagarà en pocs minuts.
-[00:13:38] [Server thread/INFO]: Lynx lost connection: Disconnected
-[00:13:38] [Server thread/INFO]: [voicechat] Disconnecting client Lynx
-[00:13:38] [Server thread/INFO]: Lynx left the game
-[00:13:53] [Server thread/INFO]: [Not Secure] [Server] El server s'apagarà en pocs segons.
-[00:14:09] [Server thread/INFO]: [Not Secure] [Server] Adeu :)
-[00:14:13] [Server thread/INFO]: Stopping the server
-[00:14:13] [Server thread/INFO]: Stopping server
-[00:14:13] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.0-dev+17-6e931b2
-[00:14:13] [Server thread/INFO]: [MCAuthenticator] Disabling MCAuthenticator v2.0.4
-[00:14:13] [Server thread/INFO]: [FartherViewDistance] Disabling FartherViewDistance v9.7.3
-[00:14:13] [Server thread/INFO]: [voicechat] Disabling voicechat v1.19.2-2.3.15
-[00:14:13] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.52
-[00:14:13] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[00:14:13] [Server thread/INFO]: [LuckPerms] Closing storage...
-[00:14:13] [Server thread/INFO]: [LuckPerms] Goodbye!
-[00:14:13] [Server thread/INFO]: Saving players
-[00:14:13] [Server thread/INFO]: pauurbano_ lost connection: Server closed
-[00:14:13] [Server thread/INFO]: pauurbano_ left the game
-[00:14:13] [Server thread/INFO]: yiyi2003 lost connection: Server closed
-[00:14:13] [Server thread/INFO]: yiyi2003 left the game
-[00:14:13] [Server thread/INFO]: Saving worlds
-[00:14:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:14:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[00:14:13] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[00:14:13] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[00:14:14] [Server thread/INFO]: [ChunkHolderManager] Saved 53 block chunks, 396 entity chunks, 0 poi chunks in world 'world' in 0.10s
-[00:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:14:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[00:14:14] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[00:14:14] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[00:14:14] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[00:14:14] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 8 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[00:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:14:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[00:14:14] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[00:14:14] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[00:14:14] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[00:14:14] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[00:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:14:14] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[00:14:14] [Server thread/INFO]: Flushing Chunk IO
-[00:14:14] [Server thread/INFO]: Closing Thread Pool
-[00:14:14] [Server thread/INFO]: Closing Server
+[01:06:50] [Server thread/INFO]: Stopping the server
+[01:06:50] [Server thread/INFO]: Stopping server
+[01:06:50] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.0-dev+17-6e931b2
+[01:06:50] [Server thread/INFO]: [MCAuthenticator] Disabling MCAuthenticator v2.0.4
+[01:06:50] [Server thread/INFO]: [FartherViewDistance] Disabling FartherViewDistance v9.7.3
+[01:06:50] [Server thread/INFO]: [voicechat] Disabling voicechat v1.19.2-2.3.15
+[01:06:50] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.52
+[01:06:50] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[01:06:50] [Server thread/INFO]: [LuckPerms] Closing storage...
+[01:06:50] [Server thread/INFO]: [LuckPerms] Goodbye!
+[01:06:50] [Server thread/INFO]: Saving players
+[01:06:50] [Server thread/INFO]: Saving worlds
+[01:06:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:06:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[01:06:50] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[01:06:50] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[01:06:51] [Server thread/INFO]: [ChunkHolderManager] Saved 7 block chunks, 282 entity chunks, 0 poi chunks in world 'world' in 0,08s
+[01:06:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:06:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[01:06:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[01:06:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[01:06:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[01:06:51] [Server thread/INFO]: [ChunkHolderManager] Saved 696 block chunks, 75 entity chunks, 0 poi chunks in world 'world_nether' in 0,51s
+[01:06:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:06:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[01:06:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[01:06:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[01:06:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[01:06:51] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,01s
+[01:06:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:06:51] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:06:51] [Server thread/INFO]: Flushing Chunk IO
+[01:06:51] [Server thread/INFO]: Closing Thread Pool
+[01:06:51] [Server thread/INFO]: Closing Server

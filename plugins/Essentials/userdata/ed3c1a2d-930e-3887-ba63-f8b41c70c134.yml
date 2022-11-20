@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1668799530412
-  login: 1668795335556
+  logout: 1668886976438
+  login: 1668881202726
 money: '0'
 last-account-name: Octova
 logoutlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: 540.4871567529522
-  y: -14.0
-  z: 586.1936105409258
-  yaw: 117.27044677734375
-  pitch: 7.350170612335205
+  x: 65.30000001192093
+  y: 71.0
+  z: 546.350108699793
+  yaw: 68.30517578125
+  pitch: 18.900409698486328
