@@ -293,6 +293,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2022-11-21 19:48:12 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/stick": {
     "criteria": {
       "has_planks": "2022-11-18 18:43:03 +0100"
@@ -323,6 +329,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2022-11-21 20:16:23 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/firework_rocket_simple": {
     "criteria": {
       "has_gunpowder": "2022-11-18 23:20:18 +0100"
@@ -332,6 +344,12 @@
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2022-11-18 23:16:00 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_bowl": "2022-11-21 20:16:37 +0100"
     },
     "done": true
   },
@@ -362,7 +380,8 @@
       "bread": "2022-11-20 20:34:57 +0100",
       "rotten_flesh": "2022-11-18 23:02:55 +0100",
       "glow_berries": "2022-11-18 23:04:00 +0100",
-      "cooked_chicken": "2022-11-18 18:59:28 +0100"
+      "cooked_chicken": "2022-11-18 18:59:28 +0100",
+      "cooked_salmon": "2022-11-21 20:36:05 +0100"
     },
     "done": false
   },
@@ -387,6 +406,18 @@
   "minecraft:recipes/misc/bucket": {
     "criteria": {
       "has_iron_ingot": "2022-11-18 23:11:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapped_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2022-11-21 20:20:55 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2022-11-21 21:54:51 +0100"
     },
     "done": true
   },
@@ -642,6 +673,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2022-11-21 20:16:23 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/cauldron": {
     "criteria": {
       "has_water_bucket": "2022-11-19 00:08:28 +0100"
@@ -822,6 +859,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_the_recipe": "2022-11-21 20:16:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2022-11-21 20:29:46 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/gray_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2022-11-19 14:37:33 +0100"
@@ -882,6 +931,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2022-11-21 20:09:04 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/lightning_rod": {
     "criteria": {
       "has_copper_ingot": "2022-11-18 18:57:14 +0100"
@@ -899,6 +954,7 @@
       "minecraft:skeleton": "2022-11-18 18:48:36 +0100",
       "minecraft:spider": "2022-11-18 18:48:58 +0100",
       "minecraft:creeper": "2022-11-18 23:20:14 +0100",
+      "minecraft:witch": "2022-11-21 21:48:20 +0100",
       "minecraft:cave_spider": "2022-11-18 23:01:53 +0100",
       "minecraft:enderman": "2022-11-18 23:14:15 +0100",
       "minecraft:zombie": "2022-11-18 22:44:44 +0100",
@@ -945,6 +1001,12 @@
   "minecraft:recipes/food/cooked_beef_from_smoking": {
     "criteria": {
       "has_beef": "2022-11-18 23:57:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2022-11-21 20:09:04 +0100"
     },
     "done": true
   },
@@ -1116,6 +1178,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2022-11-21 20:09:04 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
       "has_planks": "2022-11-18 18:43:03 +0100"
@@ -1176,6 +1244,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2022-11-21 20:29:46 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/loom": {
     "criteria": {
       "has_string": "2022-11-18 22:27:45 +0100"
@@ -1221,6 +1295,18 @@
   "minecraft:recipes/building_blocks/brown_wool": {
     "criteria": {
       "has_white_wool": "2022-11-18 18:49:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2022-11-21 20:43:08 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2022-11-21 20:43:11 +0100"
     },
     "done": true
   },
@@ -1290,6 +1376,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_helmet": "2022-11-21 19:56:34 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_blue_wool": {
     "criteria": {
       "has_white_wool": "2022-11-18 18:49:41 +0100"
@@ -1305,6 +1397,12 @@
   "minecraft:recipes/tools/stone_shovel": {
     "criteria": {
       "has_cobblestone": "2022-11-18 18:44:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2022-11-21 21:54:51 +0100"
     },
     "done": true
   },
@@ -1353,6 +1451,12 @@
   "minecraft:recipes/building_blocks/andesite": {
     "criteria": {
       "has_stone": "2022-11-18 22:44:28 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2022-11-21 21:54:51 +0100"
     },
     "done": true
   },
@@ -1431,6 +1535,12 @@
   "minecraft:recipes/redstone/birch_fence_gate": {
     "criteria": {
       "has_planks": "2022-11-18 18:43:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2022-11-21 20:29:46 +0100"
     },
     "done": true
   },
@@ -1566,6 +1676,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2022-11-21 20:21:47 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone": {
     "criteria": {
       "has_cobblestone": "2022-11-18 18:44:18 +0100"
@@ -1598,7 +1714,9 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:taiga": "2022-11-21 20:43:06 +0100",
       "minecraft:birch_forest": "2022-11-18 23:59:09 +0100",
+      "minecraft:river": "2022-11-21 20:29:26 +0100",
       "minecraft:stony_shore": "2022-11-18 23:55:46 +0100",
       "minecraft:jagged_peaks": "2022-11-20 20:30:30 +0100",
       "minecraft:forest": "2022-11-18 18:41:56 +0100",
@@ -1789,6 +1907,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2022-11-21 20:28:56 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/pink_wool": {
     "criteria": {
       "has_white_wool": "2022-11-18 18:49:41 +0100"
@@ -1846,6 +1970,12 @@
   "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
     "criteria": {
       "has_beef": "2022-11-18 23:57:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_helmet": "2022-11-21 19:56:34 +0100"
     },
     "done": true
   },
@@ -1954,6 +2084,12 @@
   "minecraft:recipes/decorations/light_gray_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2022-11-19 14:37:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2022-11-21 19:48:12 +0100"
     },
     "done": true
   },

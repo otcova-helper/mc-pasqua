@@ -155,6 +155,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2022-11-22 01:52:36 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/blast_furnace": {
     "criteria": {
       "has_smooth_stone": "2022-11-19 13:42:05 +0100"
@@ -289,10 +295,12 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2022-11-21 20:02:43 +0100",
       "baked_potato": "2022-11-19 15:38:06 +0100",
       "apple": "2022-11-18 17:13:53 +0100",
       "bread": "2022-11-18 17:22:17 +0100",
       "rotten_flesh": "2022-11-19 20:30:17 +0100",
+      "salmon": "2022-11-21 20:49:30 +0100",
       "beetroot": "2022-11-18 18:34:59 +0100",
       "carrot": "2022-11-18 18:11:45 +0100"
     },
@@ -660,6 +668,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2022-11-21 19:27:35 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/gray_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2022-11-18 17:29:21 +0100"
@@ -711,6 +725,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2022-11-19 16:12:40 +0100",
+      "minecraft:spider": "2022-11-21 21:00:56 +0100",
       "minecraft:witch": "2022-11-19 17:54:30 +0100",
       "minecraft:zombie": "2022-11-18 18:41:47 +0100"
     },
@@ -767,6 +782,12 @@
   "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
     "criteria": {
       "has_chicken": "2022-11-18 17:28:12 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2022-11-22 01:52:36 +0100"
     },
     "done": true
   },
@@ -854,6 +875,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2022-11-21 18:27:33 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
       "has_planks": "2022-11-18 17:26:10 +0100"
@@ -890,6 +917,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2022-11-21 18:27:33 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
       "has_stick": "2022-11-18 17:06:36 +0100"
@@ -914,6 +947,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2022-11-21 19:27:35 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/loom": {
     "criteria": {
       "has_string": "2022-11-18 18:23:29 +0100"
@@ -935,6 +974,12 @@
   "minecraft:recipes/building_blocks/brown_wool": {
     "criteria": {
       "has_white_wool": "2022-11-18 18:10:51 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2022-11-21 18:03:32 +0100"
     },
     "done": true
   },
@@ -977,6 +1022,12 @@
   "minecraft:recipes/building_blocks/coal_block": {
     "criteria": {
       "has_coal": "2022-11-18 17:15:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2022-11-21 17:54:36 +0100"
     },
     "done": true
   },
@@ -1106,6 +1157,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2022-11-21 19:27:35 +0100"
+    },
+    "done": true
+  },
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2022-11-18 17:14:04 +0100"
@@ -1133,6 +1190,12 @@
   "minecraft:recipes/decorations/oak_sign": {
     "criteria": {
       "has_planks": "2022-11-18 17:26:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2022-11-21 18:27:33 +0100"
     },
     "done": true
   },
@@ -1441,6 +1504,12 @@
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2022-11-18 17:14:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2022-11-22 01:52:36 +0100"
     },
     "done": true
   },

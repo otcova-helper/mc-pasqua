@@ -1,43 +1,62 @@
-[00:11:31] [User Authenticator #0/INFO]: UUID of player pasqu17 is 191cbce6-a575-3c1d-b5a1-0d7bd165b4a2
-[00:11:33] [Server thread/INFO]: pasqu17 joined the game
-[00:11:33] [Server thread/INFO]: pasqu17[/83.41.112.222:63357] logged in with entity id 181 at ([world]76.76480254670088, 76.0, 546.7177440211011)
-[00:11:33] [Server thread/INFO]: [voicechat] Received secret request of pasqu17 (15)
-[00:11:33] [Server thread/INFO]: [voicechat] Sent secret to pasqu17
-[00:11:35] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 191cbce6-a575-3c1d-b5a1-0d7bd165b4a2
-[00:49:04] [Server thread/INFO]: pasqu17 lost connection: Disconnected
-[00:49:04] [Server thread/INFO]: [voicechat] Disconnecting client pasqu17
-[00:49:04] [Server thread/INFO]: pasqu17 left the game
-[00:49:27] [Server thread/INFO]: Stopping the server
-[00:49:27] [Server thread/INFO]: Stopping server
-[00:49:27] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.0-dev+17-6e931b2
-[00:49:27] [Server thread/INFO]: [MCAuthenticator] Disabling MCAuthenticator v2.0.4
-[00:49:27] [Server thread/INFO]: [FartherViewDistance] Disabling FartherViewDistance v9.7.3
-[00:49:27] [Server thread/INFO]: [voicechat] Disabling voicechat v1.19.2-2.3.15
-[00:49:27] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.52
-[00:49:27] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[00:49:27] [Server thread/INFO]: [LuckPerms] Closing storage...
-[00:49:27] [Server thread/INFO]: [LuckPerms] Goodbye!
-[00:49:27] [Server thread/INFO]: Saving players
-[00:49:27] [Server thread/INFO]: Saving worlds
-[00:49:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:49:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[00:49:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[00:49:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[00:49:27] [Server thread/INFO]: [ChunkHolderManager] Saved 4 block chunks, 132 entity chunks, 0 poi chunks in world 'world' in 0,04s
-[00:49:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:49:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[00:49:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[00:49:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[00:49:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[00:49:27] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 50 entity chunks, 0 poi chunks in world 'world_nether' in 0,02s
-[00:49:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:49:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[00:49:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[00:49:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[00:49:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[00:49:27] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,01s
-[00:49:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:49:27] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[00:49:27] [Server thread/INFO]: Flushing Chunk IO
-[00:49:27] [Server thread/INFO]: Closing Thread Pool
-[00:49:27] [Server thread/INFO]: Closing Server
+[00:00:18] [Server thread/INFO]: yiyi2003 has made the advancement [Enchanter]
+[00:02:29] [Server thread/INFO]: Solo3d was slain by Zombie
+[00:03:36] [Server thread/INFO]: yiyi2003 has made the advancement [Cover Me with Diamonds]
+[00:04:49] [Server thread/INFO]: Lynx has made the advancement [Diamonds!]
+[00:05:56] [Server thread/INFO]: Solo3d fell from a high place
+[00:08:34] [Server thread/INFO]: Lynx has made the advancement [Fishy Business]
+[00:14:21] [Server thread/INFO]: yiyi2003 has made the advancement [We Need to Go Deeper]
+[00:19:41] [Server thread/INFO]: Solo3d has made the advancement [Take Aim]
+[00:24:28] [Server thread/INFO]: Solo3d has made the advancement [Not Today, Thank You]
+[00:25:04] [Server thread/INFO]: Lynx has made the advancement [Not Today, Thank You]
+[00:25:37] [Server thread/INFO]: yiyi2003 lost connection: Disconnected
+[00:25:37] [Server thread/INFO]: [voicechat] Disconnecting client yiyi2003
+[00:25:37] [Server thread/INFO]: yiyi2003 left the game
+[00:53:23] [Server thread/INFO]: Lynx lost connection: Disconnected
+[00:53:23] [Server thread/INFO]: [voicechat] Disconnecting client Lynx
+[00:53:23] [Server thread/INFO]: Lynx left the game
+[00:53:26] [Server thread/INFO]: Solo3d lost connection: Disconnected
+[00:53:26] [Server thread/INFO]: [voicechat] Disconnecting client Solo3d
+[00:53:26] [Server thread/INFO]: Solo3d left the game
+[01:42:52] [User Authenticator #37/INFO]: UUID of player pasqu17 is 191cbce6-a575-3c1d-b5a1-0d7bd165b4a2
+[01:42:53] [Server thread/INFO]: pasqu17 joined the game
+[01:42:53] [Server thread/INFO]: pasqu17[/83.40.140.121:55642] logged in with entity id 130473 at ([world]75.79619982043194, 76.0, 557.723514358616)
+[01:42:54] [Server thread/INFO]: [voicechat] Received secret request of pasqu17 (15)
+[01:42:54] [Server thread/INFO]: [voicechat] Sent secret to pasqu17
+[01:42:55] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 191cbce6-a575-3c1d-b5a1-0d7bd165b4a2
+[02:35:19] [Server thread/INFO]: pasqu17 lost connection: Disconnected
+[02:35:19] [Server thread/INFO]: [voicechat] Disconnecting client pasqu17
+[02:35:19] [Server thread/INFO]: pasqu17 left the game
+[02:35:30] [Server thread/INFO]: Stopping the server
+[02:35:30] [Server thread/INFO]: Stopping server
+[02:35:30] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.0-dev+17-6e931b2
+[02:35:30] [Server thread/INFO]: [MCAuthenticator] Disabling MCAuthenticator v2.0.4
+[02:35:30] [Server thread/INFO]: [FartherViewDistance] Disabling FartherViewDistance v9.7.3
+[02:35:30] [Server thread/INFO]: [voicechat] Disabling voicechat v1.19.2-2.3.15
+[02:35:30] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.52
+[02:35:30] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[02:35:30] [Server thread/INFO]: [LuckPerms] Closing storage...
+[02:35:31] [Server thread/INFO]: [LuckPerms] Goodbye!
+[02:35:31] [Server thread/INFO]: Saving players
+[02:35:31] [Server thread/INFO]: Saving worlds
+[02:35:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:35:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[02:35:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[02:35:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[02:35:31] [Server thread/INFO]: [ChunkHolderManager] Saved 28 block chunks, 286 entity chunks, 0 poi chunks in world 'world' in 0,13s
+[02:35:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:35:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[02:35:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[02:35:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[02:35:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[02:35:31] [Server thread/INFO]: [ChunkHolderManager] Saved 776 block chunks, 65 entity chunks, 0 poi chunks in world 'world_nether' in 0,39s
+[02:35:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:35:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[02:35:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[02:35:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[02:35:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[02:35:31] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,01s
+[02:35:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:35:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02:35:31] [Server thread/INFO]: Flushing Chunk IO
+[02:35:31] [Server thread/INFO]: Closing Thread Pool
+[02:35:31] [Server thread/INFO]: Closing Server

@@ -53,6 +53,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/magenta_dye_from_lilac": {
+    "criteria": {
+      "has_lilac": "2022-11-21 19:57:29 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_bricks": {
     "criteria": {
       "has_stone": "2022-11-19 16:11:53 +0100"
@@ -753,6 +759,12 @@
     },
     "done": true
   },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2022-11-21 21:04:18 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2022-11-18 22:35:58 +0100"
@@ -965,11 +977,13 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2022-11-21 19:58:22 +0100",
       "minecraft:skeleton": "2022-11-18 23:12:24 +0100",
       "minecraft:vindicator": "2022-11-19 22:22:47 +0100",
       "minecraft:spider": "2022-11-18 22:31:38 +0100",
       "minecraft:slime": "2022-11-18 22:51:36 +0100",
       "minecraft:enderman": "2022-11-20 16:52:41 +0100",
+      "minecraft:silverfish": "2022-11-21 20:35:43 +0100",
       "minecraft:zombie": "2022-11-18 22:33:12 +0100"
     },
     "done": false

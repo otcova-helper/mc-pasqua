@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1668981230318
-  login: 1668980706221
+  logout: 1669066121353
+  login: 1669065144846
 money: '0'
 last-account-name: _ssassy_
 logoutlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: 160.78397926233046
+  x: 159.64597938493705
   y: 112.0
-  z: 285.36732022514377
-  yaw: 93.14998626708984
-  pitch: 18.44997787475586
+  z: 286.25796384742364
+  yaw: 89.09872436523438
+  pitch: 17.699983596801758

@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 95.23.164.95
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1669061957353
+  login: 1669059795159
+money: '0'
+last-account-name: TheDMC75
+logoutlocation:
+  world: 7e41ec44-729a-4440-9812-99e728587efb
+  world-name: world
+  x: 140.1621203338993
+  y: 110.0
+  z: 284.6086946248061
+  yaw: -78.744873046875
+  pitch: 17.391704559326172
