@@ -1,5 +1,11 @@
 [
   {
+    "uuid": "ed2c6826-11cd-3e1a-93a1-e6bd6aa140a5",
+    "name": "pasqu_admin",
+    "level": 1,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "0f5a1a45-5801-3aab-a99c-48e7ba3759c7",
     "name": "Otms",
     "level": 4,

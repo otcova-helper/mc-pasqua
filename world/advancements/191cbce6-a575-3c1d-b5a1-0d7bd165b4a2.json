@@ -275,9 +275,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2022-11-22 19:31:34 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/gray_wool": {
     "criteria": {
       "has_white_wool": "2022-11-18 18:10:51 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2022-11-22 18:03:27 +0100"
     },
     "done": true
   },
@@ -330,6 +342,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2022-11-22 18:04:38 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_stairs": {
     "criteria": {
       "has_cobblestone": "2022-11-18 17:14:21 +0100"
@@ -378,6 +396,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/lime_dye": {
+    "criteria": {
+      "has_white_dye": "2022-11-23 00:24:02 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
     "criteria": {
       "has_raw_gold": "2022-11-19 15:48:50 +0100"
@@ -423,6 +447,12 @@
   "minecraft:recipes/combat/bow": {
     "criteria": {
       "has_string": "2022-11-18 18:23:29 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
+    "criteria": {
+      "has_white_dye": "2022-11-23 00:24:02 +0100"
     },
     "done": true
   },
@@ -533,6 +563,12 @@
   "minecraft:recipes/food/beetroot_soup": {
     "criteria": {
       "has_beetroot": "2022-11-18 18:07:15 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_candle": {
+    "criteria": {
+      "has_white_dye": "2022-11-23 00:24:02 +0100"
     },
     "done": true
   },
@@ -665,6 +701,12 @@
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2022-11-18 17:28:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2022-11-23 00:18:41 +0100"
     },
     "done": true
   },
@@ -827,6 +869,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
+    "criteria": {
+      "has_white_dye": "2022-11-23 00:24:02 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/blue_dye": {
     "criteria": {
       "has_lapis_lazuli": "2022-11-19 16:26:24 +0100"
@@ -920,6 +968,12 @@
   "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
     "criteria": {
       "has_porkchop": "2022-11-21 18:27:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
+    "criteria": {
+      "has_white_dye": "2022-11-23 00:24:02 +0100"
     },
     "done": true
   },
@@ -1019,6 +1073,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2022-11-23 00:18:41 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/coal_block": {
     "criteria": {
       "has_coal": "2022-11-18 17:15:02 +0100"
@@ -1061,6 +1121,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2022-11-22 18:04:38 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_planks": {
     "criteria": {
       "has_logs": "2022-11-18 17:22:52 +0100"
@@ -1097,6 +1163,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2022-11-23 00:18:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2022-11-22 18:04:38 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/tripwire_hook": {
     "criteria": {
       "has_string": "2022-11-18 18:23:29 +0100"
@@ -1130,6 +1208,12 @@
   "minecraft:recipes/building_blocks/birch_planks": {
     "criteria": {
       "has_logs": "2022-11-18 17:06:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_white_dye": "2022-11-23 00:24:02 +0100"
     },
     "done": true
   },
@@ -1253,15 +1337,23 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gray_dye": {
+    "criteria": {
+      "has_white_dye": "2022-11-23 00:24:02 +0100"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:sunflower_plains": "2022-11-18 17:15:42 +0100",
+      "minecraft:birch_forest": "2022-11-22 17:43:54 +0100",
       "minecraft:river": "2022-11-18 17:15:38 +0100",
       "minecraft:stony_shore": "2022-11-18 17:13:54 +0100",
       "minecraft:grove": "2022-11-19 16:13:58 +0100",
       "minecraft:jagged_peaks": "2022-11-19 16:17:29 +0100",
       "minecraft:forest": "2022-11-18 17:06:35 +0100",
       "minecraft:flower_forest": "2022-11-18 17:15:35 +0100",
+      "minecraft:old_growth_birch_forest": "2022-11-22 17:44:12 +0100",
       "minecraft:meadow": "2022-11-18 17:06:50 +0100",
       "minecraft:plains": "2022-11-18 17:05:53 +0100"
     },
@@ -1405,6 +1497,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_gray_dye_from_gray_white_dye": {
+    "criteria": {
+      "has_white_dye": "2022-11-23 00:24:02 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_lapis_lazuli": "2022-11-19 16:26:24 +0100"
@@ -1522,6 +1620,12 @@
   "minecraft:recipes/food/cooked_mutton": {
     "criteria": {
       "has_mutton": "2022-11-18 18:10:51 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
+    "criteria": {
+      "has_white_dye": "2022-11-23 00:24:02 +0100"
     },
     "done": true
   },

@@ -1,0 +1,29 @@
+{
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2022-11-22 20:03:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:birch_forest": "2022-11-22 20:17:25 +0100",
+      "minecraft:bamboo_jungle": "2022-11-22 20:10:10 +0100",
+      "minecraft:dark_forest": "2022-11-22 20:17:24 +0100",
+      "minecraft:sparse_jungle": "2022-11-22 20:10:35 +0100",
+      "minecraft:lukewarm_ocean": "2022-11-22 20:16:37 +0100",
+      "minecraft:stony_shore": "2022-11-22 20:16:30 +0100",
+      "minecraft:jagged_peaks": "2022-11-22 20:09:39 +0100",
+      "minecraft:forest": "2022-11-22 20:11:04 +0100",
+      "minecraft:lush_caves": "2022-11-22 20:10:18 +0100",
+      "minecraft:jungle": "2022-11-22 20:16:58 +0100",
+      "minecraft:ocean": "2022-11-22 20:18:08 +0100",
+      "minecraft:old_growth_birch_forest": "2022-11-22 20:11:12 +0100",
+      "minecraft:deep_dark": "2022-11-22 20:10:33 +0100",
+      "minecraft:meadow": "2022-11-22 20:09:27 +0100",
+      "minecraft:plains": "2022-11-22 20:03:31 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}

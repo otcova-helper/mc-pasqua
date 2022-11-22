@@ -17,15 +17,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/redstone_torch": {
+  "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
-      "has_redstone": "2022-11-22 16:13:14 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/carrot_on_a_stick": {
-    "criteria": {
-      "has_carrot": "2022-11-22 16:13:34 +0100"
+      "in_water": "2022-11-22 16:10:48 +0100"
     },
     "done": true
   },
@@ -35,9 +29,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/dark_oak_boat": {
+  "minecraft:recipes/redstone/redstone_torch": {
     "criteria": {
-      "in_water": "2022-11-22 16:10:48 +0100"
+      "has_redstone": "2022-11-22 16:13:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2022-11-22 16:13:34 +0100"
     },
     "done": true
   },
@@ -71,15 +71,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/dropper": {
-    "criteria": {
-      "has_redstone": "2022-11-22 16:13:14 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
       "in_water": "2022-11-22 16:10:48 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2022-11-22 16:13:14 +0100"
     },
     "done": true
   },
@@ -114,6 +114,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_sunflower": "2022-11-22 20:49:09 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2022-11-22 16:10:48 +0100"
@@ -134,9 +140,11 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2022-11-22 20:49:26 +0100",
       "minecraft:sunflower_plains": "2022-11-22 16:15:21 +0100",
       "minecraft:jagged_peaks": "2022-11-20 20:50:15 +0100",
       "minecraft:forest": "2022-11-20 20:48:29 +0100",
+      "minecraft:frozen_peaks": "2022-11-22 20:49:48 +0100",
       "minecraft:meadow": "2022-11-20 20:49:34 +0100",
       "minecraft:plains": "2022-11-20 20:47:12 +0100"
     },

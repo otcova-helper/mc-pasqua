@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1669130121993
-  login: 1669129792768
+  logout: 1669146628903
+  login: 1669146543043
 money: '0'
 last-account-name: TrueAponcho
 logoutlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: 23.148269907457596
-  y: 103.0
-  z: 696.3506607060102
-  yaw: 58.051605224609375
-  pitch: 29.99041175842285
+  x: -44.539456133393834
+  y: 125.0
+  z: 923.3854370743019
+  yaw: -137.96986389160156
+  pitch: 9.185323715209961

@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 95.23.83.242
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1669145666044
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1669145759850
+  login: 1669143221361
+money: '0'
+last-account-name: Isuza
+logoutlocation:
+  world: 7e41ec44-729a-4440-9812-99e728587efb
+  world-name: world
+  x: 407.5310400366138
+  y: 63.0
+  z: 522.7801266145124
+  yaw: 16.07102394104004
+  pitch: 30.74995994567871
+homes:
+  home:
+    world: 7e41ec44-729a-4440-9812-99e728587efb
+    world-name: world
+    x: 405.0464775345976
+    y: 64.5625
+    z: 533.1092356909692
+    yaw: -111.5782470703125
+    pitch: 66.45054626464844
+lastlocation:
+  world: 7e41ec44-729a-4440-9812-99e728587efb
+  world-name: world
+  x: 433.30000001192093
+  y: -51.0
+  z: 413.47867969650304
+  yaw: -25.75885009765625
+  pitch: 28.049558639526367
