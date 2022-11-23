@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1668967770757
-  login: 1668965877747
+  logout: 1669210242301
+  login: 1669206980299
 money: '0'
 last-account-name: Crep
 logoutlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: -130.5590495301033
-  y: 5.0
-  z: 1312.300000011921
-  yaw: -64.658447265625
-  pitch: 30.300018310546875
+  x: -648.2940328753339
+  y: 9.0
+  z: 1560.8401875147154
+  yaw: -112.2938232421875
+  pitch: 17.850107192993164
