@@ -1,242 +1,108 @@
-[15:54:38] [ServerMain/INFO]: Building unoptimized datafixer
-[15:54:39] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[15:54:42] [ServerMain/INFO]: Loaded 7 recipes
-[15:54:43] [Server thread/INFO]: Starting minecraft server version 1.19.2
-[15:54:43] [Server thread/INFO]: Loading properties
-[15:54:43] [Server thread/INFO]: This server is running Paper version git-Paper-271 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: 2151112)
-[15:54:43] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:54:43] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:54:44] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[15:54:44] [Server thread/INFO]: Default game type: SURVIVAL
-[15:54:44] [Server thread/INFO]: Generating keypair
-[15:54:44] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:54:44] [Server thread/INFO]: Using default channel type
-[15:54:44] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[15:54:44] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[15:54:45] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_19_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[15:54:50] [Server thread/WARN]: Legacy plugin MCAuthenticator v2.0.4 does not specify an api-version.
-[15:54:50] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.52
-[15:54:51] [Server thread/INFO]: [voicechat] Loading voicechat v1.19.2-2.3.15
-[15:54:51] [Server thread/INFO]: [FartherViewDistance] Loading FartherViewDistance v9.7.3
-[15:54:51] [Server thread/INFO]: [MCAuthenticator] Loading MCAuthenticator v2.0.4
-[15:54:51] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.0-dev+17-6e931b2
-[15:54:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:54:51] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.52
-[15:54:51] [Server thread/INFO]:         __    
-[15:54:51] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.52
-[15:54:51] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[15:54:51] [Server thread/INFO]: 
-[15:54:51] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[15:54:52] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[15:54:52] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[15:54:53] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[15:54:53] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1939ms)
-[15:54:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:54:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:54:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:54:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:54:53] [Server thread/INFO]: Preparing level "world"
-[15:54:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:54:54] [Server thread/INFO]: Time elapsed: 131 ms
-[15:54:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:54:54] [Server thread/INFO]: Time elapsed: 29 ms
-[15:54:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:54:54] [Server thread/INFO]: Time elapsed: 21 ms
-[15:54:54] [Server thread/INFO]: [voicechat] Enabling voicechat v1.19.2-2.3.15
-[15:54:54] [Server thread/INFO]: [voicechat] Compatibility version 15
-[15:54:54] [Server thread/INFO]: [voicechat] Loading translations
-[15:54:55] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[15:54:55] [Server thread/INFO]: [FartherViewDistance] Enabling FartherViewDistance v9.7.3
-[15:54:55] [Server thread/INFO]: [MCAuthenticator] Enabling MCAuthenticator v2.0.4*
-[15:54:55] [Server thread/INFO]: [MCAuthenticator] Using RFC6238 (Google Authenticator 2FA) based authentication.
-[15:54:56] [Server thread/INFO]: [MCAuthenticator] Could not validate the server's time! Ensure that the server's time is within specification!
-[15:54:56] [Server thread/INFO]: [MCAuthenticator] Using data source: (SingleFileDataSource: plugins\MCAuthenticator\playerData.json)
-[15:54:56] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.0-dev+17-6e931b2
-[15:54:56] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[15:54:56] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[15:54:56] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
-[15:54:56] [Server thread/INFO]: [Essentials] Using locale ca_ES
-[15:54:56] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[15:54:56] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[15:54:56] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[15:54:56] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[15:54:56] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[15:54:56] [Server thread/INFO]: Running delayed init tasks
-[15:54:56] [Server thread/INFO]: [voicechat] Loading plugins
-[15:54:56] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
-[15:54:56] [Server thread/INFO]: [voicechat] Initializing plugins
-[15:54:56] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
-[15:54:56] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[15:54:56] [Server thread/INFO]: [voicechat] Using default voicechat socket implementation
-[15:54:56] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
-[15:54:56] [Server thread/INFO]: Done (13.223s)! For help, type "help"
-[15:54:56] [Server thread/INFO]: Timings Reset
-[15:54:56] [VoiceChatServerThread/INFO]: [voicechat] Server started at port 25565
-[15:55:10] [User Authenticator #0/INFO]: UUID of player _ssassy_ is 7cbebcce-9ffc-3179-8157-dee1121d54d4
-[15:55:10] [Server thread/INFO]: _ssassy_ joined the game
-[15:55:10] [Server thread/INFO]: _ssassy_[/81.0.0.189:59269] logged in with entity id 196 at ([world]404.113900858672, 63.0, 522.1193636273615)
-[15:55:11] [Server thread/INFO]: [voicechat] Received secret request of _ssassy_ (15)
-[15:55:11] [Server thread/INFO]: [voicechat] Sent secret to _ssassy_
-[15:55:16] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 7cbebcce-9ffc-3179-8157-dee1121d54d4
-[16:00:24] [Server thread/INFO]: [Not Secure] [Server] Oye, vas a estar esta tarde?
-[16:00:44] [Async Chat Thread - #0/INFO]: [Not Secure] <_ssassy_> como que donde voy a estar?
-[16:00:57] [Server thread/INFO]: [Not Secure] [Server] En el server, conectada por aquí
-[16:01:03] [Async Chat Thread - #0/INFO]: [Not Secure] <_ssassy_> si supongo
-[16:01:29] [Async Chat Thread - #0/INFO]: [Not Secure] <_ssassy_> por
-[16:01:47] [Server thread/INFO]: [Not Secure] [Server] Por si podrias hostear tu
-[16:02:04] [Server thread/INFO]: [Not Secure] [Server] Serias la primera en probar la función del multihost
-[16:02:10] [Async Chat Thread - #0/INFO]: [Not Secure] <_ssassy_> vale
-[16:02:12] [Server thread/INFO]: [Not Secure] [Server] Asi en modo experimental
-[16:02:16] [Server thread/INFO]: [Not Secure] [Server] Genial
-[16:02:25] [Async Chat Thread - #0/INFO]: [Not Secure] <_ssassy_> voy a estar toda la tarde en el pc asi que si
-[16:02:33] [Async Chat Thread - #0/INFO]: [Not Secure] <_ssassy_> si quieres probamos ahora
-[16:02:36] [Async Chat Thread - #0/INFO]: [Not Secure] <_ssassy_> y hosteo
-[16:02:39] [Async Chat Thread - #0/INFO]: [Not Secure] <_ssassy_> a ver si va
-[16:02:57] [Server thread/INFO]: [Not Secure] [Server] Okey
-[16:03:01] [Server thread/INFO]: [Not Secure] [Server] Bueno despues de comer
-[16:03:09] [Server thread/INFO]: [Not Secure] [Server] Te aviso por DC
-[16:03:23] [Async Chat Thread - #0/INFO]: [Not Secure] <_ssassy_> okey
-[16:03:59] [Server thread/INFO]: [Not Secure] [Server] Ale pos q vaya bien
-[16:10:54] [Server thread/INFO]: _ssassy_ issued server command: /home
-[16:31:39] [User Authenticator #1/INFO]: UUID of player Melvin20019 is 71e791fb-e031-31ed-beec-e9ca8c071494
-[16:31:39] [Server thread/INFO]: Melvin20019 joined the game
-[16:31:39] [Server thread/INFO]: Melvin20019[/83.43.145.30:51900] logged in with entity id 6542 at ([world]309.6902313355419, 79.0, 309.12844755396605)
-[16:31:41] [Server thread/INFO]: [voicechat] Received secret request of Melvin20019 (15)
-[16:31:41] [Server thread/INFO]: [voicechat] Sent secret to Melvin20019
-[16:31:44] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 71e791fb-e031-31ed-beec-e9ca8c071494
-[16:32:00] [Async Chat Thread - #2/INFO]: [Not Secure] <_ssassy_> ALVARITOOOOO
-[16:32:08] [Async Chat Thread - #2/INFO]: [Not Secure] <Melvin20019> holaaa
-[16:38:48] [Server thread/INFO]: _ssassy_ has made the advancement [Who is Cutting Onions?]
-[16:38:55] [Server thread/INFO]: _ssassy_ has made the advancement [Ice Bucket Challenge]
-[16:52:42] [Async Chat Thread - #4/INFO]: [Not Secure] <_ssassy_> que animal da cuero aparte del caballo?
-[16:52:49] [Async Chat Thread - #4/INFO]: [Not Secure] <Melvin20019> vacas
-[16:53:27] [Async Chat Thread - #4/INFO]: [Not Secure] <_ssassy_> oki
-[16:56:05] [Server thread/INFO]: _ssassy_ has made the advancement [The Parrots and the Bats]
-[17:02:44] [Async Chat Thread - #6/INFO]: [Not Secure] <_ssassy_> duerme3 porfa
-[17:02:48] [Async Chat Thread - #6/INFO]: [Not Secure] <Melvin20019> ya va
-[17:02:50] [Async Chat Thread - #6/INFO]: [Not Secure] <_ssassy_> no estoy en casa
-[17:19:42] [User Authenticator #2/INFO]: UUID of player pasqu17 is 191cbce6-a575-3c1d-b5a1-0d7bd165b4a2
-[17:19:42] [Server thread/INFO]: pasqu17 joined the game
-[17:19:42] [Server thread/INFO]: pasqu17[/83.40.140.121:54070] logged in with entity id 21447 at ([world]74.47805214244472, 76.0, 557.4875000119209)
-[17:19:44] [Server thread/INFO]: [voicechat] Received secret request of pasqu17 (15)
-[17:19:44] [Server thread/INFO]: [voicechat] Sent secret to pasqu17
-[17:19:45] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 191cbce6-a575-3c1d-b5a1-0d7bd165b4a2
-[17:19:49] [Async Chat Thread - #8/INFO]: [Not Secure] <Melvin20019> bones
-[17:19:51] [Async Chat Thread - #9/INFO]: [Not Secure] <pasqu17> hey
-[17:20:03] [Async Chat Thread - #9/INFO]: [Not Secure] <pasqu17> ocupats?
-[17:20:11] [Async Chat Thread - #9/INFO]: [Not Secure] <Melvin20019> en quin sentit?
-[17:20:16] [Async Chat Thread - #9/INFO]: [Not Secure] <_ssassy_> si
-[17:20:19] [Async Chat Thread - #9/INFO]: [Not Secure] <Melvin20019> jo estic talant arbres
-[17:20:21] [Async Chat Thread - #9/INFO]: [Not Secure] <_ssassy_> capturando un gato
-[17:20:25] [Async Chat Thread - #9/INFO]: [Not Secure] <pasqu17> opa
-[17:20:29] [Async Chat Thread - #9/INFO]: [Not Secure] <pasqu17> tarea difisil
-[17:20:38] [Async Chat Thread - #9/INFO]: [Not Secure] <Melvin20019> ofc
-[17:20:40] [Async Chat Thread - #9/INFO]: [Not Secure] <pasqu17> i tala intensita
-[17:20:46] [Async Chat Thread - #9/INFO]: [Not Secure] <Melvin20019> ofc
-[17:21:10] [Async Chat Thread - #9/INFO]: [Not Secure] <Melvin20019> faré un poble
-[17:23:48] [Async Chat Thread - #10/INFO]: [Not Secure] <_ssassy_> por que le doy carne a un perro y no se hace mi mascotq?
-[17:23:54] [Async Chat Thread - #10/INFO]: [Not Secure] <Melvin20019> son huesos
-[17:23:56] [Async Chat Thread - #10/INFO]: [Not Secure] <pasqu17> es con huesos
-[17:24:00] [Async Chat Thread - #10/INFO]: [Not Secure] <_ssassy_> me cago en todo
-[17:24:06] [Async Chat Thread - #10/INFO]: [Not Secure] <Melvin20019> hahjshaj
-[17:24:06] [Async Chat Thread - #10/INFO]: [Not Secure] <pasqu17> la carne es para curarlo
-[17:24:15] [Async Chat Thread - #10/INFO]: [Not Secure] <_ssassy_> no dormais
-[17:24:20] [Async Chat Thread - #10/INFO]: [Not Secure] <_ssassy_> a ver si mato algun esqueleto
-[17:24:27] [Async Chat Thread - #10/INFO]: [Not Secure] <_ssassy_> y pillo al perro
-[17:24:46] [Async Chat Thread - #10/INFO]: [Not Secure] <pasqu17> yo me desconecto, no quiero bichos en mi casa xD
-[17:24:58] [Server thread/INFO]: pasqu17 lost connection: Disconnected
-[17:24:58] [Server thread/INFO]: [voicechat] Disconnecting client pasqu17
-[17:24:58] [Server thread/INFO]: pasqu17 left the game
-[17:28:11] [Server thread/INFO]: _ssassy_ has made the advancement [Best Friends Forever]
-[17:28:15] [Async Chat Thread - #12/INFO]: [Not Secure] <_ssassy_> duerm,e
-[17:28:27] [Async Chat Thread - #12/INFO]: [Not Secure] <Melvin20019> ya veo que lo tienes
-[17:28:38] [Async Chat Thread - #12/INFO]: [Not Secure] <_ssassy_> sisi ajajajja
-[17:28:46] [Async Chat Thread - #12/INFO]: [Not Secure] <Melvin20019> cordenadas para encontrar?
-[17:28:54] [Async Chat Thread - #12/INFO]: [Not Secure] <Melvin20019> yo tb kiero
-[17:29:37] [Async Chat Thread - #12/INFO]: [Not Secure] <_ssassy_> vamos de ruta?
-[17:29:41] [Async Chat Thread - #12/INFO]: [Not Secure] <_ssassy_> y te enseño donde
-[17:29:43] [Async Chat Thread - #12/INFO]: [Not Secure] <Melvin20019> ok
-[17:29:48] [Async Chat Thread - #12/INFO]: [Not Secure] <Melvin20019> donde nos encontramos?
-[17:29:49] [Async Chat Thread - #12/INFO]: [Not Secure] <_ssassy_> voy a casa a por huesos y peces
-[17:29:54] [User Authenticator #3/INFO]: UUID of player pasqu17 is 191cbce6-a575-3c1d-b5a1-0d7bd165b4a2
-[17:29:54] [Server thread/INFO]: pasqu17 joined the game
-[17:29:54] [Server thread/INFO]: pasqu17[/83.40.140.121:54168] logged in with entity id 25005 at ([world]74.91820939723483, 76.0, 557.9350659609416)
-[17:29:54] [Server thread/INFO]: [voicechat] Received secret request of pasqu17 (15)
-[17:29:54] [Server thread/INFO]: [voicechat] Sent secret to pasqu17
-[17:29:55] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 191cbce6-a575-3c1d-b5a1-0d7bd165b4a2
-[17:29:55] [Async Chat Thread - #12/INFO]: [Not Secure] <_ssassy_> que esto esta lleno de animales
-[17:30:01] [Async Chat Thread - #12/INFO]: [Not Secure] <pasqu17> hey
-[17:30:13] [Async Chat Thread - #12/INFO]: [Not Secure] <Melvin20019> pasqual
-[17:30:17] [Async Chat Thread - #12/INFO]: [Not Secure] <_ssassy_> ahora te digo alvaro
-[17:30:19] [Async Chat Thread - #12/INFO]: [Not Secure] <Melvin20019> ok
-[17:30:24] [Server thread/INFO]: _ssassy_ issued server command: /home
-[17:30:24] [Async Chat Thread - #12/INFO]: [Not Secure] <Melvin20019> pasqual
-[17:30:25] [Async Chat Thread - #12/INFO]: [Not Secure] <pasqu17> dime alvaro
-[17:30:27] [Server thread/WARN]: _ssassy_ moved too quickly! 1395.8666899631974,-24.0,-625.9412634791147
-[17:30:33] [Async Chat Thread - #12/INFO]: [Not Secure] <Melvin20019> no te piques pero:
-[17:30:37] [Async Chat Thread - #12/INFO]: [Not Secure] <Melvin20019> "6h no tinndré temps per fer LVM" - Pasqual Torral, 2022
-[17:31:21] [Async Chat Thread - #12/INFO]: [Not Secure] <_ssassy_> y el perro?
-[17:31:30] [Async Chat Thread - #12/INFO]: [Not Secure] <_ssassy_> si hago /home no viene conmigo?
-[17:31:45] [Async Chat Thread - #12/INFO]: [Not Secure] <Melvin20019> ostras hay /home no me acordaba no lo he usado
-[17:32:05] [Server thread/INFO]: Melvin20019 issued server command: /sethome
-[17:32:09] [Server thread/INFO]: Melvin20019 issued server command: /home
-[17:41:42] [Async Chat Thread - #14/INFO]: [Not Secure] <Melvin20019> estas?
-[17:46:33] [Async Chat Thread - #16/INFO]: [Not Secure] <_ssassy_> no
-[17:46:51] [Async Chat Thread - #16/INFO]: [Not Secure] <_ssassy_> espera que estoy abriendo los puertos con el pasqual
-[17:47:09] [Async Chat Thread - #16/INFO]: [Not Secure] <Melvin20019> puertos?
-[17:50:05] [Server thread/INFO]: pasqu17 lost connection: Disconnected
-[17:50:05] [Server thread/INFO]: [voicechat] Disconnecting client pasqu17
-[17:50:05] [Server thread/INFO]: pasqu17 left the game
-[17:52:33] [Async Chat Thread - #18/INFO]: [Not Secure] <_ssassy_> estoy en tu casa alvaro
-[17:52:38] [Async Chat Thread - #18/INFO]: [Not Secure] <Melvin20019> voy
-[17:52:40] [Async Chat Thread - #18/INFO]: [Not Secure] <_ssassy_> tienes peces?
-[17:52:47] [Async Chat Thread - #18/INFO]: [Not Secure] <Melvin20019> no pero te enseño donde
-[17:52:50] [Async Chat Thread - #18/INFO]: [Not Secure] <Melvin20019> al lado
-[17:52:51] [Async Chat Thread - #18/INFO]: [Not Secure] <_ssassy_> vale
-[17:52:59] [Async Chat Thread - #18/INFO]: [Not Secure] <_ssassy_> me enseñas y vamos a por perros y gatos
-[17:53:25] [Async Chat Thread - #18/INFO]: [Not Secure] <_ssassy_> metete al discord
-[17:53:26] [Async Chat Thread - #18/INFO]: [Not Secure] <Melvin20019> pera k vacío inventario
-[17:53:34] [Async Chat Thread - #18/INFO]: [Not Secure] <_ssassy_> al server de mine
-[17:53:49] [Async Chat Thread - #18/INFO]: [Not Secure] <Melvin20019> voy
-[17:53:54] [Async Chat Thread - #18/INFO]: [Not Secure] <_ssassy_> canal asix
-[18:04:44] [Server thread/INFO]: _ssassy_ issued server command: /tp _ssassy_ -966.5 76 769.5
-[18:04:44] [Server thread/INFO]: [Essentials] _ssassy_ was denied access to command.
-[18:09:07] [Server thread/INFO]: Melvin20019 has made the advancement [Best Friends Forever]
-[18:10:53] [Server thread/INFO]: Stopping the server
-[18:10:53] [Server thread/INFO]: Stopping server
-[18:10:53] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.0-dev+17-6e931b2
-[18:10:54] [Server thread/INFO]: [MCAuthenticator] Disabling MCAuthenticator v2.0.4
-[18:10:54] [Server thread/INFO]: [FartherViewDistance] Disabling FartherViewDistance v9.7.3
-[18:10:54] [Server thread/INFO]: [voicechat] Disabling voicechat v1.19.2-2.3.15
-[18:10:54] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.52
-[18:10:54] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[18:10:54] [Server thread/INFO]: [LuckPerms] Closing storage...
-[18:10:54] [Server thread/INFO]: [LuckPerms] Goodbye!
-[18:10:54] [Server thread/INFO]: Saving players
-[18:10:54] [Server thread/INFO]: _ssassy_ lost connection: Server closed
-[18:10:54] [Server thread/INFO]: _ssassy_ left the game
-[18:10:54] [Server thread/INFO]: Melvin20019 lost connection: Server closed
-[18:10:54] [Server thread/INFO]: Melvin20019 left the game
-[18:10:54] [Server thread/INFO]: Saving worlds
-[18:10:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:10:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[18:10:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[18:10:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[18:10:55] [Server thread/INFO]: [ChunkHolderManager] Saved 408 block chunks, 706 entity chunks, 1 poi chunks in world 'world' in 0,99s
-[18:10:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:10:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[18:10:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[18:10:55] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[18:10:55] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[18:10:55] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 78 entity chunks, 0 poi chunks in world 'world_nether' in 0,04s
-[18:10:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:10:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[18:10:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[18:10:55] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[18:10:55] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[18:10:55] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,02s
-[18:10:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:10:55] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[18:10:55] [Server thread/INFO]: Flushing Chunk IO
-[18:10:55] [Server thread/INFO]: Closing Thread Pool
-[18:10:55] [Server thread/INFO]: Closing Server
+[18:31:26] [ServerMain/INFO]: Building unoptimized datafixer
+[18:31:27] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:31:28] [ServerMain/INFO]: Loaded 7 recipes
+[18:31:29] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[18:31:29] [Server thread/INFO]: Loading properties
+[18:31:29] [Server thread/INFO]: This server is running Paper version git-Paper-271 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: 2151112)
+[18:31:29] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:31:29] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:31:29] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[18:31:29] [Server thread/INFO]: Default game type: SURVIVAL
+[18:31:29] [Server thread/INFO]: Generating keypair
+[18:31:29] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:31:29] [Server thread/INFO]: Using default channel type
+[18:31:29] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[18:31:29] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[18:31:30] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_19_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[18:31:33] [Server thread/WARN]: Legacy plugin MCAuthenticator v2.0.4 does not specify an api-version.
+[18:31:33] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.52
+[18:31:33] [Server thread/INFO]: [voicechat] Loading voicechat v1.19.2-2.3.15
+[18:31:33] [Server thread/INFO]: [FartherViewDistance] Loading FartherViewDistance v9.7.3
+[18:31:33] [Server thread/INFO]: [MCAuthenticator] Loading MCAuthenticator v2.0.4
+[18:31:33] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.0-dev+17-6e931b2
+[18:31:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:31:33] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.52
+[18:31:34] [Server thread/INFO]:         __    
+[18:31:34] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.52
+[18:31:34] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[18:31:34] [Server thread/INFO]: 
+[18:31:34] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[18:31:34] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[18:31:34] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[18:31:34] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[18:31:34] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 974ms)
+[18:31:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:31:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:31:34] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:31:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:31:34] [Server thread/INFO]: Preparing level "world"
+[18:31:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:31:35] [Server thread/INFO]: Time elapsed: 81 ms
+[18:31:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:31:35] [Server thread/INFO]: Time elapsed: 46 ms
+[18:31:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:31:35] [Server thread/INFO]: Time elapsed: 20 ms
+[18:31:35] [Server thread/INFO]: [voicechat] Enabling voicechat v1.19.2-2.3.15
+[18:31:35] [Server thread/INFO]: [voicechat] Compatibility version 15
+[18:31:35] [Server thread/INFO]: [voicechat] Loading translations
+[18:31:35] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[18:31:35] [Server thread/INFO]: [FartherViewDistance] Enabling FartherViewDistance v9.7.3
+[18:31:35] [Server thread/INFO]: [MCAuthenticator] Enabling MCAuthenticator v2.0.4*
+[18:31:35] [Server thread/INFO]: [MCAuthenticator] Using RFC6238 (Google Authenticator 2FA) based authentication.
+[18:31:36] [Server thread/INFO]: [MCAuthenticator] Could not validate the server's time! Ensure that the server's time is within specification!
+[18:31:36] [Server thread/INFO]: [MCAuthenticator] Using data source: (SingleFileDataSource: plugins\MCAuthenticator\playerData.json)
+[18:31:36] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.0-dev+17-6e931b2
+[18:31:36] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[18:31:36] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[18:31:36] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[18:31:36] [Server thread/INFO]: [Essentials] Using locale es_ES
+[18:31:36] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[18:31:36] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[18:31:36] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[18:31:36] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[18:31:36] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[18:31:37] [Server thread/INFO]: Running delayed init tasks
+[18:31:37] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Obteniendo información de versión...
+[18:31:37] [Server thread/INFO]: [voicechat] Loading plugins
+[18:31:37] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[18:31:37] [Server thread/INFO]: [voicechat] Initializing plugins
+[18:31:37] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[18:31:37] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[18:31:37] [Server thread/INFO]: [voicechat] Using default voicechat socket implementation
+[18:31:37] [Server thread/INFO]: Done (7.801s)! For help, type "help"
+[18:31:37] [VoiceChatServerThread/INFO]: [voicechat] Server started at port 25565
+[18:31:37] [Server thread/INFO]: Timings Reset
+[18:36:12] [Server thread/INFO]: Stopping the server
+[18:36:12] [Server thread/INFO]: Stopping server
+[18:36:12] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.0-dev+17-6e931b2
+[18:36:12] [Server thread/INFO]: [MCAuthenticator] Disabling MCAuthenticator v2.0.4
+[18:36:12] [Server thread/INFO]: [FartherViewDistance] Disabling FartherViewDistance v9.7.3
+[18:36:12] [Server thread/INFO]: [voicechat] Disabling voicechat v1.19.2-2.3.15
+[18:36:12] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.52
+[18:36:12] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[18:36:12] [Server thread/INFO]: [LuckPerms] Closing storage...
+[18:36:12] [Server thread/INFO]: [LuckPerms] Goodbye!
+[18:36:12] [Server thread/INFO]: Saving players
+[18:36:12] [Server thread/INFO]: Saving worlds
+[18:36:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:36:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[18:36:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[18:36:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[18:36:13] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world' in 0,99s
+[18:36:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:36:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:36:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[18:36:13] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[18:36:13] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[18:36:14] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0,55s
+[18:36:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:36:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:36:14] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[18:36:14] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[18:36:14] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[18:36:14] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0,11s
+[18:36:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:36:14] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:36:14] [Server thread/INFO]: Flushing Chunk IO
+[18:36:14] [Server thread/INFO]: Closing Thread Pool
+[18:36:14] [Server thread/INFO]: Closing Server
