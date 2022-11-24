@@ -305,6 +305,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2022-11-24 18:06:18 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/gray_wool": {
     "criteria": {
       "has_white_wool": "2022-11-22 18:12:57 +0100"
@@ -395,6 +401,12 @@
   "minecraft:recipes/decorations/granite_wall": {
     "criteria": {
       "has_granite": "2022-11-23 19:50:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_chest_boat": {
+    "criteria": {
+      "has_boat": "2022-11-24 18:05:00 +0100"
     },
     "done": true
   },
@@ -519,9 +531,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/acacia_chest_boat": {
+    "criteria": {
+      "has_boat": "2022-11-24 18:05:00 +0100"
+    },
+    "done": true
+  },
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_leggings": "2022-11-22 22:25:51 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2022-11-24 18:05:00 +0100"
     },
     "done": true
   },
@@ -546,6 +570,12 @@
   "minecraft:recipes/transportation/minecart": {
     "criteria": {
       "has_iron_ingot": "2022-11-21 23:40:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_sunflower": "2022-11-24 18:02:17 +0100"
     },
     "done": true
   },
@@ -690,6 +720,12 @@
   "minecraft:recipes/decorations/black_bed": {
     "criteria": {
       "has_black_wool": "2022-11-22 18:53:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2022-11-24 18:05:00 +0100"
     },
     "done": true
   },
@@ -852,6 +888,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/birch_chest_boat": {
+    "criteria": {
+      "has_boat": "2022-11-24 18:05:00 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2022-11-23 19:50:40 +0100"
@@ -936,6 +978,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2022-11-24 18:09:07 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/raw_copper_block": {
     "criteria": {
       "has_raw_copper": "2022-11-21 23:34:54 +0100"
@@ -984,15 +1032,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_salmon_from_smoking": {
-    "criteria": {
-      "has_salmon": "2022-11-23 23:42:59 +0100"
-    },
-    "done": true
-  },
   "minecraft:husbandry/tactical_fishing": {
     "criteria": {
       "salmon_bucket": "2022-11-23 23:42:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2022-11-23 23:42:59 +0100"
     },
     "done": true
   },
@@ -1158,6 +1206,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2022-11-24 18:05:00 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite_stairs_from_polished_andesite_stonecutting": {
     "criteria": {
       "has_polished_andesite": "2022-11-23 21:34:10 +0100"
@@ -1272,6 +1326,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2022-11-24 18:05:00 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/oak_sign": {
     "criteria": {
       "has_planks": "2022-11-23 19:24:14 +0100"
@@ -1370,16 +1430,21 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:sunflower_plains": "2022-11-24 18:02:12 +0100",
       "minecraft:birch_forest": "2022-11-21 19:24:27 +0100",
       "minecraft:bamboo_jungle": "2022-11-22 21:06:31 +0100",
+      "minecraft:stony_peaks": "2022-11-24 17:50:34 +0100",
       "minecraft:sparse_jungle": "2022-11-22 21:03:31 +0100",
       "minecraft:river": "2022-11-21 23:41:29 +0100",
       "minecraft:stony_shore": "2022-11-23 23:40:16 +0100",
       "minecraft:grove": "2022-11-21 19:19:46 +0100",
       "minecraft:jagged_peaks": "2022-11-21 18:42:35 +0100",
+      "minecraft:cold_ocean": "2022-11-24 18:05:21 +0100",
       "minecraft:forest": "2022-11-21 18:43:01 +0100",
       "minecraft:lush_caves": "2022-11-23 19:37:04 +0100",
       "minecraft:jungle": "2022-11-22 21:06:34 +0100",
+      "minecraft:ocean": "2022-11-24 18:05:15 +0100",
+      "minecraft:frozen_peaks": "2022-11-24 17:50:45 +0100",
       "minecraft:old_growth_birch_forest": "2022-11-21 19:34:58 +0100",
       "minecraft:meadow": "2022-11-21 18:42:13 +0100",
       "minecraft:plains": "2022-11-20 22:50:01 +0100"
@@ -1595,6 +1660,12 @@
       "has_stone": "2022-11-23 21:33:30 +0100"
     },
     "done": true
+  },
+  "minecraft:husbandry/complete_catalogue": {
+    "criteria": {
+      "minecraft:siamese": "2022-11-24 18:09:07 +0100"
+    },
+    "done": false
   },
   "minecraft:recipes/redstone/spruce_trapdoor": {
     "criteria": {
