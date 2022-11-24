@@ -573,6 +573,12 @@
     },
     "done": true
   },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2022-11-24 20:12:56 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_deepslate_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2022-11-22 19:10:27 +0100"
@@ -690,6 +696,12 @@
   "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2022-11-23 20:04:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2022-11-24 18:52:32 +0100"
     },
     "done": true
   },
@@ -864,6 +876,12 @@
   "minecraft:recipes/building_blocks/clay": {
     "criteria": {
       "has_clay_ball": "2022-11-24 16:43:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2022-11-24 20:07:16 +0100"
     },
     "done": true
   },
@@ -1158,6 +1176,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:snowy_slopes": "2022-11-24 17:08:29 +0100",
+      "minecraft:taiga": "2022-11-24 19:01:51 +0100",
       "minecraft:sunflower_plains": "2022-11-23 19:21:33 +0100",
       "minecraft:birch_forest": "2022-11-22 20:24:23 +0100",
       "minecraft:bamboo_jungle": "2022-11-22 19:00:38 +0100",
@@ -1289,6 +1308,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2022-11-24 18:55:43 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/grindstone": {
     "criteria": {
       "has_stone_slab": "2022-11-20 17:22:57 +0100"
@@ -1316,6 +1341,12 @@
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_lapis_lazuli": "2022-11-22 19:22:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2022-11-24 18:52:32 +0100"
     },
     "done": true
   },
@@ -1663,6 +1694,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2022-11-24 19:27:38 +0100"
+    },
+    "done": true
+  },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2022-11-21 16:43:21 +0100",
@@ -1701,6 +1738,12 @@
   "minecraft:recipes/decorations/respawn_anchor": {
     "criteria": {
       "has_obsidian": "2022-11-24 16:38:48 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2022-11-24 18:52:32 +0100"
     },
     "done": true
   },
@@ -1850,7 +1893,9 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
-      "minecraft:cow": "2022-11-24 16:56:05 +0100"
+      "minecraft:cat": "2022-11-24 19:23:24 +0100",
+      "minecraft:cow": "2022-11-24 16:56:05 +0100",
+      "minecraft:wolf": "2022-11-24 19:08:40 +0100"
     },
     "done": false
   },
@@ -2217,6 +2262,12 @@
   "minecraft:recipes/building_blocks/lime_wool": {
     "criteria": {
       "has_white_wool": "2022-11-22 20:24:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2022-11-24 19:27:38 +0100"
     },
     "done": true
   },
@@ -2693,6 +2744,12 @@
       "has_stone": "2022-11-21 18:11:56 +0100"
     },
     "done": true
+  },
+  "minecraft:husbandry/complete_catalogue": {
+    "criteria": {
+      "minecraft:white": "2022-11-24 19:11:16 +0100"
+    },
+    "done": false
   },
   "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
     "criteria": {

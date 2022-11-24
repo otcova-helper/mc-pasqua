@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1669248814410
-  login: 1669242828260
+  logout: 1669317517339
+  login: 1669317216335
 money: '0'
 last-account-name: Lynx
 logoutlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: 106.5
+  x: 107.62785957620076
   y: 75.0
-  z: 410.5
-  yaw: -179.730224609375
-  pitch: 32.85017013549805
+  z: 410.42935677456137
+  yaw: 41.549560546875
+  pitch: 20.550010681152344
 homes:
   home:
     world: 7e41ec44-729a-4440-9812-99e728587efb

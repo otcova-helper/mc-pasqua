@@ -15,7 +15,7 @@
   },
   {
     "uuid": "71e791fb-e031-31ed-beec-e9ca8c071494",
-    "ip": "83.43.145.30",
+    "ip": "192.168.1.1",
     "secret": "6NYQ6ZBRPOUUA4AB",
     "locked": false,
     "authtype": 0

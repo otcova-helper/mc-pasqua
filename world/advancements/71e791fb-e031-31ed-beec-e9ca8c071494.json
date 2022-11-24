@@ -329,6 +329,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2022-11-24 19:27:50 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2022-11-21 23:40:33 +0100"
@@ -490,8 +496,10 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:cat": "2022-11-24 19:30:33 +0100",
       "minecraft:pig": "2022-11-22 19:09:21 +0100",
-      "minecraft:sheep": "2022-11-22 18:59:32 +0100"
+      "minecraft:sheep": "2022-11-22 18:59:32 +0100",
+      "minecraft:cow": "2022-11-24 21:35:41 +0100"
     },
     "done": false
   },
@@ -791,6 +799,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2022-11-24 21:59:56 +0100",
       "minecraft:skeleton": "2022-11-22 21:36:34 +0100",
       "minecraft:spider": "2022-11-22 17:34:02 +0100",
       "minecraft:creeper": "2022-11-21 23:29:09 +0100",
@@ -831,6 +840,12 @@
   "minecraft:recipes/food/baked_potato": {
     "criteria": {
       "has_potato": "2022-11-21 18:46:13 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2022-11-24 21:35:59 +0100"
     },
     "done": true
   },
@@ -885,6 +900,12 @@
   "minecraft:recipes/redstone/birch_door": {
     "criteria": {
       "has_planks": "2022-11-21 19:40:51 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2022-11-24 21:59:56 +0100"
     },
     "done": true
   },
@@ -1011,6 +1032,12 @@
   "minecraft:recipes/building_blocks/granite_stairs": {
     "criteria": {
       "has_granite": "2022-11-23 19:50:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2022-11-24 19:27:50 +0100"
     },
     "done": true
   },
@@ -1422,6 +1449,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2022-11-24 21:35:59 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gray_dye": {
     "criteria": {
       "has_black_dye": "2022-11-22 18:53:37 +0100"
@@ -1430,6 +1463,8 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2022-11-24 19:13:06 +0100",
+      "minecraft:taiga": "2022-11-24 19:01:45 +0100",
       "minecraft:sunflower_plains": "2022-11-24 18:02:12 +0100",
       "minecraft:birch_forest": "2022-11-21 19:24:27 +0100",
       "minecraft:bamboo_jungle": "2022-11-22 21:06:31 +0100",
@@ -1496,6 +1531,12 @@
   "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
     "criteria": {
       "has_raw_iron": "2022-11-21 23:33:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2022-11-24 21:28:59 +0100"
     },
     "done": true
   },
@@ -1682,6 +1723,12 @@
   "minecraft:recipes/food/cookie": {
     "criteria": {
       "has_cocoa": "2022-11-22 21:14:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2022-11-24 21:35:59 +0100"
     },
     "done": true
   },
