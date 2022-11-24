@@ -16,7 +16,7 @@ _version: 29
 anticheat:
   anti-xray:
     enabled: true
-    engine-mode: 1
+    engine-mode: 2
     hidden-blocks:
     - copper_ore
     - deepslate_copper_ore

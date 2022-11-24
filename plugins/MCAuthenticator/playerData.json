@@ -22,7 +22,7 @@
   },
   {
     "uuid": "ed2c6826-11cd-3e1a-93a1-e6bd6aa140a5",
-    "ip": "83.40.140.121",
+    "ip": "127.0.0.1",
     "secret": "YMWZ73H45JA32TAQ",
     "locked": true,
     "authtype": 0

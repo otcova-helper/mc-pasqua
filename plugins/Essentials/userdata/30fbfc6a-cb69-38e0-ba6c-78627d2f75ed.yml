@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 81.61.149.247
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1669224453482
+  login: 1669224074467
+money: '0'
+last-account-name: tifanybpinheiro
+logoutlocation:
+  world: 7e41ec44-729a-4440-9812-99e728587efb
+  world-name: world
+  x: -12.447580089196416
+  y: 92.0
+  z: 272.8334735919135
+  yaw: 18.590635299682617
+  pitch: 27.150005340576172

@@ -1,189 +1,152 @@
-[12:51:17] [ServerMain/INFO]: Building unoptimized datafixer
-[12:51:18] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[12:51:19] [ServerMain/INFO]: Loaded 7 recipes
-[12:51:20] [Server thread/INFO]: Starting minecraft server version 1.19.2
-[12:51:20] [Server thread/INFO]: Loading properties
-[12:51:20] [Server thread/INFO]: This server is running Paper version git-Paper-271 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: 2151112)
-[12:51:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[12:51:20] [Server thread/INFO]: Using 4 threads for Netty based IO
-[12:51:20] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
-[12:51:20] [Server thread/INFO]: Default game type: SURVIVAL
-[12:51:20] [Server thread/INFO]: Generating keypair
-[12:51:20] [Server thread/INFO]: Starting Minecraft server on *:25565
-[12:51:20] [Server thread/INFO]: Using default channel type
-[12:51:20] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[12:51:20] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[12:51:21] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_19_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[12:51:24] [Server thread/WARN]: Legacy plugin MCAuthenticator v2.0.4 does not specify an api-version.
-[12:51:24] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.52
-[12:51:24] [Server thread/INFO]: [voicechat] Loading voicechat v1.19.2-2.3.15
-[12:51:24] [Server thread/INFO]: [FartherViewDistance] Loading FartherViewDistance v9.7.3
-[12:51:24] [Server thread/INFO]: [MCAuthenticator] Loading MCAuthenticator v2.0.4
-[12:51:24] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.0-dev+17-6e931b2
-[12:51:24] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[12:51:24] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.52
-[12:51:24] [Server thread/INFO]:         __    
-[12:51:24] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.52
-[12:51:24] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[12:51:24] [Server thread/INFO]: 
-[12:51:24] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[12:51:24] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[12:51:25] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[12:51:25] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[12:51:25] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1007ms)
-[12:51:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12:51:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[12:51:25] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[12:51:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[12:51:25] [Server thread/INFO]: Preparing level "world"
-[12:51:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[12:51:25] [Server thread/INFO]: Time elapsed: 71 ms
-[12:51:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[12:51:25] [Server thread/INFO]: Time elapsed: 22 ms
-[12:51:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[12:51:25] [Server thread/INFO]: Time elapsed: 23 ms
-[12:51:25] [Server thread/INFO]: [voicechat] Enabling voicechat v1.19.2-2.3.15
-[12:51:25] [Server thread/INFO]: [voicechat] Compatibility version 15
-[12:51:25] [Server thread/INFO]: [voicechat] Loading translations
-[12:51:25] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[12:51:25] [Server thread/INFO]: [FartherViewDistance] Enabling FartherViewDistance v9.7.3
-[12:51:26] [Server thread/INFO]: [MCAuthenticator] Enabling MCAuthenticator v2.0.4*
-[12:51:26] [Server thread/INFO]: [MCAuthenticator] Using RFC6238 (Google Authenticator 2FA) based authentication.
-[12:51:26] [Server thread/INFO]: [MCAuthenticator] Could not validate the server's time! Ensure that the server's time is within specification!
-[12:51:26] [Server thread/INFO]: [MCAuthenticator] Using data source: (SingleFileDataSource: plugins\MCAuthenticator\playerData.json)
-[12:51:26] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.0-dev+17-6e931b2
-[12:51:27] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[12:51:27] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[12:51:27] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
-[12:51:27] [Server thread/INFO]: [Essentials] Using locale en_GB
-[12:51:27] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[12:51:27] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[12:51:27] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[12:51:27] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[12:51:27] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[12:51:27] [Server thread/INFO]: Running delayed init tasks
-[12:51:27] [Craft Scheduler Thread - 0 - Essentials/INFO]: [Essentials] Fetching version information...
-[12:51:27] [Server thread/INFO]: [voicechat] Loading plugins
-[12:51:27] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
-[12:51:27] [Server thread/INFO]: [voicechat] Initializing plugins
-[12:51:27] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
-[12:51:27] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[12:51:27] [Server thread/INFO]: [voicechat] Using default voicechat socket implementation
-[12:51:27] [Server thread/INFO]: Done (7.079s)! For help, type "help"
-[12:51:27] [Server thread/INFO]: Timings Reset
-[12:51:27] [VoiceChatServerThread/INFO]: [voicechat] Server started at port 25565
-[12:55:58] [User Authenticator #0/INFO]: UUID of player Crep is 4eef1e55-b016-3afe-9455-69c4a08c7a9a
-[12:55:58] [Server thread/INFO]: Crep joined the game
-[12:55:58] [Server thread/INFO]: Crep[/2.152.176.224:50300] logged in with entity id 155 at ([world]-130.5590495301033, 5.0, 1312.300000011921)
-[12:57:02] [Server thread/INFO]: Crep lost connection: Disconnected
-[12:57:02] [Server thread/INFO]: [voicechat] Disconnecting client Crep
-[12:57:02] [Server thread/INFO]: Crep left the game
-[12:57:41] [User Authenticator #1/INFO]: UUID of player Crep is 4eef1e55-b016-3afe-9455-69c4a08c7a9a
-[12:57:41] [Server thread/INFO]: Crep joined the game
-[12:57:41] [Server thread/INFO]: Crep[/2.152.176.224:50311] logged in with entity id 567 at ([world]-118.32900692201065, -13.0, 1317.2355772301394)
-[12:58:18] [Server thread/INFO]: Crep lost connection: Disconnected
-[12:58:18] [Server thread/INFO]: [voicechat] Disconnecting client Crep
-[12:58:18] [Server thread/INFO]: Crep left the game
-[13:08:38] [User Authenticator #2/INFO]: UUID of player Crep is 4eef1e55-b016-3afe-9455-69c4a08c7a9a
-[13:08:38] [Server thread/INFO]: Crep joined the game
-[13:08:38] [Server thread/INFO]: Crep[/2.152.176.224:63855] logged in with entity id 882 at ([world]-118.32900692201065, -13.0, 1317.2355772301394)
-[13:08:41] [Server thread/INFO]: [voicechat] Received secret request of Crep (15)
-[13:08:41] [Server thread/INFO]: [voicechat] Sent secret to Crep
-[13:09:20] [Server thread/INFO]: Crep lost connection: Timed out
-[13:09:20] [Server thread/INFO]: [voicechat] Disconnecting client Crep
-[13:09:20] [Server thread/INFO]: Crep left the game
-[13:27:09] [User Authenticator #3/INFO]: UUID of player Crep is 4eef1e55-b016-3afe-9455-69c4a08c7a9a
-[13:27:09] [Server thread/INFO]: Crep joined the game
-[13:27:09] [Server thread/INFO]: Crep[/77.211.6.22:58939] logged in with entity id 1209 at ([world]-118.32900692201065, -13.0, 1317.2355772301394)
-[13:27:11] [Server thread/INFO]: [voicechat] Received secret request of Crep (15)
-[13:27:11] [Server thread/INFO]: [voicechat] Sent secret to Crep
-[13:27:12] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 4eef1e55-b016-3afe-9455-69c4a08c7a9a
-[13:33:01] [User Authenticator #4/INFO]: UUID of player Octova is ed3c1a2d-930e-3887-ba63-f8b41c70c134
-[13:33:01] [Server thread/INFO]: Octova joined the game
-[13:33:01] [Server thread/INFO]: Octova[/127.0.0.1:55394] logged in with entity id 2142 at ([world]65.30000001192093, 71.0, 546.350108699793)
-[13:33:03] [Server thread/INFO]: [voicechat] Received secret request of Octova (15)
-[13:33:03] [Server thread/INFO]: [voicechat] Sent secret to Octova
-[13:33:03] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player ed3c1a2d-930e-3887-ba63-f8b41c70c134
-[13:33:08] [Server thread/INFO]: Octova lost connection: Disconnected
-[13:33:08] [Server thread/INFO]: [voicechat] Disconnecting client Octova
-[13:33:08] [Server thread/INFO]: Octova left the game
-[13:33:10] [User Authenticator #4/INFO]: UUID of player Octova is ed3c1a2d-930e-3887-ba63-f8b41c70c134
-[13:33:10] [Server thread/INFO]: Octova joined the game
-[13:33:10] [Server thread/INFO]: Octova[/90.168.174.228:55405] logged in with entity id 2390 at ([world]65.50092424752464, 71.0, 546.9439253400544)
-[13:33:11] [Server thread/INFO]: [voicechat] Received secret request of Octova (15)
-[13:33:11] [Server thread/INFO]: [voicechat] Sent secret to Octova
-[13:33:11] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player ed3c1a2d-930e-3887-ba63-f8b41c70c134
-[13:33:16] [Server thread/INFO]: Crep has made the advancement [Diamonds!]
-[13:34:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 4eef1e55-b016-3afe-9455-69c4a08c7a9a timed out
-[13:34:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player Crep
-[13:34:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to Crep
-[13:34:21] [Server thread/INFO]: Crep lost connection: Disconnected
-[13:34:21] [Server thread/INFO]: [voicechat] Disconnecting client Crep
-[13:34:21] [Server thread/INFO]: Crep left the game
-[13:36:20] [User Authenticator #5/INFO]: UUID of player Crep is 4eef1e55-b016-3afe-9455-69c4a08c7a9a
-[13:36:20] [Server thread/INFO]: Crep joined the game
-[13:36:20] [Server thread/INFO]: Crep[/2.152.176.224:59523] logged in with entity id 3051 at ([world]-69.93535931535453, -54.0, 1328.0613871730204)
-[13:36:21] [Server thread/INFO]: [voicechat] Received secret request of Crep (15)
-[13:36:21] [Server thread/INFO]: [voicechat] Sent secret to Crep
-[13:36:23] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 4eef1e55-b016-3afe-9455-69c4a08c7a9a
-[13:38:15] [Server thread/INFO]: Crep has made the advancement [Ol' Betsy]
-[13:43:52] [Server thread/INFO]: Crep fell from a high place
-[13:46:05] [Server thread/INFO]: Crep was shot by Skeleton
-[13:47:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 4eef1e55-b016-3afe-9455-69c4a08c7a9a timed out
-[13:47:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player Crep
-[13:47:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to Crep
-[13:47:10] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 4eef1e55-b016-3afe-9455-69c4a08c7a9a
-[13:53:27] [Async Chat Thread - #0/INFO]: [Not Secure] <Crep> YO TE OIGO
-[13:54:43] [Server thread/INFO]: Octova lost connection: Disconnected
-[13:54:43] [Server thread/INFO]: [voicechat] Disconnecting client Octova
-[13:54:43] [Server thread/INFO]: Octova left the game
-[13:54:46] [User Authenticator #6/INFO]: UUID of player Octova is ed3c1a2d-930e-3887-ba63-f8b41c70c134
-[13:54:46] [Server thread/INFO]: Octova joined the game
-[13:54:46] [Server thread/INFO]: Octova[/90.168.174.228:56006] logged in with entity id 8429 at ([world]-126.2900143756749, 66.0, 1311.4188630754975)
-[13:54:46] [Server thread/INFO]: [voicechat] Received secret request of Octova (15)
-[13:54:46] [Server thread/INFO]: [voicechat] Sent secret to Octova
-[13:54:46] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player ed3c1a2d-930e-3887-ba63-f8b41c70c134
-[14:13:39] [Server thread/INFO]: Octova lost connection: Disconnected
-[14:13:39] [Server thread/INFO]: [voicechat] Disconnecting client Octova
-[14:13:39] [Server thread/INFO]: Octova left the game
-[14:24:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 4eef1e55-b016-3afe-9455-69c4a08c7a9a timed out
-[14:24:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player Crep
-[14:24:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to Crep
-[14:24:32] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 4eef1e55-b016-3afe-9455-69c4a08c7a9a
-[14:30:42] [Server thread/INFO]: Crep lost connection: Disconnected
-[14:30:42] [Server thread/INFO]: [voicechat] Disconnecting client Crep
-[14:30:42] [Server thread/INFO]: Crep left the game
-[14:31:40] [Server thread/INFO]: Stopping the server
-[14:31:40] [Server thread/INFO]: Stopping server
-[14:31:40] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.0-dev+17-6e931b2
-[14:31:40] [Server thread/INFO]: [MCAuthenticator] Disabling MCAuthenticator v2.0.4
-[14:31:40] [Server thread/INFO]: [FartherViewDistance] Disabling FartherViewDistance v9.7.3
-[14:31:40] [Server thread/INFO]: [voicechat] Disabling voicechat v1.19.2-2.3.15
-[14:31:40] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.52
-[14:31:40] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[14:31:40] [Server thread/INFO]: [LuckPerms] Closing storage...
-[14:31:40] [Server thread/INFO]: [LuckPerms] Goodbye!
-[14:31:40] [Server thread/INFO]: Saving players
-[14:31:40] [Server thread/INFO]: Saving worlds
-[14:31:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[14:31:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[14:31:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[14:31:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[14:31:40] [Server thread/INFO]: [ChunkHolderManager] Saved 3 block chunks, 113 entity chunks, 0 poi chunks in world 'world' in 0.02s
-[14:31:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14:31:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[14:31:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[14:31:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[14:31:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[14:31:40] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 66 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
-[14:31:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:31:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[14:31:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[14:31:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[14:31:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[14:31:40] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[14:31:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:31:40] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[14:31:40] [Server thread/INFO]: Flushing Chunk IO
-[14:31:40] [Server thread/INFO]: Closing Thread Pool
-[14:31:40] [Server thread/INFO]: Closing Server
+[00:00:00] [Server thread/INFO]: dann_hd was shot by Skeleton
+[00:00:22] [Server thread/INFO]: dann_hd issued server command: /HOME
+[00:00:27] [Server thread/INFO]: dann_hd issued server command: /home
+[00:01:58] [Server thread/INFO]: MrAdrii issued server command: /Sethome 2
+[00:02:00] [Server thread/INFO]: MrAdrii issued server command: /Sethome2
+[00:02:06] [Server thread/INFO]: MrAdrii issued server command: /sethome 2
+[00:02:41] [Server thread/INFO]: MrAdrii issued server command: /home
+[00:03:55] [Server thread/INFO]: pasqu17 was slain by Vex
+[00:05:06] [Server thread/INFO]: pasqu17 was killed by Witch using magic
+[00:05:32] [Async Chat Thread - #87/INFO]: [Not Secure] <MrAdrii> Bro
+[00:05:34] [Async Chat Thread - #87/INFO]: [Not Secure] <pasqu17> su puta madre
+[00:05:34] [Async Chat Thread - #87/INFO]: [Not Secure] <MrAdrii> otra mas
+[00:05:36] [Async Chat Thread - #87/INFO]: [Not Secure] <MrAdrii> no puede ser
+[00:06:04] [Server thread/INFO]: pasqu17 was slain by Vindicator
+[00:06:12] [Async Chat Thread - #87/INFO]: [Not Secure] <pasqu17> el mamut me lo llevo yo
+[00:07:16] [Server thread/INFO]: pasqu17 hit the ground too hard
+[00:07:39] [Server thread/INFO]: pasqu17 was slain by Vindicator
+[00:07:59] [Server thread/INFO]: pasqu17 was slain by Vindicator
+[00:08:16] [Server thread/INFO]: pasqu17 was slain by Vindicator
+[00:08:41] [Server thread/INFO]: pasqu17 was slain by Vex
+[00:08:48] [Server thread/INFO]: dann_hd issued server command: /home
+[00:09:18] [Server thread/INFO]: pasqu17 was slain by Vindicator
+[00:09:47] [Server thread/INFO]: yiyi2003 issued server command: /home
+[00:09:51] [Server thread/INFO]: dann_hd has made the advancement [Diamonds!]
+[00:10:02] [Server thread/INFO]: MrAdrii was slain by Vex
+[00:10:21] [Server thread/INFO]: dann_hd lost connection: Disconnected
+[00:10:21] [Server thread/INFO]: [voicechat] Disconnecting client dann_hd
+[00:10:21] [Server thread/INFO]: dann_hd left the game
+[00:10:33] [Server thread/INFO]: pasqu17 was slain by Vindicator
+[00:12:17] [Async Chat Thread - #89/INFO]: [Not Secure] <Solo3d> t
+[00:12:18] [Async Chat Thread - #89/INFO]: [Not Secure] <MrAdrii> Ni las gracias dan los aldeanos o que
+[00:12:24] [Async Chat Thread - #89/INFO]: [Not Secure] <pasqu17> aun quedan?
+[00:12:31] [Async Chat Thread - #89/INFO]: [Not Secure] <MrAdrii> que va
+[00:12:43] [Async Chat Thread - #89/INFO]: [Not Secure] <MrAdrii> toda la armadura rota
+[00:12:52] [Async Chat Thread - #89/INFO]: [Not Secure] <MrAdrii> 38 nveles a la verga
+[00:12:57] [Async Chat Thread - #89/INFO]: [Not Secure] <pasqu17> un totem pa ti
+[00:12:58] [Async Chat Thread - #89/INFO]: [Not Secure] <MrAdrii> en vano
+[00:13:10] [Async Chat Thread - #89/INFO]: [Not Secure] <pasqu17> la provocaste a proposito, o fue accidental
+[00:13:20] [Async Chat Thread - #89/INFO]: [Not Secure] <MrAdrii> la raid?
+[00:13:24] [Async Chat Thread - #89/INFO]: [Not Secure] <pasqu17> ci
+[00:13:34] [Async Chat Thread - #89/INFO]: [Not Secure] <MrAdrii> literalmente venia a por las cañas
+[00:13:37] [Async Chat Thread - #89/INFO]: [Not Secure] <MrAdrii> y aparecieron
+[00:13:43] [Async Chat Thread - #89/INFO]: [Not Secure] <pasqu17> capullos
+[00:13:50] [Async Chat Thread - #89/INFO]: [Not Secure] <pasqu17> hay que tener cuidao con el bad omen
+[00:14:22] [Server thread/INFO]: MrAdrii issued server command: /home
+[00:14:34] [Async Chat Thread - #89/INFO]: [Not Secure] <pasqu17> te dejaste tu arena
+[00:14:44] [Async Chat Thread - #89/INFO]: [Not Secure] <MrAdrii> lo he perdido todo
+[00:14:47] [Async Chat Thread - #89/INFO]: [Not Secure] <MrAdrii> ya me da igual =(
+[00:15:12] [Async Chat Thread - #89/INFO]: [Not Secure] <pasqu17> tranki se recupera
+[00:15:33] [Async Chat Thread - #89/INFO]: [Not Secure] <MrAdrii> bueno
+[00:15:33] [Async Chat Thread - #89/INFO]: [Not Secure] <pasqu17> vengo a traerte cuero
+[00:15:35] [Async Chat Thread - #89/INFO]: [Not Secure] <MrAdrii> me voy a dormir
+[00:15:36] [Async Chat Thread - #89/INFO]: [Not Secure] <pasqu17> pasa cordenadas
+[00:15:39] [Async Chat Thread - #89/INFO]: [Not Secure] <MrAdrii> trank
+[00:15:43] [Async Chat Thread - #89/INFO]: [Not Secure] <MrAdrii> ya me lo daras mañana
+[00:15:45] [Async Chat Thread - #89/INFO]: [Not Secure] <pasqu17> okey
+[00:15:49] [Async Chat Thread - #89/INFO]: [Not Secure] <MrAdrii> adeuu
+[00:15:51] [Server thread/INFO]: MrAdrii lost connection: Disconnected
+[00:15:51] [Server thread/INFO]: [voicechat] Disconnecting client MrAdrii
+[00:15:51] [Server thread/INFO]: MrAdrii left the game
+[00:15:52] [Async Chat Thread - #89/INFO]: [Not Secure] <pasqu17> chau
+[00:16:01] [Async Chat Thread - #89/INFO]: [Not Secure] <pasqu17> vaya hostias reparten
+[00:19:36] [Server thread/INFO]: elosoamoroso has made the advancement [Monster Hunter]
+[00:19:48] [Server thread/INFO]: elosoamoroso has made the advancement [Suit Up]
+[00:20:06] [Server thread/INFO]: yiyi2003 has made the advancement [Best Friends Forever]
+[00:21:06] [Async Chat Thread - #91/INFO]: [Not Secure] <pasqu17> zzz
+[00:23:02] [Async Chat Thread - #93/INFO]: [Not Secure] <yiyi2003> zzz
+[00:23:03] [Async Chat Thread - #94/INFO]: [Not Secure] <yiyi2003> zzzz
+[00:23:04] [Async Chat Thread - #94/INFO]: [Not Secure] <yiyi2003> zzzz
+[00:23:05] [Async Chat Thread - #94/INFO]: [Not Secure] <yiyi2003> zzzz
+[00:23:05] [Async Chat Thread - #94/INFO]: [Not Secure] <yiyi2003> zzzz
+[00:31:31] [Async Chat Thread - #95/INFO]: [Not Secure] <elosoamoroso> bueno chau
+[00:31:35] [Server thread/INFO]: elosoamoroso lost connection: Disconnected
+[00:31:35] [Server thread/INFO]: [voicechat] Disconnecting client elosoamoroso
+[00:31:35] [Server thread/INFO]: elosoamoroso left the game
+[00:39:50] [Server thread/INFO]: yiyi2003 issued server command: /home
+[00:48:22] [Server thread/INFO]: Solo3d has made the advancement [Fishy Business]
+[00:49:43] [Async Chat Thread - #97/INFO]: [Not Secure] <Solo3d> pasqu que tal todo
+[00:50:16] [Async Chat Thread - #97/INFO]: [Not Secure] <pasqu17> como tamos
+[00:52:39] [Async Chat Thread - #99/INFO]: [Not Secure] <pasqu17> hey
+[00:52:43] [Async Chat Thread - #99/INFO]: [Not Secure] <Lynx> holi
+[00:52:50] [Async Chat Thread - #99/INFO]: [Not Secure] <pasqu17> que tal
+[00:52:52] [Async Chat Thread - #99/INFO]: [Not Secure] <Solo3d> nah todo tranqui
+[00:52:56] [Async Chat Thread - #99/INFO]: [Not Secure] <pasqu17> fino
+[00:52:57] [Async Chat Thread - #99/INFO]: [Not Secure] <Lynx> bieen
+[00:53:00] [Async Chat Thread - #99/INFO]: [Not Secure] <pasqu17> que haces?
+[00:53:12] [Async Chat Thread - #99/INFO]: [Not Secure] <Solo3d> nadar un poco
+[00:53:22] [Async Chat Thread - #99/INFO]: [Not Secure] <Lynx> acabamos de secuestrar una llama
+[00:53:32] [Async Chat Thread - #99/INFO]: [Not Secure] <pasqu17> a que bien
+[00:53:43] [Async Chat Thread - #99/INFO]: [Not Secure] <yiyi2003> cosas de la vida
+[00:53:50] [Async Chat Thread - #99/INFO]: [Not Secure] <pasqu17> si
+[00:54:07] [Async Chat Thread - #99/INFO]: [Not Secure] <Solo3d> la vida es un siclo
+[00:54:20] [Async Chat Thread - #99/INFO]: [Not Secure] <pasqu17> y lo que no sirve yo no lo resiclo
+[00:57:25] [Server thread/INFO]: Solo3d lost connection: Disconnected
+[00:57:25] [Server thread/INFO]: [voicechat] Disconnecting client Solo3d
+[00:57:25] [Server thread/INFO]: Solo3d left the game
+[00:57:39] [Server thread/INFO]: yiyi2003 issued server command: /home
+[01:08:40] [Async Chat Thread - #101/INFO]: [Not Secure] <yiyi2003> pasqu??
+[01:08:47] [Async Chat Thread - #101/INFO]: [Not Secure] <pasqu17> si?
+[01:08:52] [Async Chat Thread - #101/INFO]: [Not Secure] <yiyi2003> dondew estas
+[01:09:07] [Async Chat Thread - #101/INFO]: [Not Secure] <pasqu17> grasiasss
+[01:09:15] [Async Chat Thread - #101/INFO]: [Not Secure] <yiyi2003> por las patatas
+[01:10:05] [Async Chat Thread - #101/INFO]: [Not Secure] <pasqu17> me parece un buen precio
+[01:13:10] [Server thread/INFO]: Lynx issued server command: /sethome
+[01:13:27] [Server thread/INFO]: Lynx issued server command: /home
+[01:13:30] [Server thread/WARN]: Lynx moved too quickly! 18.71877775214442,4.0,-11.893825854607542
+[01:13:34] [Server thread/INFO]: Lynx lost connection: Disconnected
+[01:13:34] [Server thread/INFO]: [voicechat] Disconnecting client Lynx
+[01:13:34] [Server thread/INFO]: Lynx left the game
+[01:17:04] [Async Chat Thread - #103/INFO]: [Not Secure] <yiyi2003> buenas noches pasqu
+[01:17:09] [Async Chat Thread - #103/INFO]: [Not Secure] <pasqu17> buenas noches
+[01:17:13] [Server thread/INFO]: yiyi2003 lost connection: Disconnected
+[01:17:13] [Server thread/INFO]: [voicechat] Disconnecting client yiyi2003
+[01:17:13] [Server thread/INFO]: yiyi2003 left the game
+[01:43:10] [Server thread/INFO]: pasqu17 has made the advancement [What a Deal!]
+[01:50:50] [Server thread/INFO]: pasqu17 lost connection: Disconnected
+[01:50:50] [Server thread/INFO]: [voicechat] Disconnecting client pasqu17
+[01:50:50] [Server thread/INFO]: pasqu17 left the game
+[01:50:59] [Server thread/INFO]: Stopping the server
+[01:50:59] [Server thread/INFO]: Stopping server
+[01:50:59] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.0-dev+17-6e931b2
+[01:50:59] [Server thread/INFO]: [MCAuthenticator] Disabling MCAuthenticator v2.0.4
+[01:50:59] [Server thread/INFO]: [FartherViewDistance] Disabling FartherViewDistance v9.7.3
+[01:50:59] [Server thread/INFO]: [voicechat] Disabling voicechat v1.19.2-2.3.15
+[01:50:59] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.52
+[01:50:59] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[01:50:59] [Server thread/INFO]: [LuckPerms] Closing storage...
+[01:50:59] [Server thread/INFO]: [LuckPerms] Goodbye!
+[01:50:59] [Server thread/INFO]: Saving players
+[01:50:59] [Server thread/INFO]: Saving worlds
+[01:50:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:51:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[01:51:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[01:51:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[01:51:00] [Server thread/INFO]: [ChunkHolderManager] Saved 20 block chunks, 251 entity chunks, 0 poi chunks in world 'world' in 0,10s
+[01:51:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:51:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[01:51:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[01:51:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[01:51:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[01:51:00] [Server thread/INFO]: [ChunkHolderManager] Saved 372 block chunks, 98 entity chunks, 0 poi chunks in world 'world_nether' in 0,46s
+[01:51:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:51:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[01:51:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[01:51:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[01:51:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[01:51:00] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,01s
+[01:51:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:51:00] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:51:00] [Server thread/INFO]: Flushing Chunk IO
+[01:51:00] [Server thread/INFO]: Closing Thread Pool
+[01:51:00] [Server thread/INFO]: Closing Server
