@@ -520,6 +520,7 @@
       "minecraft:skeleton": "2022-11-20 20:32:30 +0100",
       "minecraft:spider": "2022-11-19 23:24:35 +0100",
       "minecraft:creeper": "2022-11-21 22:58:11 +0100",
+      "minecraft:silverfish": "2022-11-25 19:21:18 +0100",
       "minecraft:zombie": "2022-11-19 22:02:51 +0100",
       "minecraft:drowned": "2022-11-24 19:57:16 +0100",
       "minecraft:zombie_villager": "2022-11-22 22:15:45 +0100"
@@ -1087,8 +1088,10 @@
       "minecraft:grove": "2022-11-21 20:18:41 +0100",
       "minecraft:jagged_peaks": "2022-11-20 20:30:33 +0100",
       "minecraft:forest": "2022-11-19 22:07:52 +0100",
+      "minecraft:lush_caves": "2022-11-25 19:45:24 +0100",
       "minecraft:jungle": "2022-11-24 00:06:27 +0100",
       "minecraft:flower_forest": "2022-11-21 19:36:29 +0100",
+      "minecraft:frozen_peaks": "2022-11-25 19:45:27 +0100",
       "minecraft:old_growth_birch_forest": "2022-11-23 23:58:38 +0100",
       "minecraft:deep_dark": "2022-11-22 22:37:51 +0100",
       "minecraft:meadow": "2022-11-19 22:36:01 +0100",
@@ -1516,6 +1519,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2022-11-25 19:33:12 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/gray_wool": {
     "criteria": {
       "has_white_wool": "2022-11-21 21:36:19 +0100"
@@ -1682,6 +1691,12 @@
   "minecraft:recipes/food/cooked_chicken_from_smoking": {
     "criteria": {
       "has_chicken": "2022-11-24 00:06:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2022-11-25 19:33:12 +0100"
     },
     "done": true
   },

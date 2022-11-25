@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 192.168.1.1
+ip-address: 83.43.145.30
 afk: false
 socialspy: false
 npc: false
@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1669325019069
-  login: 1669321175692
+  logout: 1669404983962
+  login: 1669404480861
 money: '0'
 last-account-name: Melvin20019
 logoutlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: 44.604349736356134
-  y: 88.0
-  z: 141.13936911326988
-  yaw: -27.72686767578125
-  pitch: 17.55019187927246
+  x: 1728.547191882868
+  y: 80.0
+  z: 573.3665685495357
+  yaw: -80.496826171875
+  pitch: -78.9102554321289
 homes:
   home:
     world: 7e41ec44-729a-4440-9812-99e728587efb

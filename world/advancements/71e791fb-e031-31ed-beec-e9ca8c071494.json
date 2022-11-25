@@ -125,6 +125,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2022-11-25 20:31:08 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/birch_pressure_plate": {
     "criteria": {
       "has_planks": "2022-11-21 19:40:51 +0100"
@@ -176,6 +182,12 @@
   "minecraft:recipes/building_blocks/smooth_stone": {
     "criteria": {
       "has_stone": "2022-11-23 21:33:30 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2022-11-25 20:32:29 +0100"
     },
     "done": true
   },
@@ -446,6 +458,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_sand": "2022-11-25 20:19:10 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_helmet": {
     "criteria": {
       "has_iron_ingot": "2022-11-21 23:40:33 +0100"
@@ -608,6 +626,12 @@
   "minecraft:recipes/building_blocks/andesite_stairs": {
     "criteria": {
       "has_andesite": "2022-11-22 18:50:00 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2022-11-25 20:19:10 +0100"
     },
     "done": true
   },
@@ -803,7 +827,8 @@
       "minecraft:skeleton": "2022-11-22 21:36:34 +0100",
       "minecraft:spider": "2022-11-22 17:34:02 +0100",
       "minecraft:creeper": "2022-11-21 23:29:09 +0100",
-      "minecraft:zombie": "2022-11-21 19:36:12 +0100"
+      "minecraft:zombie": "2022-11-21 19:36:12 +0100",
+      "minecraft:zombie_villager": "2022-11-25 20:18:42 +0100"
     },
     "done": false
   },
@@ -864,6 +889,12 @@
   "minecraft:recipes/decorations/pink_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2022-11-22 18:22:12 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2022-11-25 20:32:29 +0100"
     },
     "done": true
   },
@@ -1131,6 +1162,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2022-11-25 20:34:36 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
     "criteria": {
       "has_moss_block": "2022-11-23 19:36:41 +0100"
@@ -1242,6 +1279,12 @@
   "minecraft:recipes/building_blocks/polished_andesite_stairs_from_polished_andesite_stonecutting": {
     "criteria": {
       "has_polished_andesite": "2022-11-23 21:34:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2022-11-25 20:34:36 +0100"
     },
     "done": true
   },
@@ -1468,6 +1511,7 @@
       "minecraft:sunflower_plains": "2022-11-24 18:02:12 +0100",
       "minecraft:birch_forest": "2022-11-21 19:24:27 +0100",
       "minecraft:bamboo_jungle": "2022-11-22 21:06:31 +0100",
+      "minecraft:beach": "2022-11-25 20:18:08 +0100",
       "minecraft:stony_peaks": "2022-11-24 17:50:34 +0100",
       "minecraft:sparse_jungle": "2022-11-22 21:03:31 +0100",
       "minecraft:river": "2022-11-21 23:41:29 +0100",
@@ -1642,6 +1686,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2022-11-25 20:31:08 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/pink_wool": {
     "criteria": {
       "has_white_wool": "2022-11-22 18:12:57 +0100"
@@ -1801,6 +1851,12 @@
   "minecraft:recipes/misc/brown_dye": {
     "criteria": {
       "has_cocoa_beans": "2022-11-22 21:14:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2022-11-25 20:32:29 +0100"
     },
     "done": true
   },

@@ -59,6 +59,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_gray_dye_from_white_tulip": {
+    "criteria": {
+      "has_white_tulip": "2022-11-25 22:24:07 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lime_concrete_powder": {
     "criteria": {
       "has_gravel": "2022-11-19 23:11:52 +0100"
@@ -1106,10 +1112,12 @@
       "minecraft:birch_forest": "2022-11-24 01:03:58 +0100",
       "minecraft:river": "2022-11-19 22:06:47 +0100",
       "minecraft:stony_shore": "2022-11-19 22:06:25 +0100",
+      "minecraft:dripstone_caves": "2022-11-25 22:33:19 +0100",
       "minecraft:grove": "2022-11-18 23:15:59 +0100",
       "minecraft:jagged_peaks": "2022-11-18 23:15:55 +0100",
       "minecraft:forest": "2022-11-18 23:08:25 +0100",
       "minecraft:flower_forest": "2022-11-18 23:50:42 +0100",
+      "minecraft:old_growth_birch_forest": "2022-11-25 22:38:21 +0100",
       "minecraft:deep_dark": "2022-11-21 23:24:55 +0100",
       "minecraft:meadow": "2022-11-18 23:14:15 +0100",
       "minecraft:plains": "2022-11-18 23:07:48 +0100"
@@ -1221,6 +1229,12 @@
   "minecraft:recipes/misc/black_dye": {
     "criteria": {
       "has_ink_sac": "2022-11-22 22:08:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_orange_tulip": {
+    "criteria": {
+      "has_orange_tulip": "2022-11-25 22:24:07 +0100"
     },
     "done": true
   },
@@ -1605,10 +1619,12 @@
       "baked_potato": "2022-11-19 22:13:08 +0100",
       "porkchop": "2022-11-18 23:46:53 +0100",
       "apple": "2022-11-21 22:25:12 +0100",
+      "cooked_cod": "2022-11-25 22:19:30 +0100",
       "bread": "2022-11-19 22:17:54 +0100",
       "golden_carrot": "2022-11-24 00:41:18 +0100",
       "cooked_rabbit": "2022-11-19 00:00:36 +0100",
       "cooked_chicken": "2022-11-18 23:33:54 +0100",
+      "cooked_salmon": "2022-11-25 22:31:29 +0100",
       "carrot": "2022-11-19 22:19:55 +0100"
     },
     "done": false
