@@ -1,0 +1,2 @@
+ip=90.168.174.228
+username=otcova
