@@ -83,6 +83,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/birch_pressure_plate": {
+    "criteria": {
+      "has_planks": "2022-11-26 19:30:13 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "has_planks": "2022-11-18 17:04:40 +0100"
@@ -221,6 +227,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2022-11-26 19:32:23 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2022-11-26 19:37:30 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2022-11-18 17:17:50 +0100"
@@ -230,6 +248,8 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2022-11-18 17:11:18 +0100",
+      "cooked_mutton": "2022-11-26 19:33:25 +0100",
+      "cooked_beef": "2022-11-26 19:36:02 +0100",
       "bread": "2022-11-18 17:15:35 +0100",
       "carrot": "2022-11-18 22:11:26 +0100"
     },
@@ -265,6 +285,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2022-11-26 19:32:19 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_stairs": {
     "criteria": {
       "has_cobblestone": "2022-11-18 17:05:06 +0100"
@@ -289,6 +315,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/birch_slab": {
+    "criteria": {
+      "has_planks": "2022-11-26 19:30:13 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2022-11-18 17:22:28 +0100"
@@ -298,6 +330,12 @@
   "minecraft:recipes/decorations/yellow_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2022-11-18 21:57:31 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_chest_boat": {
+    "criteria": {
+      "has_boat": "2022-11-26 19:47:16 +0100"
     },
     "done": true
   },
@@ -403,9 +441,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/acacia_chest_boat": {
+    "criteria": {
+      "has_boat": "2022-11-26 19:47:16 +0100"
+    },
+    "done": true
+  },
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_chestplate": "2022-11-18 17:19:12 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2022-11-26 19:47:16 +0100"
     },
     "done": true
   },
@@ -457,6 +507,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2022-11-26 19:32:42 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/orange_wool": {
     "criteria": {
       "has_white_wool": "2022-11-18 17:07:50 +0100"
@@ -472,6 +528,12 @@
   "minecraft:recipes/tools/iron_hoe": {
     "criteria": {
       "has_iron_ingot": "2022-11-18 17:17:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2022-11-26 19:32:23 +0100"
     },
     "done": true
   },
@@ -547,6 +609,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/birch_sign": {
+    "criteria": {
+      "has_planks": "2022-11-26 19:30:13 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cyan_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2022-11-18 21:57:31 +0100"
@@ -556,6 +624,24 @@
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2022-11-18 17:06:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2022-11-26 19:39:42 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2022-11-26 19:47:16 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2022-11-26 19:37:38 +0100"
     },
     "done": true
   },
@@ -600,6 +686,12 @@
   "minecraft:recipes/decorations/green_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2022-11-18 21:57:31 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2022-11-26 19:29:56 +0100"
     },
     "done": true
   },
@@ -663,6 +755,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/birch_door": {
+    "criteria": {
+      "has_planks": "2022-11-26 19:30:13 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_chest_boat": {
+    "criteria": {
+      "has_boat": "2022-11-26 19:47:16 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/chain": {
     "criteria": {
       "has_iron_ingot": "2022-11-18 17:17:50 +0100"
@@ -699,6 +803,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/birch_fence": {
+    "criteria": {
+      "has_planks": "2022-11-26 19:30:13 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_porkchop": {
     "criteria": {
       "has_porkchop": "2022-11-18 17:06:21 +0100"
@@ -729,6 +839,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2022-11-26 19:37:30 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/black_wool": {
     "criteria": {
       "has_white_wool": "2022-11-18 17:07:50 +0100"
@@ -738,6 +854,12 @@
   "minecraft:recipes/building_blocks/polished_diorite_stairs_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2022-11-18 17:16:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2022-11-26 19:37:38 +0100"
     },
     "done": true
   },
@@ -777,9 +899,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2022-11-26 19:32:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2022-11-26 19:50:16 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/iron_block": {
     "criteria": {
       "has_iron_ingot": "2022-11-18 17:17:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_bed": {
+    "criteria": {
+      "has_light_gray_wool": "2022-11-26 19:29:51 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_button": {
+    "criteria": {
+      "has_planks": "2022-11-26 19:30:13 +0100"
     },
     "done": true
   },
@@ -801,9 +947,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2022-11-26 19:39:42 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/coal_block": {
     "criteria": {
       "has_coal": "2022-11-18 17:11:34 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2022-11-26 19:32:42 +0100"
     },
     "done": true
   },
@@ -831,9 +989,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2022-11-26 19:32:19 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_planks": {
     "criteria": {
       "has_logs": "2022-11-18 17:04:23 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_banner": {
+    "criteria": {
+      "has_light_gray_wool": "2022-11-26 19:29:51 +0100"
     },
     "done": true
   },
@@ -849,9 +1019,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2022-11-26 19:47:16 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/andesite": {
     "criteria": {
       "has_stone": "2022-11-18 17:16:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2022-11-26 19:39:42 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2022-11-26 19:32:19 +0100"
     },
     "done": true
   },
@@ -879,6 +1067,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2022-11-26 19:29:56 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2022-11-18 17:22:28 +0100"
@@ -894,6 +1088,18 @@
   "minecraft:recipes/building_blocks/oak_wood": {
     "criteria": {
       "has_log": "2022-11-18 17:04:23 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2022-11-26 19:37:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_fence_gate": {
+    "criteria": {
+      "has_planks": "2022-11-26 19:30:13 +0100"
     },
     "done": true
   },
@@ -927,6 +1133,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2022-11-26 19:47:16 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/oak_sign": {
     "criteria": {
       "has_planks": "2022-11-18 17:04:40 +0100"
@@ -948,6 +1160,12 @@
   "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2022-11-18 17:16:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit": {
+    "criteria": {
+      "has_rabbit": "2022-11-26 19:32:23 +0100"
     },
     "done": true
   },
@@ -1020,16 +1238,25 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:snowy_slopes": "2022-11-18 22:02:37 +0100",
+      "minecraft:old_growth_pine_taiga": "2022-11-26 19:41:09 +0100",
       "minecraft:taiga": "2022-11-18 22:18:42 +0100",
       "minecraft:sunflower_plains": "2022-11-18 21:54:38 +0100",
       "minecraft:birch_forest": "2022-11-18 17:21:47 +0100",
+      "minecraft:windswept_hills": "2022-11-26 19:43:00 +0100",
+      "minecraft:bamboo_jungle": "2022-11-26 19:50:07 +0100",
+      "minecraft:beach": "2022-11-26 19:49:09 +0100",
+      "minecraft:dark_forest": "2022-11-26 19:49:54 +0100",
       "minecraft:sparse_jungle": "2022-11-18 17:24:06 +0100",
       "minecraft:river": "2022-11-18 17:09:09 +0100",
+      "minecraft:stony_shore": "2022-11-26 17:25:28 +0100",
       "minecraft:dripstone_caves": "2022-11-18 22:19:28 +0100",
       "minecraft:grove": "2022-11-18 22:16:00 +0100",
       "minecraft:cold_ocean": "2022-11-18 21:56:33 +0100",
       "minecraft:forest": "2022-11-18 17:04:06 +0100",
+      "minecraft:windswept_forest": "2022-11-26 19:42:24 +0100",
       "minecraft:ocean": "2022-11-18 21:56:31 +0100",
+      "minecraft:jungle": "2022-11-26 19:49:55 +0100",
+      "minecraft:flower_forest": "2022-11-26 17:25:25 +0100",
       "minecraft:frozen_peaks": "2022-11-18 22:01:57 +0100",
       "minecraft:old_growth_birch_forest": "2022-11-18 17:21:38 +0100",
       "minecraft:deep_dark": "2022-11-18 17:22:34 +0100",
@@ -1059,6 +1286,12 @@
   "minecraft:recipes/combat/stone_sword": {
     "criteria": {
       "has_cobblestone": "2022-11-18 17:05:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_carpet": {
+    "criteria": {
+      "has_light_gray_wool": "2022-11-26 19:29:51 +0100"
     },
     "done": true
   },
@@ -1122,6 +1355,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/birch_stairs": {
+    "criteria": {
+      "has_planks": "2022-11-26 19:30:13 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/brown_carpet": {
     "criteria": {
       "has_brown_wool": "2022-11-18 17:08:17 +0100"
@@ -1176,9 +1415,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/birch_trapdoor": {
+    "criteria": {
+      "has_planks": "2022-11-26 19:30:13 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lantern": {
     "criteria": {
       "has_iron_ingot": "2022-11-18 17:17:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2022-11-26 19:50:16 +0100"
     },
     "done": true
   },

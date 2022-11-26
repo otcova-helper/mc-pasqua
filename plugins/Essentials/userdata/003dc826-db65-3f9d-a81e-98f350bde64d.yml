@@ -11,23 +11,23 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1669475474220
+  lastteleport: 1669488412103
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1669477393406
-  login: 1669476015122
+  logout: 1669489161961
+  login: 1669481029702
 money: '0'
 last-account-name: Kalicx
 logoutlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: 55.34494149548394
-  y: 94.0
-  z: -1135.349136126485
-  yaw: 131.9830322265625
-  pitch: 61.91471481323242
+  x: 104.25568582271093
+  y: 70.0
+  z: -1163.5512675582743
+  yaw: 142.82528686523438
+  pitch: -0.022870555520057678
 homes:
   home:
     world: 7e41ec44-729a-4440-9812-99e728587efb
@@ -40,8 +40,8 @@ homes:
 lastlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: 54.21235976804726
-  y: 93.0
-  z: -1135.635540520861
-  yaw: -16.123779296875
-  pitch: 29.75426483154297
+  x: -22.965749186914152
+  y: 69.0
+  z: -1041.8504455291172
+  yaw: -106.86997985839844
+  pitch: 23.95104217529297

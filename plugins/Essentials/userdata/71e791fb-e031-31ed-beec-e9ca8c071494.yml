@@ -11,23 +11,23 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1669461506632
+  lastteleport: 1669485531516
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1669477393303
-  login: 1669474752270
+  logout: 1669502781175
+  login: 1669502608311
 money: '0'
 last-account-name: Melvin20019
 logoutlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: 278.47239228073636
-  y: 78.9375
-  z: 228.07834541063744
-  yaw: 167.10169982910156
-  pitch: 27.000593185424805
+  x: 278.70936152637654
+  y: 84.5
+  z: 214.45116155133337
+  yaw: -19.3428955078125
+  pitch: 25.500452041625977
 homes:
   home:
     world: 7e41ec44-729a-4440-9812-99e728587efb
@@ -40,8 +40,8 @@ homes:
 lastlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: 1729.8188150204205
-  y: 62.0
-  z: 571.6999999880791
-  yaw: 39.9586181640625
-  pitch: 15.299591064453125
+  x: -192.23125657196863
+  y: 85.0
+  z: 359.41139519371893
+  yaw: -64.710693359375
+  pitch: 13.622968673706055

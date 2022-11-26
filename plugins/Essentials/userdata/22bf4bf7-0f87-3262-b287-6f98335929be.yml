@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1669477393286
-  login: 1669473527070
+  logout: 1669479585961
+  login: 1669477669841
 money: '0'
 last-account-name: Dropeao
 logoutlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: 300.66087241518863
-  y: 96.0
-  z: 1345.679868002841
-  yaw: 34.01760482788086
-  pitch: 20.503955841064453
+  x: 65.99743135258582
+  y: 77.0
+  z: 1318.098333380365
+  yaw: 165.7308349609375
+  pitch: 50.858734130859375

@@ -1,15 +1,8 @@
 [
   {
     "uuid": "b65c9cc1-a53f-3fdb-b2b3-50406966516f",
-    "ip": "139.47.38.79",
+    "ip": "139.47.34.132",
     "secret": "AOMMIT4DLECXIQ5J",
-    "locked": false,
-    "authtype": 0
-  },
-  {
-    "uuid": "97c6bfe1-70d9-38c9-8126-7398ae90901c",
-    "ip": "79.155.0.245",
-    "secret": "YWHEWMD5CX4KAZMV",
     "locked": false,
     "authtype": 0
   },
@@ -25,6 +18,13 @@
     "ip": "127.0.0.1",
     "secret": "YMWZ73H45JA32TAQ",
     "locked": true,
+    "authtype": 0
+  },
+  {
+    "uuid": "97c6bfe1-70d9-38c9-8126-7398ae90901c",
+    "ip": "79.155.4.135",
+    "secret": "ILAPEFLNQO5HBJEE",
+    "locked": false,
     "authtype": 0
   },
   {

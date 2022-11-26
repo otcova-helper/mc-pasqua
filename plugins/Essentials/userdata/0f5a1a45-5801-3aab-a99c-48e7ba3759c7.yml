@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1669297684494
-  login: 1669296635691
+  logout: 1669489223214
+  login: 1669487157658
 money: '0'
 last-account-name: Otms
 logoutlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: 75.74130796629139
-  y: 71.0
-  z: 374.2404414137475
-  yaw: -42.289794921875
-  pitch: 16.79974365234375
+  x: 102.57937106383125
+  y: 78.75890931908894
+  z: -1171.041961291798
+  yaw: 22.4886474609375
+  pitch: 16.440462112426758
 lastlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world

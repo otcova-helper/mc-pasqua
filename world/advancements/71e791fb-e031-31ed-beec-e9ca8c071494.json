@@ -107,6 +107,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_gray_dye_from_white_tulip": {
+    "criteria": {
+      "has_white_tulip": "2022-11-26 18:58:02 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/yellow_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_yellow_dye": "2022-11-22 18:54:52 +0100"
@@ -380,6 +386,12 @@
   "minecraft:recipes/food/cake": {
     "criteria": {
       "has_egg": "2022-11-22 19:18:16 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2022-11-26 18:50:26 +0100"
     },
     "done": true
   },
@@ -929,6 +941,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2022-11-26 18:50:26 +0100"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2022-11-24 21:59:56 +0100",
@@ -1136,6 +1154,12 @@
   "minecraft:recipes/decorations/black_candle": {
     "criteria": {
       "has_black_dye": "2022-11-22 18:53:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_pink_tulip": {
+    "criteria": {
+      "has_pink_tulip": "2022-11-26 18:58:21 +0100"
     },
     "done": true
   },
@@ -1728,6 +1752,7 @@
       "minecraft:lush_caves": "2022-11-23 19:37:04 +0100",
       "minecraft:jungle": "2022-11-22 21:06:34 +0100",
       "minecraft:ocean": "2022-11-24 18:05:15 +0100",
+      "minecraft:flower_forest": "2022-11-26 18:55:29 +0100",
       "minecraft:frozen_peaks": "2022-11-24 17:50:45 +0100",
       "minecraft:old_growth_birch_forest": "2022-11-21 19:34:58 +0100",
       "minecraft:meadow": "2022-11-21 18:42:13 +0100",
@@ -1780,6 +1805,18 @@
   "minecraft:recipes/decorations/cobblestone_wall": {
     "criteria": {
       "has_cobblestone": "2022-11-21 19:41:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2022-11-26 18:50:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_allium": {
+    "criteria": {
+      "has_allium": "2022-11-26 18:57:09 +0100"
     },
     "done": true
   },
@@ -1978,6 +2015,12 @@
   "minecraft:recipes/redstone/spruce_trapdoor": {
     "criteria": {
       "has_planks": "2022-11-22 22:29:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_the_recipe": "2022-11-26 18:50:26 +0100"
     },
     "done": true
   },
