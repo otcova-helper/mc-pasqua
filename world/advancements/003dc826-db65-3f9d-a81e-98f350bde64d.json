@@ -320,6 +320,8 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2022-11-26 13:18:35 +0100",
+      "cooked_mutton": "2022-11-26 14:50:11 +0100",
+      "cooked_beef": "2022-11-26 15:32:00 +0100",
       "apple": "2022-11-22 17:55:06 +0100",
       "bread": "2022-11-22 17:59:36 +0100",
       "golden_carrot": "2022-11-22 18:25:11 +0100"
@@ -868,6 +870,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2022-11-26 15:13:23 +0100",
       "minecraft:skeleton": "2022-11-22 18:26:38 +0100",
       "minecraft:spider": "2022-11-22 18:09:01 +0100",
       "minecraft:creeper": "2022-11-22 18:30:50 +0100",
@@ -974,6 +977,12 @@
   "minecraft:recipes/building_blocks/deepslate_brick_slab": {
     "criteria": {
       "has_deepslate_bricks": "2022-11-24 19:43:35 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2022-11-26 16:03:20 +0100"
     },
     "done": true
   },

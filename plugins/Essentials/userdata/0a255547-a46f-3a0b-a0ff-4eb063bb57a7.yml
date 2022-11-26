@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1669317491140
-  login: 1669314882100
+  logout: 1669477393387
+  login: 1669475202874
 money: '0'
 last-account-name: pauurbano_
 logoutlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: 89.32426631028807
+  x: 87.78945305808321
   y: 71.0
-  z: 410.977364534144
-  yaw: -178.52020263671875
-  pitch: 8.077439308166504
+  z: 370.1617023800136
+  yaw: -21.961040496826172
+  pitch: 29.794692993164062
 lastlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world

@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1669467723648
-  login: 1669465499110
+  logout: 1669477393303
+  login: 1669474752270
 money: '0'
 last-account-name: Melvin20019
 logoutlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: 286.5282767717268
-  y: 71.0
-  z: 274.34560032135005
-  yaw: -163.94960021972656
-  pitch: 35.70016098022461
+  x: 278.47239228073636
+  y: 78.9375
+  z: 228.07834541063744
+  yaw: 167.10169982910156
+  pitch: 27.000593185424805
 homes:
   home:
     world: 7e41ec44-729a-4440-9812-99e728587efb
