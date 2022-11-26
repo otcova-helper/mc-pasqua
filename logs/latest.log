@@ -1,34 +1,252 @@
-[00:19:10] [Server thread/INFO]: Stopping the server
-[00:19:10] [Server thread/INFO]: Stopping server
-[00:19:10] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.0-dev+17-6e931b2
-[00:19:10] [Server thread/INFO]: [MCAuthenticator] Disabling MCAuthenticator v2.0.4
-[00:19:10] [Server thread/INFO]: [FartherViewDistance] Disabling FartherViewDistance v9.7.3
-[00:19:10] [Server thread/INFO]: [voicechat] Disabling voicechat v1.19.2-2.3.15
-[00:19:10] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.52
-[00:19:10] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[00:19:10] [Server thread/INFO]: [LuckPerms] Closing storage...
-[00:19:10] [Server thread/INFO]: [LuckPerms] Goodbye!
-[00:19:10] [Server thread/INFO]: Saving players
-[00:19:10] [Server thread/INFO]: Saving worlds
-[00:19:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:19:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[00:19:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[00:19:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[00:19:10] [Server thread/INFO]: [ChunkHolderManager] Saved 8 block chunks, 303 entity chunks, 0 poi chunks in world 'world' in 0.05s
-[00:19:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:19:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[00:19:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[00:19:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[00:19:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[00:19:10] [Server thread/INFO]: [ChunkHolderManager] Saved 142 block chunks, 87 entity chunks, 0 poi chunks in world 'world_nether' in 0.08s
-[00:19:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:19:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[00:19:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[00:19:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[00:19:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[00:19:10] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[00:19:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:19:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[00:19:10] [Server thread/INFO]: Flushing Chunk IO
-[00:19:10] [Server thread/INFO]: Closing Thread Pool
-[00:19:10] [Server thread/INFO]: Closing Server
+[12:10:38] [ServerMain/INFO]: Building unoptimized datafixer
+[12:10:39] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:10:41] [ServerMain/INFO]: Loaded 7 recipes
+[12:10:41] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[12:10:41] [Server thread/INFO]: Loading properties
+[12:10:42] [Server thread/INFO]: This server is running Paper version git-Paper-271 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: 2151112)
+[12:10:42] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:10:42] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:10:42] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[12:10:42] [Server thread/INFO]: Default game type: SURVIVAL
+[12:10:42] [Server thread/INFO]: Generating keypair
+[12:10:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:10:42] [Server thread/INFO]: Using default channel type
+[12:10:42] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[12:10:42] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[12:10:42] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_19_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[12:10:46] [Server thread/WARN]: Legacy plugin MCAuthenticator v2.0.4 does not specify an api-version.
+[12:10:46] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.52
+[12:10:46] [Server thread/INFO]: [voicechat] Loading voicechat v1.19.2-2.3.15
+[12:10:46] [Server thread/INFO]: [FartherViewDistance] Loading FartherViewDistance v9.7.3
+[12:10:46] [Server thread/INFO]: [MCAuthenticator] Loading MCAuthenticator v2.0.4
+[12:10:46] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.0-dev+17-6e931b2
+[12:10:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:10:46] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.52
+[12:10:46] [Server thread/INFO]:         __    
+[12:10:46] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.52
+[12:10:46] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[12:10:46] [Server thread/INFO]: 
+[12:10:46] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[12:10:46] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[12:10:47] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[12:10:47] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[12:10:47] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1075ms)
+[12:10:47] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:10:47] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:10:47] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:10:47] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:10:47] [Server thread/INFO]: Preparing level "world"
+[12:10:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:10:48] [Server thread/INFO]: Time elapsed: 96 ms
+[12:10:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:10:48] [Server thread/INFO]: Time elapsed: 67 ms
+[12:10:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:10:48] [Server thread/INFO]: Time elapsed: 72 ms
+[12:10:48] [Server thread/INFO]: [voicechat] Enabling voicechat v1.19.2-2.3.15
+[12:10:48] [Server thread/INFO]: [voicechat] Compatibility version 15
+[12:10:48] [Server thread/INFO]: [voicechat] Loading translations
+[12:10:48] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[12:10:48] [Server thread/INFO]: [FartherViewDistance] Enabling FartherViewDistance v9.7.3
+[12:10:48] [Server thread/INFO]: [MCAuthenticator] Enabling MCAuthenticator v2.0.4*
+[12:10:48] [Server thread/INFO]: [MCAuthenticator] Using RFC6238 (Google Authenticator 2FA) based authentication.
+[12:10:49] [Server thread/INFO]: [MCAuthenticator] Could not validate the server's time! Ensure that the server's time is within specification!
+[12:10:49] [Server thread/INFO]: [MCAuthenticator] Using data source: (SingleFileDataSource: plugins\MCAuthenticator\playerData.json)
+[12:10:49] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.0-dev+17-6e931b2
+[12:10:49] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[12:10:49] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[12:10:49] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[12:10:49] [Server thread/INFO]: [Essentials] Using locale en_GB
+[12:10:49] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[12:10:49] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[12:10:49] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[12:10:49] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[12:10:49] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[12:10:49] [Server thread/INFO]: Running delayed init tasks
+[12:10:49] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
+[12:10:49] [Server thread/INFO]: [voicechat] Loading plugins
+[12:10:49] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[12:10:49] [Server thread/INFO]: [voicechat] Initializing plugins
+[12:10:49] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[12:10:49] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[12:10:49] [Server thread/INFO]: [voicechat] Using default voicechat socket implementation
+[12:10:49] [Server thread/INFO]: Done (7.814s)! For help, type "help"
+[12:10:49] [VoiceChatServerThread/INFO]: [voicechat] Server started at port 25565
+[12:10:49] [Server thread/INFO]: Timings Reset
+[12:11:05] [User Authenticator #0/INFO]: UUID of player xiangfeng is ecb46dc2-f3db-37aa-afd9-4f3e83032a8f
+[12:11:05] [Server thread/INFO]: xiangfeng joined the game
+[12:11:05] [Server thread/INFO]: xiangfeng[/188.26.220.211:60862] logged in with entity id 173 at ([world]-1949.1130704604313, 64.0, 1663.3548419870938)
+[12:11:05] [Server thread/INFO]: [voicechat] Received secret request of xiangfeng (15)
+[12:11:05] [Server thread/INFO]: [voicechat] Sent secret to xiangfeng
+[12:11:05] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player ecb46dc2-f3db-37aa-afd9-4f3e83032a8f
+[12:12:16] [User Authenticator #1/INFO]: UUID of player Octova is ed3c1a2d-930e-3887-ba63-f8b41c70c134
+[12:12:16] [Server thread/INFO]: Octova joined the game
+[12:12:16] [Server thread/INFO]: Octova[/90.168.174.228:64714] logged in with entity id 463 at ([world]-169.69999998807907, 75.0, 1322.0249660704053)
+[12:12:16] [Server thread/INFO]: [voicechat] Received secret request of Octova (15)
+[12:12:16] [Server thread/INFO]: [voicechat] Sent secret to Octova
+[12:12:16] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player ed3c1a2d-930e-3887-ba63-f8b41c70c134
+[12:15:22] [User Authenticator #2/INFO]: UUID of player elosoamoroso is cc2d5189-3f1f-36a5-9439-98d0d9d66a8f
+[12:15:22] [Server thread/INFO]: elosoamoroso joined the game
+[12:15:22] [Server thread/INFO]: elosoamoroso[/66.81.170.186:53698] logged in with entity id 2376 at ([world]441.9224892485219, 62.0, 145.40302542012836)
+[12:15:25] [Server thread/INFO]: [voicechat] Received secret request of elosoamoroso (15)
+[12:15:25] [Server thread/INFO]: [voicechat] Sent secret to elosoamoroso
+[12:15:25] [User Authenticator #2/INFO]: UUID of player Melvin20019 is 71e791fb-e031-31ed-beec-e9ca8c071494
+[12:15:26] [Server thread/INFO]: Melvin20019 joined the game
+[12:15:26] [Server thread/INFO]: Melvin20019[/83.43.145.30:51825] logged in with entity id 2647 at ([world]1728.547191882868, 80.0, 573.3665685495357)
+[12:15:27] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player cc2d5189-3f1f-36a5-9439-98d0d9d66a8f
+[12:15:28] [Server thread/INFO]: [voicechat] Received secret request of Melvin20019 (15)
+[12:15:28] [Server thread/INFO]: [voicechat] Sent secret to Melvin20019
+[12:15:31] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 71e791fb-e031-31ed-beec-e9ca8c071494
+[12:15:34] [Async Chat Thread - #0/INFO]: [Not Secure] <elosoamoroso> hola
+[12:15:42] [Async Chat Thread - #0/INFO]: [Not Secure] <Melvin20019> Hi everyone!
+[12:15:47] [Async Chat Thread - #0/INFO]: [Not Secure] <xiangfeng> hola
+[12:17:43] [Server thread/INFO]: Melvin20019 issued server command: /home
+[12:18:23] [Server thread/INFO]: Melvin20019 issued server command: /home
+[12:18:33] [Async Chat Thread - #2/INFO]: [Not Secure] <Melvin20019> zzz
+[12:18:34] [Async Chat Thread - #2/INFO]: [Not Secure] <Melvin20019> zzz
+[12:18:34] [Async Chat Thread - #2/INFO]: [Not Secure] <Melvin20019> zzz
+[12:18:35] [Async Chat Thread - #2/INFO]: [Not Secure] <Melvin20019> zzz
+[12:18:35] [Async Chat Thread - #2/INFO]: [Not Secure] <Melvin20019> zz
+[12:18:36] [Async Chat Thread - #2/INFO]: [Not Secure] <Melvin20019> zzz
+[12:18:42] [Async Chat Thread - #2/INFO]: [Not Secure] <Octova> zzzz
+[12:19:07] [Async Chat Thread - #2/INFO]: [Not Secure] <xiangfeng> no spamees
+[12:21:59] [Server thread/INFO]: Octova has made the advancement [Ice Bucket Challenge]
+[12:28:22] [User Authenticator #3/INFO]: UUID of player Kalicx is 003dc826-db65-3f9d-a81e-98f350bde64d
+[12:28:22] [Server thread/INFO]: Kalicx joined the game
+[12:28:22] [Server thread/INFO]: Kalicx[/147.161.95.183:56636] logged in with entity id 12706 at ([world]173.28479337555956, 70.0, -1128.5729824440768)
+[12:29:31] [Async Chat Thread - #4/INFO]: [Not Secure] <Melvin20019> zzz
+[12:29:32] [Async Chat Thread - #4/INFO]: [Not Secure] <Melvin20019> zzz
+[12:29:34] [Async Chat Thread - #4/INFO]: [Not Secure] <Kalicx> zz
+[12:40:16] [Server thread/INFO]: Melvin20019 lost connection: Disconnected
+[12:40:16] [Server thread/INFO]: [voicechat] Disconnecting client Melvin20019
+[12:40:16] [Server thread/INFO]: Melvin20019 left the game
+[12:40:30] [User Authenticator #4/INFO]: UUID of player Melvin20019 is 71e791fb-e031-31ed-beec-e9ca8c071494
+[12:40:30] [Server thread/INFO]: Melvin20019 joined the game
+[12:40:30] [Server thread/INFO]: Melvin20019[/83.43.145.30:56019] logged in with entity id 23687 at ([world]278.2846321077053, 86.9375, 305.94262925196506)
+[12:40:30] [Server thread/INFO]: [voicechat] Received secret request of Melvin20019 (15)
+[12:40:30] [Server thread/INFO]: [voicechat] Sent secret to Melvin20019
+[12:40:31] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 71e791fb-e031-31ed-beec-e9ca8c071494
+[12:40:44] [Async Chat Thread - #6/INFO]: [Not Secure] <Kalicx> zz?
+[12:48:55] [Server thread/INFO]: Melvin20019 lost connection: Disconnected
+[12:48:55] [Server thread/INFO]: [voicechat] Disconnecting client Melvin20019
+[12:48:55] [Server thread/INFO]: Melvin20019 left the game
+[12:53:51] [Async Chat Thread - #8/INFO]: [Not Secure] <xiangfeng> ZZ
+[12:54:04] [Server thread/INFO]: Kalicx issued server command: /home
+[12:54:07] [Server thread/WARN]: Kalicx moved too quickly! 46.357219133885806,72.0,-13.615458800547913
+[12:54:07] [Server thread/WARN]: Kalicx moved too quickly! 46.357219133885806,72.0,-13.615458800547913
+[12:58:41] [Server thread/INFO]: elosoamoroso lost connection: Disconnected
+[12:58:41] [Server thread/INFO]: [voicechat] Disconnecting client elosoamoroso
+[12:58:41] [Server thread/INFO]: elosoamoroso left the game
+[13:03:48] [Server thread/INFO]: xiangfeng has made the advancement [Ice Bucket Challenge]
+[13:04:04] [Server thread/INFO]: xiangfeng lost connection: Disconnected
+[13:04:04] [Server thread/INFO]: [voicechat] Disconnecting client xiangfeng
+[13:04:04] [Server thread/INFO]: xiangfeng left the game
+[13:05:19] [Async Chat Thread - #10/INFO]: [Not Secure] <Kalicx> ZZ
+[13:05:54] [User Authenticator #5/INFO]: UUID of player elosoamoroso is cc2d5189-3f1f-36a5-9439-98d0d9d66a8f
+[13:05:54] [Server thread/INFO]: elosoamoroso joined the game
+[13:05:54] [Server thread/INFO]: elosoamoroso[/66.81.170.186:53312] logged in with entity id 52408 at ([world]452.4318189959474, -59.0, 136.30000001192093)
+[13:05:54] [Server thread/INFO]: [voicechat] Received secret request of elosoamoroso (15)
+[13:05:54] [Server thread/INFO]: [voicechat] Sent secret to elosoamoroso
+[13:05:55] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player cc2d5189-3f1f-36a5-9439-98d0d9d66a8f
+[13:07:15] [Server thread/INFO]: Octova was impaled by Drowned
+[13:09:57] [Async Chat Thread - #12/INFO]: [Not Secure] <Kalicx> ZZ
+[13:09:59] [Server thread/INFO]: Kalicx issued server command: /home
+[13:10:02] [Server thread/WARN]: Kalicx moved too quickly! -64.93097539986806,-12.0,1.835455971010333
+[13:14:26] [Server thread/INFO]: Kalicx issued server command: /home
+[13:14:29] [Server thread/WARN]: Kalicx moved too quickly! -60.12737361882267,-14.0,2.1036918725781106
+[13:16:00] [User Authenticator #6/INFO]: UUID of player Melvin20019 is 71e791fb-e031-31ed-beec-e9ca8c071494
+[13:16:00] [Server thread/INFO]: Melvin20019 joined the game
+[13:16:00] [Server thread/INFO]: Melvin20019[/83.43.145.30:55192] logged in with entity id 58871 at ([world]282.7919850699186, 86.9375, 312.7369378653629)
+[13:16:00] [Server thread/INFO]: [voicechat] Received secret request of Melvin20019 (15)
+[13:16:00] [Server thread/INFO]: [voicechat] Sent secret to Melvin20019
+[13:16:01] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 71e791fb-e031-31ed-beec-e9ca8c071494
+[13:21:44] [Server thread/INFO]: elosoamoroso lost connection: Disconnected
+[13:21:44] [Server thread/INFO]: [voicechat] Disconnecting client elosoamoroso
+[13:21:44] [Server thread/INFO]: elosoamoroso left the game
+[13:23:04] [User Authenticator #7/INFO]: UUID of player yiyi2003 is de6b4bcc-6b2c-3194-992c-e3cda2a19836
+[13:23:04] [Server thread/INFO]: yiyi2003 joined the game
+[13:23:04] [Server thread/INFO]: yiyi2003[/84.78.158.250:52965] logged in with entity id 63076 at ([world]66.30000001192093, 61.0, 141.30000001192093)
+[13:24:51] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 71e791fb-e031-31ed-beec-e9ca8c071494 timed out
+[13:24:51] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player Melvin20019
+[13:24:51] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to Melvin20019
+[13:24:59] [User Authenticator #8/INFO]: UUID of player Melvin20019 is 71e791fb-e031-31ed-beec-e9ca8c071494
+[13:24:59] [Server thread/INFO]: Melvin20019 lost connection: You logged in from another location
+[13:24:59] [Server thread/INFO]: [voicechat] Disconnecting client Melvin20019
+[13:24:59] [Server thread/INFO]: Melvin20019 left the game
+[13:24:59] [Server thread/INFO]: Melvin20019 joined the game
+[13:24:59] [Server thread/INFO]: Melvin20019[/83.43.145.30:57724] logged in with entity id 64175 at ([world]305.18067418719653, 88.0, 237.69999998807907)
+[13:24:59] [Server thread/INFO]: [voicechat] Received secret request of Melvin20019 (15)
+[13:24:59] [Server thread/INFO]: [voicechat] Sent secret to Melvin20019
+[13:24:59] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 71e791fb-e031-31ed-beec-e9ca8c071494
+[13:26:26] [Server thread/INFO]: Kalicx issued server command: /home
+[13:26:30] [Server thread/WARN]: Kalicx moved too quickly! -57.84422019508369,1.0,4.554593303810179
+[13:26:47] [Async Chat Thread - #14/INFO]: [Not Secure] <Kalicx> zz
+[13:28:02] [Server thread/INFO]: yiyi2003 lost connection: Disconnected
+[13:28:02] [Server thread/INFO]: [voicechat] Disconnecting client yiyi2003
+[13:28:02] [Server thread/INFO]: yiyi2003 left the game
+[13:37:38] [Server thread/INFO]: Kalicx issued server command: /home
+[13:37:41] [Server thread/WARN]: Kalicx moved too quickly! -63.689986382669275,-21.0,-2.578758135127373
+[13:40:21] [Server thread/INFO]: Kalicx issued server command: /home
+[13:40:24] [Server thread/WARN]: Kalicx moved too quickly! -63.041466081908055,-20.0,7.613728383066245
+[13:45:23] [User Authenticator #9/INFO]: UUID of player elosoamoroso is cc2d5189-3f1f-36a5-9439-98d0d9d66a8f
+[13:45:23] [Server thread/INFO]: elosoamoroso joined the game
+[13:45:23] [Server thread/INFO]: elosoamoroso[/66.81.170.186:54248] logged in with entity id 71885 at ([world]443.710943334983, -59.0, 148.69269188028795)
+[13:45:23] [Server thread/INFO]: [voicechat] Received secret request of elosoamoroso (15)
+[13:45:23] [Server thread/INFO]: [voicechat] Sent secret to elosoamoroso
+[13:45:24] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player cc2d5189-3f1f-36a5-9439-98d0d9d66a8f
+[13:45:47] [Server thread/INFO]: Melvin20019 issued server command: /msg elosoamoroso ds
+[13:45:57] [Server thread/INFO]: elosoamoroso issued server command: /msg Melvin20019 .-.
+[13:48:42] [Async Chat Thread - #16/INFO]: [Not Secure] <Kalicx> zz
+[13:51:45] [Server thread/INFO]: Kalicx lost connection: Disconnected
+[13:51:45] [Server thread/INFO]: [voicechat] Disconnecting client Kalicx
+[13:51:45] [Server thread/INFO]: Kalicx left the game
+[13:54:29] [User Authenticator #10/INFO]: UUID of player Kalicx is 003dc826-db65-3f9d-a81e-98f350bde64d
+[13:54:29] [Server thread/INFO]: Kalicx joined the game
+[13:54:29] [Server thread/INFO]: Kalicx[/147.161.95.183:56899] logged in with entity id 76049 at ([world]173.92031614056202, 70.0, -1127.4799510857147)
+[14:00:41] [Async Chat Thread - #18/INFO]: [Not Secure] <Octova> Reiniciant el server en pocs segons
+[14:00:46] [Async Chat Thread - #18/INFO]: [Not Secure] <Melvin20019> Ok
+[14:01:14] [Server thread/INFO]: Kalicx issued server command: /home
+[14:01:17] [Server thread/WARN]: Kalicx moved too quickly! 45.32573107424638,72.0,-2.787054986041767
+[14:01:58] [Async Chat Thread - #20/INFO]: [Not Secure] <Octova> Reiniciant el server en 3 segons
+[14:02:00] [Server thread/INFO]: Kalicx lost connection: Disconnected
+[14:02:00] [Server thread/INFO]: [voicechat] Disconnecting client Kalicx
+[14:02:00] [Server thread/INFO]: Kalicx left the game
+[14:02:03] [Server thread/INFO]: Stopping the server
+[14:02:03] [Server thread/INFO]: Stopping server
+[14:02:03] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.0-dev+17-6e931b2
+[14:02:03] [Server thread/INFO]: [MCAuthenticator] Disabling MCAuthenticator v2.0.4
+[14:02:03] [Server thread/INFO]: [FartherViewDistance] Disabling FartherViewDistance v9.7.3
+[14:02:03] [Server thread/INFO]: [voicechat] Disabling voicechat v1.19.2-2.3.15
+[14:02:03] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.52
+[14:02:03] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[14:02:03] [Server thread/INFO]: [LuckPerms] Closing storage...
+[14:02:03] [Server thread/INFO]: [LuckPerms] Goodbye!
+[14:02:03] [Server thread/INFO]: Saving players
+[14:02:03] [Server thread/INFO]: Octova lost connection: Server closed
+[14:02:03] [Server thread/INFO]: Octova left the game
+[14:02:03] [Server thread/INFO]: Melvin20019 lost connection: Server closed
+[14:02:03] [Server thread/INFO]: Melvin20019 left the game
+[14:02:03] [Server thread/INFO]: elosoamoroso lost connection: Server closed
+[14:02:03] [Server thread/INFO]: elosoamoroso left the game
+[14:02:03] [Server thread/INFO]: Saving worlds
+[14:02:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:02:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[14:02:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[14:02:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[14:02:04] [Server thread/INFO]: [ChunkHolderManager] Saved 54 block chunks, 625 entity chunks, 1 poi chunks in world 'world' in 0.28s
+[14:02:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:02:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[14:02:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[14:02:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[14:02:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[14:02:04] [Server thread/INFO]: [ChunkHolderManager] Saved 3 block chunks, 66 entity chunks, 0 poi chunks in world 'world_nether' in 0.03s
+[14:02:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:02:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[14:02:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[14:02:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[14:02:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[14:02:04] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
+[14:02:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:02:04] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:02:04] [Server thread/INFO]: Flushing Chunk IO
+[14:02:04] [Server thread/INFO]: Closing Thread Pool
+[14:02:04] [Server thread/INFO]: Closing Server

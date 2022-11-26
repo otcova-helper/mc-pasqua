@@ -107,9 +107,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
+    "criteria": {
+      "has_tag": "2022-11-26 13:54:33 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/iron_pickaxe": {
     "criteria": {
       "has_iron_ingot": "2022-11-21 23:40:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2022-11-26 13:54:33 +0100"
     },
     "done": true
   },
@@ -188,6 +200,12 @@
   "minecraft:recipes/misc/melon_seeds": {
     "criteria": {
       "has_melon": "2022-11-25 20:32:29 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blast_furnace": {
+    "criteria": {
+      "has_smooth_stone": "2022-11-26 13:58:24 +0100"
     },
     "done": true
   },
@@ -299,6 +317,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cracked_stone_bricks": {
+    "criteria": {
+      "has_stone_bricks": "2022-11-26 13:54:33 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/flint_and_steel": {
     "criteria": {
       "has_flint": "2022-11-23 19:37:05 +0100"
@@ -395,6 +419,12 @@
   "minecraft:recipes/redstone/hopper": {
     "criteria": {
       "has_iron_ingot": "2022-11-21 23:40:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2022-11-26 13:54:33 +0100"
     },
     "done": true
   },
@@ -506,6 +536,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+    "criteria": {
+      "has_smooth_stone": "2022-11-26 13:58:24 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/magenta_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2022-11-22 18:22:12 +0100"
@@ -611,6 +647,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2022-11-26 13:58:33 +0100"
+    },
+    "done": true
+  },
   "minecraft:adventure/sleep_in_bed": {
     "criteria": {
       "slept_in_bed": "2022-11-21 18:40:32 +0100"
@@ -668,6 +710,12 @@
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2022-11-21 18:47:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2022-11-26 13:54:33 +0100"
     },
     "done": true
   },
@@ -874,6 +922,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2022-11-26 13:54:33 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/fletching_table": {
     "criteria": {
       "has_flint": "2022-11-23 19:37:05 +0100"
@@ -1030,9 +1084,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2022-11-26 13:54:33 +0100"
+    },
+    "done": true
+  },
   "minecraft:husbandry/tame_an_animal": {
     "criteria": {
       "tamed_animal": "2022-11-24 18:09:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2022-11-26 13:58:24 +0100"
     },
     "done": true
   },
@@ -1120,6 +1186,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2022-11-26 13:54:33 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/brown_wool": {
     "criteria": {
       "has_white_wool": "2022-11-22 18:12:57 +0100"
@@ -1129,6 +1201,12 @@
   "minecraft:recipes/decorations/moss_carpet": {
     "criteria": {
       "has_moss_block": "2022-11-23 19:36:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2022-11-26 13:54:33 +0100"
     },
     "done": true
   },

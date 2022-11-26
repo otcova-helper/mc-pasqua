@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1669415001548
-  login: 1669410897909
+  logout: 1669465682050
+  login: 1669465384833
 money: '0'
 last-account-name: yiyi2003
 logoutlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: 66.30000001192093
+  x: 66.40195001345745
   y: 61.0
-  z: 141.30000001192093
-  yaw: 107.5928955078125
-  pitch: 8.292791366577148
+  z: 142.10344080538823
+  yaw: -17.8818359375
+  pitch: 17.223539352416992
 homes:
   home:
     world: 7e41ec44-729a-4440-9812-99e728587efb
