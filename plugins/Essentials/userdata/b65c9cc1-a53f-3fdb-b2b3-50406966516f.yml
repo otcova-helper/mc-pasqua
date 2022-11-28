@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 139.47.34.132
+ip-address: 139.47.36.101
 afk: false
 socialspy: false
 npc: false
@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1669488768866
-  login: 1669486978706
+  logout: 1669575380316
+  login: 1669575241404
 money: '0'
 last-account-name: FerranPussyLover
 logoutlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: -2035.5
-  y: 64.0
-  z: -521.5
-  yaw: -179.85000610351562
-  pitch: -0.9000001549720764
+  x: -2970.751772229603
+  y: 93.0
+  z: -547.3039981403106
+  yaw: -18.091960906982422
+  pitch: 10.050642013549805

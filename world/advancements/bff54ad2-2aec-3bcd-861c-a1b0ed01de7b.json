@@ -17,6 +17,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/raw_copper_block": {
+    "criteria": {
+      "has_raw_copper": "2022-11-27 21:28:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2022-11-27 22:07:12 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
       "has_stick": "2022-11-26 18:54:35 +0100"
@@ -38,6 +50,12 @@
   "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2022-11-26 19:01:08 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2022-11-27 22:15:00 +0100"
     },
     "done": true
   },
@@ -89,6 +107,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2022-11-27 22:15:25 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/magenta_wool": {
     "criteria": {
       "has_white_wool": "2022-11-26 18:25:23 +0100"
@@ -110,6 +134,12 @@
   "minecraft:recipes/building_blocks/purple_stained_glass": {
     "criteria": {
       "has_glass": "2022-11-26 20:51:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2022-11-27 20:29:09 +0100"
     },
     "done": true
   },
@@ -161,6 +191,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2022-11-27 22:15:43 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/torch": {
     "criteria": {
       "has_stone_pickaxe": "2022-11-26 19:05:02 +0100"
@@ -197,6 +233,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2022-11-27 21:29:00 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2022-11-27 22:15:27 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/green_stained_glass": {
     "criteria": {
       "has_glass": "2022-11-26 20:51:14 +0100"
@@ -206,6 +254,12 @@
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
       "in_water": "2022-11-26 18:26:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2022-11-27 22:15:42 +0100"
     },
     "done": true
   },
@@ -251,10 +305,19 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2022-11-27 22:15:00 +0100"
+    },
+    "done": true
+  },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2022-11-27 21:59:06 +0100",
       "cooked_mutton": "2022-11-26 20:17:15 +0100",
+      "cooked_beef": "2022-11-27 21:34:11 +0100",
       "apple": "2022-11-26 20:57:49 +0100",
+      "potato": "2022-11-27 20:33:53 +0100",
       "cooked_chicken": "2022-11-26 18:28:15 +0100"
     },
     "done": false
@@ -337,9 +400,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2022-11-27 22:07:12 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_trapdoor": {
     "criteria": {
       "has_planks": "2022-11-26 18:48:28 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2022-11-27 20:29:09 +0100"
     },
     "done": true
   },
@@ -378,6 +453,13 @@
       "has_bed": "2022-11-26 18:19:34 +0100"
     },
     "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:pig": "2022-11-27 20:44:30 +0100",
+      "minecraft:chicken": "2022-11-27 21:35:09 +0100"
+    },
+    "done": false
   },
   "minecraft:recipes/redstone/oak_button": {
     "criteria": {
@@ -424,6 +506,12 @@
   "minecraft:recipes/decorations/furnace": {
     "criteria": {
       "has_cobblestone": "2022-11-26 19:01:08 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_the_recipe": "2022-11-27 21:33:18 +0100"
     },
     "done": true
   },
@@ -501,6 +589,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2022-11-27 21:28:18 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
       "in_water": "2022-11-26 18:26:22 +0100"
@@ -549,6 +643,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2022-11-27 21:28:18 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_pickaxe": {
     "criteria": {
       "has_cobblestone": "2022-11-26 19:01:08 +0100"
@@ -576,6 +676,18 @@
   "minecraft:recipes/building_blocks/brown_stained_glass": {
     "criteria": {
       "has_glass": "2022-11-26 20:51:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2022-11-27 21:17:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2022-11-27 21:25:43 +0100"
     },
     "done": true
   },
@@ -666,6 +778,12 @@
   "minecraft:recipes/decorations/orange_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2022-11-26 20:00:29 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2022-11-27 20:44:30 +0100"
     },
     "done": true
   },
@@ -819,6 +937,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2022-11-27 22:15:42 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
       "in_water": "2022-11-26 18:26:22 +0100"
@@ -858,6 +982,12 @@
   "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
     "criteria": {
       "has_potato": "2022-11-26 19:09:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2022-11-27 22:07:12 +0100"
     },
     "done": true
   },

@@ -11,13 +11,13 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1669501472003
+  lastteleport: 1669584001054
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1669503218497
-  login: 1669500074619
+  logout: 1669587743471
+  login: 1669587257417
 money: '0'
 last-account-name: gato1
 homes:
@@ -32,16 +32,16 @@ homes:
 lastlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: 136.916465440991
-  y: 68.0
-  z: -1180.4947141051318
-  yaw: -29.5489501953125
-  pitch: 76.50000762939453
+  x: 367.47648362370603
+  y: 82.0
+  z: -1254.6605776551878
+  yaw: -151.15469360351562
+  pitch: 25.950176239013672
 logoutlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: 90.78086402325108
+  x: 84.490104559149
   y: 70.0
-  z: -1169.949024017991
-  yaw: -152.20361328125
-  pitch: 40.64992904663086
+  z: -1179.877395264278
+  yaw: -85.716064453125
+  pitch: 19.34979820251465

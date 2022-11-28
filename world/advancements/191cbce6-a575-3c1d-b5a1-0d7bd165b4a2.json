@@ -203,6 +203,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2022-11-28 00:39:24 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2022-11-22 19:31:34 +0100"
@@ -266,6 +272,18 @@
   "minecraft:recipes/building_blocks/coarse_dirt": {
     "criteria": {
       "has_gravel": "2022-11-18 18:05:31 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2022-11-28 00:39:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_chest_boat": {
+    "criteria": {
+      "has_boat": "2022-11-27 23:21:17 +0100"
     },
     "done": true
   },
@@ -335,6 +353,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_rose_bush": "2022-11-28 00:58:06 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/brick_stairs": {
     "criteria": {
       "has_bricks": "2022-11-19 13:38:20 +0100"
@@ -350,6 +374,12 @@
   "minecraft:recipes/building_blocks/gold_block": {
     "criteria": {
       "has_gold_ingot": "2022-11-19 16:36:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_chest_boat": {
+    "criteria": {
+      "has_boat": "2022-11-27 23:21:17 +0100"
     },
     "done": true
   },
@@ -479,6 +509,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2022-11-27 23:21:17 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/gray_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2022-11-18 17:29:21 +0100"
@@ -530,7 +566,8 @@
       "minecraft:creeper": "2022-11-26 15:06:12 +0100",
       "minecraft:evoker": "2022-11-24 00:07:56 +0100",
       "minecraft:witch": "2022-11-19 17:54:30 +0100",
-      "minecraft:zombie": "2022-11-18 18:41:47 +0100"
+      "minecraft:zombie": "2022-11-18 18:41:47 +0100",
+      "minecraft:drowned": "2022-11-28 00:36:22 +0100"
     },
     "done": false
   },
@@ -852,6 +889,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2022-11-27 23:21:17 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/black_banner": {
     "criteria": {
       "has_black_wool": "2022-11-23 00:18:41 +0100"
@@ -1041,13 +1084,17 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:snowy_slopes": "2022-11-24 00:58:14 +0100",
+      "minecraft:old_growth_pine_taiga": "2022-11-28 00:37:41 +0100",
+      "minecraft:taiga": "2022-11-28 00:32:24 +0100",
       "minecraft:sunflower_plains": "2022-11-18 17:15:42 +0100",
       "minecraft:birch_forest": "2022-11-22 17:43:54 +0100",
+      "minecraft:beach": "2022-11-28 00:42:10 +0100",
       "minecraft:river": "2022-11-18 17:15:38 +0100",
       "minecraft:stony_shore": "2022-11-18 17:13:54 +0100",
       "minecraft:grove": "2022-11-19 16:13:58 +0100",
       "minecraft:jagged_peaks": "2022-11-19 16:17:29 +0100",
       "minecraft:forest": "2022-11-18 17:06:35 +0100",
+      "minecraft:old_growth_spruce_taiga": "2022-11-28 00:42:01 +0100",
       "minecraft:flower_forest": "2022-11-18 17:15:35 +0100",
       "minecraft:frozen_peaks": "2022-11-24 01:00:30 +0100",
       "minecraft:old_growth_birch_forest": "2022-11-22 17:44:12 +0100",
@@ -1161,6 +1208,12 @@
   "minecraft:recipes/building_blocks/dried_kelp_block": {
     "criteria": {
       "has_dried_kelp": "2022-11-24 00:11:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_iron": {
+    "criteria": {
+      "has_raw_iron_block": "2022-11-27 20:27:45 +0100"
     },
     "done": true
   },
@@ -1574,6 +1627,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2022-11-28 00:39:24 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/hay_block": {
     "criteria": {
       "has_wheat": "2022-11-18 17:17:57 +0100"
@@ -1613,6 +1672,12 @@
   "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
     "criteria": {
       "has_white_dye": "2022-11-23 00:24:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2022-11-28 00:39:24 +0100"
     },
     "done": true
   },
@@ -1669,6 +1734,12 @@
   "minecraft:recipes/combat/diamond_chestplate": {
     "criteria": {
       "has_diamond": "2022-11-25 01:36:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2022-11-27 23:21:17 +0100"
     },
     "done": true
   },
@@ -1906,6 +1977,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/birch_chest_boat": {
+    "criteria": {
+      "has_boat": "2022-11-27 23:21:17 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/lapis_lazuli": {
     "criteria": {
       "has_lapis_block": "2022-11-26 16:23:41 +0100"
@@ -1945,6 +2022,12 @@
   "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
       "in_water": "2022-11-18 17:15:35 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2022-11-27 20:48:18 +0100"
     },
     "done": true
   },
@@ -2116,6 +2199,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+    "criteria": {
+      "has_mossy_cobblestone": "2022-11-28 00:39:24 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diorite_stairs": {
     "criteria": {
       "has_diorite": "2022-11-23 22:53:42 +0100"
@@ -2137,6 +2226,12 @@
   "minecraft:recipes/decorations/jungle_sign": {
     "criteria": {
       "has_planks": "2022-11-24 00:11:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_copper": {
+    "criteria": {
+      "has_raw_copper_block": "2022-11-27 20:28:02 +0100"
     },
     "done": true
   },
@@ -2209,6 +2304,18 @@
   "minecraft:recipes/decorations/lodestone": {
     "criteria": {
       "has_netherite_ingot": "2022-11-24 00:11:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2022-11-27 19:58:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2022-11-27 23:21:17 +0100"
     },
     "done": true
   },
@@ -2299,6 +2406,12 @@
   "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2022-11-25 01:39:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2022-11-27 20:48:18 +0100"
     },
     "done": true
   },
@@ -2437,6 +2550,12 @@
   "minecraft:recipes/building_blocks/melon": {
     "criteria": {
       "has_melon": "2022-11-22 01:52:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2022-11-28 00:39:24 +0100"
     },
     "done": true
   },

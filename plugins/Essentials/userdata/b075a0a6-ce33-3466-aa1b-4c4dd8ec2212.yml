@@ -11,23 +11,23 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1669500431502
+  lastteleport: 1669588536552
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1669503218471
-  login: 1669499912971
+  logout: 1669588693517
+  login: 1669581124554
 money: '0'
 last-account-name: Lynx
 logoutlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: 75.01053649551916
-  y: 64.0
-  z: 420.4019419547031
-  yaw: 25.218414306640625
-  pitch: 28.181259155273438
+  x: 64.97063222540808
+  y: 63.0
+  z: 402.6598244077647
+  yaw: 111.87005615234375
+  pitch: 22.200164794921875
 homes:
   home:
     world: 7e41ec44-729a-4440-9812-99e728587efb
@@ -40,8 +40,8 @@ homes:
 lastlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: 64.37470606332067
-  y: 63.0
-  z: 402.50462159889025
-  yaw: -54.32666015625
-  pitch: 5.043780326843262
+  x: -877.5717840995117
+  y: -57.0
+  z: 398.26711126638816
+  yaw: 157.9560546875
+  pitch: 41.85102462768555
