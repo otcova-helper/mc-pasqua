@@ -1,113 +1,54 @@
-[15:23:27] [ServerMain/INFO]: Building unoptimized datafixer
-[15:23:29] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[15:23:31] [ServerMain/INFO]: Loaded 7 recipes
-[15:23:33] [Server thread/INFO]: Starting minecraft server version 1.19.2
-[15:23:33] [Server thread/INFO]: Loading properties
-[15:23:33] [Server thread/INFO]: This server is running Paper version git-Paper-271 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: 2151112)
-[15:23:33] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:23:33] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:23:33] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
-[15:23:34] [Server thread/INFO]: Default game type: SURVIVAL
-[15:23:34] [Server thread/INFO]: Generating keypair
-[15:23:34] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:23:34] [Server thread/INFO]: Using default channel type
-[15:23:34] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[15:23:34] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[15:23:35] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_19_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[15:23:40] [Server thread/WARN]: Legacy plugin MCAuthenticator v2.0.4 does not specify an api-version.
-[15:23:40] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.52
-[15:23:41] [Server thread/INFO]: [voicechat] Loading voicechat v1.19.2-2.3.15
-[15:23:41] [Server thread/INFO]: [FartherViewDistance] Loading FartherViewDistance v9.7.3
-[15:23:41] [Server thread/INFO]: [MCAuthenticator] Loading MCAuthenticator v2.0.4
-[15:23:41] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.0-dev+17-6e931b2
-[15:23:41] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:23:41] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.52
-[15:23:41] [Server thread/INFO]:         __    
-[15:23:41] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.52
-[15:23:41] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[15:23:41] [Server thread/INFO]: 
-[15:23:41] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[15:23:42] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[15:23:42] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[15:23:42] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[15:23:43] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1827ms)
-[15:23:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:23:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:23:43] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:23:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:23:43] [Server thread/INFO]: Preparing level "world"
-[15:23:44] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:23:44] [Server thread/INFO]: Time elapsed: 136 ms
-[15:23:44] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:23:44] [Server thread/INFO]: Time elapsed: 40 ms
-[15:23:44] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:23:44] [Server thread/INFO]: Time elapsed: 31 ms
-[15:23:44] [Server thread/INFO]: [voicechat] Enabling voicechat v1.19.2-2.3.15
-[15:23:44] [Server thread/INFO]: [voicechat] Compatibility version 15
-[15:23:44] [Server thread/INFO]: [voicechat] Loading translations
-[15:23:44] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[15:23:44] [Server thread/INFO]: [FartherViewDistance] Enabling FartherViewDistance v9.7.3
-[15:23:44] [Server thread/INFO]: [MCAuthenticator] Enabling MCAuthenticator v2.0.4*
-[15:23:44] [Server thread/INFO]: [MCAuthenticator] Using RFC6238 (Google Authenticator 2FA) based authentication.
-[15:23:45] [Server thread/INFO]: [MCAuthenticator] Could not validate the server's time! Ensure that the server's time is within specification!
-[15:23:45] [Server thread/INFO]: [MCAuthenticator] Using data source: (SingleFileDataSource: plugins\MCAuthenticator\playerData.json)
-[15:23:45] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.0-dev+17-6e931b2
-[15:23:45] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[15:23:45] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[15:23:46] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
-[15:23:46] [Server thread/INFO]: [Essentials] Using locale en_GB
-[15:23:46] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[15:23:46] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[15:23:46] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[15:23:46] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[15:23:46] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[15:23:46] [Server thread/INFO]: Running delayed init tasks
-[15:23:46] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
-[15:23:46] [Server thread/INFO]: [voicechat] Loading plugins
-[15:23:46] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
-[15:23:46] [Server thread/INFO]: [voicechat] Initializing plugins
-[15:23:46] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
-[15:23:46] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[15:23:46] [Server thread/INFO]: [voicechat] Using default voicechat socket implementation
-[15:23:46] [Server thread/INFO]: Done (13.077s)! For help, type "help"
-[15:23:46] [VoiceChatServerThread/INFO]: [voicechat] Server started at port 25565
-[15:23:46] [Server thread/INFO]: Timings Reset
-[15:23:46] [Server thread/INFO]: [Not Secure] [Server] You pice of goodness
-[15:23:46] [Craft Scheduler Thread - 2 - Essentials/WARN]: [Essentials] You're 1 EssentialsX dev build(s) out of date!
-[15:23:46] [Craft Scheduler Thread - 2 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
-[15:23:52] [Server thread/INFO]: [Not Secure] [Server] :0
-[15:23:54] [Server thread/INFO]: [Not Secure] [Server] Bye
-[15:23:55] [Server thread/INFO]: Stopping the server
-[15:23:55] [Server thread/INFO]: Stopping server
-[15:23:55] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.0-dev+17-6e931b2
-[15:23:56] [Server thread/INFO]: [MCAuthenticator] Disabling MCAuthenticator v2.0.4
-[15:23:56] [Server thread/INFO]: [FartherViewDistance] Disabling FartherViewDistance v9.7.3
-[15:23:56] [Server thread/INFO]: [voicechat] Disabling voicechat v1.19.2-2.3.15
-[15:23:56] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.52
-[15:23:56] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[15:23:56] [Server thread/INFO]: [LuckPerms] Closing storage...
-[15:23:56] [Server thread/INFO]: [LuckPerms] Goodbye!
-[15:23:56] [Server thread/INFO]: Saving players
-[15:23:56] [Server thread/INFO]: Saving worlds
-[15:23:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[15:23:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[15:23:56] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[15:23:56] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[15:23:57] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world' in 1.55s
-[15:23:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[15:23:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[15:23:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[15:23:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[15:23:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[15:23:58] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0.83s
-[15:23:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:23:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[15:23:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[15:23:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[15:23:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[15:23:58] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.17s
-[15:23:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:23:58] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[15:23:58] [Server thread/INFO]: Flushing Chunk IO
-[15:23:58] [Server thread/INFO]: Closing Thread Pool
-[15:24:00] [Server thread/INFO]: Closing Server
+[00:08:59] [Server thread/INFO]: [Not Secure] [Server] Algú online?
+[00:10:09] [User Authenticator #16/INFO]: UUID of player pasqu17 is 191cbce6-a575-3c1d-b5a1-0d7bd165b4a2
+[00:10:10] [Server thread/INFO]: pasqu17 joined the game
+[00:10:10] [Server thread/INFO]: pasqu17[/83.41.108.118:65422] logged in with entity id 117654 at ([world]77.06206238039645, 76.0, 557.5812312500769)
+[00:10:11] [Server thread/INFO]: [voicechat] Received secret request of pasqu17 (15)
+[00:10:11] [Server thread/INFO]: [voicechat] Sent secret to pasqu17
+[00:10:12] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 191cbce6-a575-3c1d-b5a1-0d7bd165b4a2
+[00:11:01] [Server thread/INFO]: [Not Secure] [Server] queda algu al server?
+[00:15:17] [Server thread/INFO]: pasqu17 was shot by Pillager
+[00:17:33] [Server thread/INFO]: pasqu17 has made the advancement [Ol' Betsy]
+[00:47:34] [User Authenticator #17/INFO]: UUID of player yiyi2003 is de6b4bcc-6b2c-3194-992c-e3cda2a19836
+[00:47:35] [Server thread/INFO]: yiyi2003 joined the game
+[00:47:35] [Server thread/INFO]: yiyi2003[/84.78.158.250:52981] logged in with entity id 121802 at ([world]67.07510166658075, 61.0, 146.49634935559538)
+[01:12:10] [Async Chat Thread - #58/INFO]: [Not Secure] <yiyi2003> buenas noches pasqu
+[01:12:17] [Server thread/INFO]: yiyi2003 lost connection: Disconnected
+[01:12:17] [Server thread/INFO]: [voicechat] Disconnecting client yiyi2003
+[01:12:17] [Server thread/INFO]: yiyi2003 left the game
+[01:15:24] [Server thread/INFO]: pasqu17 lost connection: Disconnected
+[01:15:24] [Server thread/INFO]: [voicechat] Disconnecting client pasqu17
+[01:15:24] [Server thread/INFO]: pasqu17 left the game
+[01:20:17] [Server thread/INFO]: Stopping the server
+[01:20:18] [Server thread/INFO]: Stopping server
+[01:20:18] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.0-dev+17-6e931b2
+[01:20:18] [Server thread/INFO]: [MCAuthenticator] Disabling MCAuthenticator v2.0.4
+[01:20:18] [Server thread/INFO]: [FartherViewDistance] Disabling FartherViewDistance v9.7.3
+[01:20:18] [Server thread/INFO]: [voicechat] Disabling voicechat v1.19.2-2.3.15
+[01:20:18] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.52
+[01:20:18] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[01:20:18] [Server thread/INFO]: [LuckPerms] Closing storage...
+[01:20:18] [Server thread/INFO]: [LuckPerms] Goodbye!
+[01:20:18] [Server thread/INFO]: Saving players
+[01:20:18] [Server thread/INFO]: Saving worlds
+[01:20:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:20:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[01:20:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[01:20:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[01:20:18] [Server thread/INFO]: [ChunkHolderManager] Saved 7 block chunks, 281 entity chunks, 0 poi chunks in world 'world' in 0,12s
+[01:20:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:20:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[01:20:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[01:20:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[01:20:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[01:20:18] [Server thread/INFO]: [ChunkHolderManager] Saved 36 block chunks, 91 entity chunks, 0 poi chunks in world 'world_nether' in 0,08s
+[01:20:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:20:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[01:20:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[01:20:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[01:20:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[01:20:18] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,01s
+[01:20:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:20:18] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:20:18] [Server thread/INFO]: Flushing Chunk IO
+[01:20:18] [Server thread/INFO]: Closing Thread Pool
+[01:20:18] [Server thread/INFO]: Closing Server

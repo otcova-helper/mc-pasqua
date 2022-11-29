@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 90.167.222.73
+ip-address: 139.47.34.45
 afk: false
 socialspy: false
 npc: false
@@ -11,13 +11,13 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1669591183553
+  lastteleport: 1669655248738
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1669593405172
-  login: 1669591807503
+  logout: 1669656746544
+  login: 1669648396890
 money: '0'
 last-account-name: noninuh
 homes:
@@ -32,16 +32,16 @@ homes:
 lastlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: 54.04713280367806
-  y: 46.0
-  z: -1248.9362931346213
-  yaw: -94.9498291015625
-  pitch: 7.049976348876953
+  x: 49.38206378977391
+  y: 79.0
+  z: 106.05546096368398
+  yaw: 149.20199584960938
+  pitch: 18.74992561340332
 logoutlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: 86.95144267032481
-  y: 75.0
-  z: -1172.2845051612185
-  yaw: 159.58758544921875
-  pitch: 19.49994468688965
+  x: 94.46352960412692
+  y: 70.0
+  z: -1172.4464494432702
+  yaw: 160.46376037597656
+  pitch: 8.873592376708984

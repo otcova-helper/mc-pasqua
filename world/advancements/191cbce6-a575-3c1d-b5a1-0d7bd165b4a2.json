@@ -566,6 +566,7 @@
       "minecraft:creeper": "2022-11-26 15:06:12 +0100",
       "minecraft:evoker": "2022-11-24 00:07:56 +0100",
       "minecraft:witch": "2022-11-19 17:54:30 +0100",
+      "minecraft:enderman": "2022-11-28 19:52:33 +0100",
       "minecraft:zombie": "2022-11-18 18:41:47 +0100",
       "minecraft:drowned": "2022-11-28 00:36:22 +0100"
     },
@@ -664,6 +665,12 @@
   "minecraft:recipes/decorations/chain": {
     "criteria": {
       "has_iron_ingot": "2022-11-18 17:21:13 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/exposed_cut_copper_slab_from_exposed_copper_stonecutting": {
+    "criteria": {
+      "has_exposed_copper": "2022-11-28 20:34:33 +0100"
     },
     "done": true
   },
@@ -1463,6 +1470,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/exposed_cut_copper_stairs_from_exposed_copper_stonecutting": {
+    "criteria": {
+      "has_exposed_copper": "2022-11-28 20:34:33 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
       "in_water": "2022-11-18 17:15:35 +0100"
@@ -1527,6 +1540,7 @@
     "criteria": {
       "cooked_porkchop": "2022-11-21 20:02:43 +0100",
       "cooked_mutton": "2022-11-23 18:17:32 +0100",
+      "sweet_berries": "2022-11-28 18:54:08 +0100",
       "baked_potato": "2022-11-19 15:38:06 +0100",
       "apple": "2022-11-18 17:13:53 +0100",
       "bread": "2022-11-18 17:22:17 +0100",
@@ -1660,6 +1674,12 @@
   "minecraft:recipes/tools/golden_shovel": {
     "criteria": {
       "has_gold_ingot": "2022-11-19 16:36:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_exposed_copper_from_honeycomb": {
+    "criteria": {
+      "has_exposed_copper": "2022-11-28 20:34:33 +0100"
     },
     "done": true
   },
@@ -2247,6 +2267,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/exposed_cut_copper_from_exposed_copper_stonecutting": {
+    "criteria": {
+      "has_exposed_copper": "2022-11-28 20:34:33 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_pressure_plate": {
     "criteria": {
       "has_planks": "2022-11-18 17:26:10 +0100"
@@ -2343,6 +2369,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2022-11-29 00:17:33 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite": {
     "criteria": {
       "has_andesite": "2022-11-26 14:19:08 +0100"
@@ -2394,6 +2426,12 @@
   "minecraft:adventure/shoot_arrow": {
     "criteria": {
       "shot_arrow": "2022-11-23 23:35:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/exposed_cut_copper": {
+    "criteria": {
+      "has_exposed_copper": "2022-11-28 20:34:33 +0100"
     },
     "done": true
   },

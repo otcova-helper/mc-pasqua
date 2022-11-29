@@ -1,7 +1,7 @@
 [
   {
     "uuid": "b65c9cc1-a53f-3fdb-b2b3-50406966516f",
-    "ip": "139.47.36.101",
+    "ip": "139.47.33.227",
     "secret": "AOMMIT4DLECXIQ5J",
     "locked": false,
     "authtype": 0
@@ -43,7 +43,7 @@
   },
   {
     "uuid": "191cbce6-a575-3c1d-b5a1-0d7bd165b4a2",
-    "ip": "83.41.114.159",
+    "ip": "83.41.108.118",
     "secret": "F3E3EK6SH33ZS6CS",
     "locked": false,
     "authtype": 0
