@@ -1,54 +1,97 @@
-[00:08:59] [Server thread/INFO]: [Not Secure] [Server] Algú online?
-[00:10:09] [User Authenticator #16/INFO]: UUID of player pasqu17 is 191cbce6-a575-3c1d-b5a1-0d7bd165b4a2
-[00:10:10] [Server thread/INFO]: pasqu17 joined the game
-[00:10:10] [Server thread/INFO]: pasqu17[/83.41.108.118:65422] logged in with entity id 117654 at ([world]77.06206238039645, 76.0, 557.5812312500769)
-[00:10:11] [Server thread/INFO]: [voicechat] Received secret request of pasqu17 (15)
-[00:10:11] [Server thread/INFO]: [voicechat] Sent secret to pasqu17
-[00:10:12] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 191cbce6-a575-3c1d-b5a1-0d7bd165b4a2
-[00:11:01] [Server thread/INFO]: [Not Secure] [Server] queda algu al server?
-[00:15:17] [Server thread/INFO]: pasqu17 was shot by Pillager
-[00:17:33] [Server thread/INFO]: pasqu17 has made the advancement [Ol' Betsy]
-[00:47:34] [User Authenticator #17/INFO]: UUID of player yiyi2003 is de6b4bcc-6b2c-3194-992c-e3cda2a19836
-[00:47:35] [Server thread/INFO]: yiyi2003 joined the game
-[00:47:35] [Server thread/INFO]: yiyi2003[/84.78.158.250:52981] logged in with entity id 121802 at ([world]67.07510166658075, 61.0, 146.49634935559538)
-[01:12:10] [Async Chat Thread - #58/INFO]: [Not Secure] <yiyi2003> buenas noches pasqu
-[01:12:17] [Server thread/INFO]: yiyi2003 lost connection: Disconnected
-[01:12:17] [Server thread/INFO]: [voicechat] Disconnecting client yiyi2003
-[01:12:17] [Server thread/INFO]: yiyi2003 left the game
-[01:15:24] [Server thread/INFO]: pasqu17 lost connection: Disconnected
-[01:15:24] [Server thread/INFO]: [voicechat] Disconnecting client pasqu17
-[01:15:24] [Server thread/INFO]: pasqu17 left the game
-[01:20:17] [Server thread/INFO]: Stopping the server
-[01:20:18] [Server thread/INFO]: Stopping server
-[01:20:18] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.0-dev+17-6e931b2
-[01:20:18] [Server thread/INFO]: [MCAuthenticator] Disabling MCAuthenticator v2.0.4
-[01:20:18] [Server thread/INFO]: [FartherViewDistance] Disabling FartherViewDistance v9.7.3
-[01:20:18] [Server thread/INFO]: [voicechat] Disabling voicechat v1.19.2-2.3.15
-[01:20:18] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.52
-[01:20:18] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[01:20:18] [Server thread/INFO]: [LuckPerms] Closing storage...
-[01:20:18] [Server thread/INFO]: [LuckPerms] Goodbye!
-[01:20:18] [Server thread/INFO]: Saving players
-[01:20:18] [Server thread/INFO]: Saving worlds
-[01:20:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01:20:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[01:20:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[01:20:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[01:20:18] [Server thread/INFO]: [ChunkHolderManager] Saved 7 block chunks, 281 entity chunks, 0 poi chunks in world 'world' in 0,12s
-[01:20:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:20:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[01:20:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[01:20:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[01:20:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[01:20:18] [Server thread/INFO]: [ChunkHolderManager] Saved 36 block chunks, 91 entity chunks, 0 poi chunks in world 'world_nether' in 0,08s
-[01:20:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:20:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[01:20:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[01:20:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[01:20:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[01:20:18] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,01s
-[01:20:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:20:18] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[01:20:18] [Server thread/INFO]: Flushing Chunk IO
-[01:20:18] [Server thread/INFO]: Closing Thread Pool
-[01:20:18] [Server thread/INFO]: Closing Server
+[00:01:01] [Server thread/WARN]: MrAdrii moved wrongly!
+[00:01:02] [Server thread/WARN]: MrAdrii moved wrongly!
+[00:01:02] [Server thread/WARN]: MrAdrii moved wrongly!
+[00:02:03] [Server thread/INFO]: dann_hd issued server command: /home
+[00:02:04] [Server thread/WARN]: MrAdrii moved wrongly!
+[00:02:06] [Server thread/WARN]: dann_hd moved too quickly! 117.98408192342023,0.0,-45.24572958640118
+[00:02:06] [Server thread/INFO]: pauurbano_ issued server command: /home
+[00:05:54] [Server thread/INFO]: yiyi2003 was slain by pauurbano_
+[00:08:14] [Server thread/INFO]: pauurbano_ was slain by yiyi2003
+[00:11:16] [Server thread/INFO]: dann_hd has made the advancement [A Seedy Place]
+[00:15:59] [Server thread/INFO]: yiyi2003 was shot by pauurbano_
+[00:21:45] [Server thread/INFO]: yiyi2003 issued server command: /home
+[00:21:52] [Server thread/INFO]: yiyi2003 issued server command: /home
+[00:21:55] [Server thread/WARN]: yiyi2003 moved too quickly! -5.8936111638758035,-12.0,-303.5268087275671
+[00:22:09] [Server thread/INFO]: dann_hd issued server command: /home
+[00:23:06] [Server thread/INFO]: yiyi2003 lost connection: Disconnected
+[00:23:06] [Server thread/INFO]: [voicechat] Disconnecting client yiyi2003
+[00:23:06] [Server thread/INFO]: yiyi2003 left the game
+[00:23:07] [User Authenticator #26/INFO]: UUID of player yiyi2003 is de6b4bcc-6b2c-3194-992c-e3cda2a19836
+[00:23:07] [Server thread/INFO]: yiyi2003 joined the game
+[00:23:07] [Server thread/INFO]: yiyi2003[/84.78.158.250:52517] logged in with entity id 111858 at ([world]58.253046122136375, 95.0, 236.48022042474457)
+[00:24:27] [Server thread/INFO]: pauurbano_ has completed the challenge [Cover Me in Debris]
+[00:25:35] [Server thread/INFO]: Solo3d issued server command: /msg yi
+[00:27:59] [Server thread/INFO]: yiyi2003 has completed the challenge [Cover Me in Debris]
+[00:28:21] [Server thread/INFO]: yiyi2003 issued server command: /home
+[00:28:24] [Server thread/WARN]: yiyi2003 moved too quickly! -20.594634328411033,-10.0,-285.18012617262826
+[00:28:34] [Server thread/INFO]: Solo3d has completed the challenge [Cover Me in Debris]
+[00:28:43] [Server thread/INFO]: pauurbano_ lost connection: Disconnected
+[00:28:43] [Server thread/INFO]: [voicechat] Disconnecting client pauurbano_
+[00:28:43] [Server thread/INFO]: pauurbano_ left the game
+[00:29:27] [Server thread/INFO]: Lynx has completed the challenge [Cover Me in Debris]
+[00:29:57] [Server thread/INFO]: yiyi2003 lost connection: Disconnected
+[00:29:57] [Server thread/INFO]: [voicechat] Disconnecting client yiyi2003
+[00:29:57] [Server thread/INFO]: yiyi2003 left the game
+[00:29:58] [User Authenticator #27/INFO]: UUID of player yiyi2003 is de6b4bcc-6b2c-3194-992c-e3cda2a19836
+[00:29:58] [Server thread/INFO]: yiyi2003 joined the game
+[00:29:58] [Server thread/INFO]: yiyi2003[/84.78.158.250:52901] logged in with entity id 114471 at ([world]29.780735794689328, 85.0, 182.5366403059908)
+[00:30:07] [Server thread/INFO]: MrAdrii lost connection: Disconnected
+[00:30:07] [Server thread/INFO]: [voicechat] Disconnecting client MrAdrii
+[00:30:07] [Server thread/INFO]: MrAdrii left the game
+[00:32:13] [Server thread/INFO]: Lynx lost connection: Disconnected
+[00:32:13] [Server thread/INFO]: [voicechat] Disconnecting client Lynx
+[00:32:13] [Server thread/INFO]: Lynx left the game
+[00:33:45] [Server thread/INFO]: dann_hd issued server command: /home
+[00:36:33] [Server thread/INFO]: Solo3d lost connection: Disconnected
+[00:36:33] [Server thread/INFO]: [voicechat] Disconnecting client Solo3d
+[00:36:33] [Server thread/INFO]: Solo3d left the game
+[00:39:30] [Server thread/INFO]: dann_hd issued server command: /home
+[00:39:33] [Server thread/WARN]: dann_hd moved too quickly! 116.76241473115289,0.0,-45.427652910551046
+[00:40:11] [Server thread/INFO]: dann_hd lost connection: Disconnected
+[00:40:11] [Server thread/INFO]: [voicechat] Disconnecting client dann_hd
+[00:40:11] [Server thread/INFO]: dann_hd left the game
+[00:49:26] [Server thread/INFO]: yiyi2003 lost connection: Disconnected
+[00:49:26] [Server thread/INFO]: [voicechat] Disconnecting client yiyi2003
+[00:49:26] [Server thread/INFO]: yiyi2003 left the game
+[00:49:28] [User Authenticator #28/INFO]: UUID of player yiyi2003 is de6b4bcc-6b2c-3194-992c-e3cda2a19836
+[00:49:28] [Server thread/INFO]: yiyi2003 joined the game
+[00:49:28] [Server thread/INFO]: yiyi2003[/84.78.158.250:52528] logged in with entity id 120521 at ([world_nether]92.55800780775226, 16.0, 21.61841845503157)
+[00:49:37] [Server thread/INFO]: yiyi2003 issued server command: /home
+[00:52:03] [Server thread/INFO]: yiyi2003 lost connection: Disconnected
+[00:52:03] [Server thread/INFO]: [voicechat] Disconnecting client yiyi2003
+[00:52:03] [Server thread/INFO]: yiyi2003 left the game
+[01:17:12] [Server thread/INFO]: [Not Secure] [Server] Algu al server?
+[01:42:04] [Server thread/INFO]: Stopping the server
+[01:42:04] [Server thread/INFO]: Stopping server
+[01:42:04] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.0-dev+17-6e931b2
+[01:42:04] [Server thread/INFO]: [MCAuthenticator] Disabling MCAuthenticator v2.0.4
+[01:42:04] [Server thread/INFO]: [FartherViewDistance] Disabling FartherViewDistance v9.7.3
+[01:42:04] [Server thread/INFO]: [voicechat] Disabling voicechat v1.19.2-2.3.15
+[01:42:05] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.52
+[01:42:05] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[01:42:05] [Server thread/INFO]: [LuckPerms] Closing storage...
+[01:42:05] [Server thread/INFO]: [LuckPerms] Goodbye!
+[01:42:05] [Server thread/INFO]: Saving players
+[01:42:05] [Server thread/INFO]: Saving worlds
+[01:42:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:42:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[01:42:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[01:42:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[01:42:05] [Server thread/INFO]: [ChunkHolderManager] Saved 4 block chunks, 303 entity chunks, 0 poi chunks in world 'world' in 0,41s
+[01:42:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:42:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[01:42:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[01:42:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[01:42:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[01:42:06] [Server thread/INFO]: [ChunkHolderManager] Saved 104 block chunks, 200 entity chunks, 0 poi chunks in world 'world_nether' in 0,56s
+[01:42:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:42:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[01:42:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[01:42:06] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[01:42:06] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[01:42:06] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,01s
+[01:42:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:42:06] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:42:06] [Server thread/INFO]: Flushing Chunk IO
+[01:42:06] [Server thread/INFO]: Closing Thread Pool
+[01:42:06] [Server thread/INFO]: Closing Server

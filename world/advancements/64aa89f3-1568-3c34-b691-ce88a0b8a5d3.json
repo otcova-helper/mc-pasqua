@@ -35,6 +35,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/acacia_button": {
+    "criteria": {
+      "has_planks": "2022-11-29 22:35:43 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_sword": {
     "criteria": {
       "has_iron_ingot": "2022-11-18 22:49:12 +0100"
@@ -257,6 +263,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/crimson_pressure_plate": {
+    "criteria": {
+      "has_planks": "2022-11-29 23:16:01 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2022-11-19 16:11:53 +0100"
@@ -284,6 +296,12 @@
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2022-11-18 23:13:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_fence": {
+    "criteria": {
+      "has_planks": "2022-11-29 23:16:01 +0100"
     },
     "done": true
   },
@@ -503,6 +521,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/acacia_fence": {
+    "criteria": {
+      "has_planks": "2022-11-29 22:35:43 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/magenta_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2022-11-20 16:59:33 +0100"
@@ -530,6 +554,12 @@
   "minecraft:recipes/misc/red_dye_from_rose_bush": {
     "criteria": {
       "has_rose_bush": "2022-11-18 22:33:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_button": {
+    "criteria": {
+      "has_planks": "2022-11-29 23:16:01 +0100"
     },
     "done": true
   },
@@ -572,6 +602,12 @@
   "minecraft:recipes/decorations/deepslate_brick_wall_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2022-11-18 23:20:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2022-11-29 23:02:35 +0100"
     },
     "done": true
   },
@@ -760,6 +796,7 @@
       "minecraft:creeper": "2022-11-23 18:51:55 +0100",
       "minecraft:slime": "2022-11-18 22:51:36 +0100",
       "minecraft:evoker": "2022-11-23 23:41:41 +0100",
+      "minecraft:phantom": "2022-11-29 23:40:33 +0100",
       "minecraft:zombified_piglin": "2022-11-23 22:47:48 +0100",
       "minecraft:witch": "2022-11-23 23:40:37 +0100",
       "minecraft:piglin": "2022-11-23 19:53:12 +0100",
@@ -853,6 +890,12 @@
   "minecraft:recipes/brewing/glistering_melon_slice": {
     "criteria": {
       "has_melon": "2022-11-22 19:51:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_sign": {
+    "criteria": {
+      "has_planks": "2022-11-29 23:16:01 +0100"
     },
     "done": true
   },
@@ -1066,6 +1109,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/acacia_pressure_plate": {
+    "criteria": {
+      "has_planks": "2022-11-29 22:35:43 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diorite_stairs_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2022-11-18 22:42:11 +0100"
@@ -1102,6 +1151,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/crimson_slab": {
+    "criteria": {
+      "has_planks": "2022-11-29 23:16:01 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
     "criteria": {
       "has_nether_bricks": "2022-11-26 23:05:10 +0100"
@@ -1129,6 +1184,18 @@
   "minecraft:recipes/building_blocks/quartz_slab": {
     "criteria": {
       "has_quartz_block": "2022-11-23 20:09:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_stairs": {
+    "criteria": {
+      "has_planks": "2022-11-29 23:16:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_fence_gate": {
+    "criteria": {
+      "has_planks": "2022-11-29 23:16:01 +0100"
     },
     "done": true
   },
@@ -1423,6 +1490,12 @@
   "minecraft:recipes/building_blocks/cracked_deepslate_bricks": {
     "criteria": {
       "has_deepslate_bricks": "2022-11-26 15:42:42 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks": {
+    "criteria": {
+      "has_nether_brick_slab": "2022-11-29 23:56:51 +0100"
     },
     "done": true
   },
@@ -1727,6 +1800,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/acacia_sign": {
+    "criteria": {
+      "has_planks": "2022-11-29 22:35:43 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stripped_oak_wood": {
     "criteria": {
       "has_log": "2022-11-19 21:59:40 +0100"
@@ -1762,9 +1841,10 @@
       "minecraft:crimson_forest": "2022-11-23 19:52:16 +0100",
       "minecraft:nether_wastes": "2022-11-23 19:44:39 +0100",
       "minecraft:soul_sand_valley": "2022-11-23 19:54:00 +0100",
-      "minecraft:basalt_deltas": "2022-11-26 23:04:03 +0100"
+      "minecraft:basalt_deltas": "2022-11-26 23:04:03 +0100",
+      "minecraft:warped_forest": "2022-11-29 22:42:56 +0100"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/food/cookie": {
     "criteria": {
@@ -1829,6 +1909,12 @@
   "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
     "criteria": {
       "has_oxeye_daisy": "2022-11-23 19:34:48 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_stairs": {
+    "criteria": {
+      "has_planks": "2022-11-29 22:35:43 +0100"
     },
     "done": true
   },
@@ -2181,6 +2267,7 @@
       "cooked_beef": "2022-11-19 16:49:24 +0100",
       "baked_potato": "2022-11-19 15:54:56 +0100",
       "potato": "2022-11-19 15:59:30 +0100",
+      "cooked_cod": "2022-11-29 22:27:36 +0100",
       "bread": "2022-11-18 23:08:26 +0100",
       "golden_apple": "2022-11-23 23:36:03 +0100",
       "rotten_flesh": "2022-11-18 23:02:32 +0100",
@@ -2388,6 +2475,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/acacia_slab": {
+    "criteria": {
+      "has_planks": "2022-11-29 22:35:43 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite": {
     "criteria": {
       "has_quartz": "2022-11-23 19:44:45 +0100"
@@ -2475,6 +2568,12 @@
   "minecraft:recipes/building_blocks/orange_wool": {
     "criteria": {
       "has_white_wool": "2022-11-18 23:55:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_door": {
+    "criteria": {
+      "has_planks": "2022-11-29 23:16:01 +0100"
     },
     "done": true
   },
@@ -2568,6 +2667,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/acacia_door": {
+    "criteria": {
+      "has_planks": "2022-11-29 22:35:43 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/orange_stained_glass": {
     "criteria": {
       "has_glass": "2022-11-25 22:27:57 +0100"
@@ -2619,6 +2724,12 @@
   "minecraft:recipes/tools/clock": {
     "criteria": {
       "has_redstone": "2022-11-18 22:56:15 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_trapdoor": {
+    "criteria": {
+      "has_planks": "2022-11-29 23:16:01 +0100"
     },
     "done": true
   },
@@ -2970,6 +3081,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/acacia_fence_gate": {
+    "criteria": {
+      "has_planks": "2022-11-29 22:35:43 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/coal_block": {
     "criteria": {
       "has_coal": "2022-11-18 22:40:51 +0100"
@@ -3087,6 +3204,12 @@
   "minecraft:recipes/tools/lead": {
     "criteria": {
       "has_slime_ball": "2022-11-18 22:51:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_trapdoor": {
+    "criteria": {
+      "has_planks": "2022-11-29 22:35:43 +0100"
     },
     "done": true
   },
@@ -3315,6 +3438,12 @@
   "minecraft:adventure/shoot_arrow": {
     "criteria": {
       "shot_arrow": "2022-11-18 23:51:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2022-11-29 22:32:52 +0100"
     },
     "done": true
   },

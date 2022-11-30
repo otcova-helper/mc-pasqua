@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1669665238251
-  login: 1669663907988
+  logout: 1669745510837
+  login: 1669743901135
 money: '0'
 last-account-name: paubonet
 logoutlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: -2762.4232293791574
-  y: 64.0
-  z: -397.6848138863314
-  yaw: -80.45309448242188
-  pitch: 15.382333755493164
+  x: -41.5
+  y: 97.0
+  z: 157.5
+  yaw: -33.733978271484375
+  pitch: 42.298500061035156
