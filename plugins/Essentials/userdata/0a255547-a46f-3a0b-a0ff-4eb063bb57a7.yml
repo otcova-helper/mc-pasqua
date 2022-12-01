@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1669828795789
-  login: 1669824306867
+  logout: 1669847541026
+  login: 1669843511053
 money: '0'
 last-account-name: pauurbano_
 logoutlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: 75.53505464864949
-  y: 63.0
-  z: 353.69380931957005
-  yaw: -96.51937866210938
-  pitch: 31.290075302124023
+  x: 78.1196618037335
+  y: 66.0
+  z: 353.2511763603386
+  yaw: -0.98828125
+  pitch: 26.525774002075195
 lastlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
@@ -40,8 +40,8 @@ homes:
   home:
     world: 7e41ec44-729a-4440-9812-99e728587efb
     world-name: world
-    x: 96.60420567525077
-    y: 71.0
-    z: 421.73049412496937
-    yaw: -151.757568359375
-    pitch: 18.725147247314453
+    x: 77.99901672470716
+    y: 62.0
+    z: 363.58632384814786
+    yaw: -156.6748046875
+    pitch: -6.404187202453613

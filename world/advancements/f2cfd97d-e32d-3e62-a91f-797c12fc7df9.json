@@ -1815,6 +1815,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2022-11-30 22:19:02 +0100",
       "cooked_mutton": "2022-11-21 21:14:32 +0100",
       "cooked_beef": "2022-11-21 21:40:05 +0100",
       "baked_potato": "2022-11-19 22:23:58 +0100",
@@ -2871,6 +2872,12 @@
   "minecraft:recipes/redstone/daylight_detector": {
     "criteria": {
       "has_quartz": "2022-11-24 19:51:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2022-11-30 22:21:17 +0100"
     },
     "done": true
   },
