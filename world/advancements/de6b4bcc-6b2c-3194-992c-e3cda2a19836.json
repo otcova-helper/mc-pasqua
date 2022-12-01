@@ -53,6 +53,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2022-12-01 23:23:39 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_deepslate": {
     "criteria": {
       "has_cobbled_deepslate": "2022-11-18 23:27:33 +0100"
@@ -116,6 +122,12 @@
   "minecraft:recipes/building_blocks/yellow_concrete_powder": {
     "criteria": {
       "has_gravel": "2022-11-19 23:11:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2022-12-01 23:23:39 +0100"
     },
     "done": true
   },
@@ -200,6 +212,12 @@
   "minecraft:recipes/transportation/mangrove_boat": {
     "criteria": {
       "in_water": "2022-11-18 23:26:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2022-12-01 23:23:39 +0100"
     },
     "done": true
   },
@@ -350,6 +368,12 @@
   "minecraft:recipes/building_blocks/polished_blackstone_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2022-11-22 22:26:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2022-12-01 23:33:44 +0100"
     },
     "done": true
   },
@@ -560,6 +584,12 @@
   "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2022-11-18 23:10:12 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2022-12-01 23:33:44 +0100"
     },
     "done": true
   },
@@ -1279,6 +1309,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2022-12-01 23:23:13 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cobbled_deepslate_wall": {
     "criteria": {
       "has_cobbled_deepslate": "2022-11-18 23:27:33 +0100"
@@ -1294,6 +1330,12 @@
   "minecraft:recipes/building_blocks/yellow_wool": {
     "criteria": {
       "has_white_wool": "2022-11-18 23:14:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2022-12-01 23:23:39 +0100"
     },
     "done": true
   },
@@ -1403,11 +1445,16 @@
     "criteria": {
       "minecraft:snowy_slopes": "2022-11-18 23:50:40 +0100",
       "minecraft:old_growth_pine_taiga": "2022-11-28 00:38:08 +0100",
+      "minecraft:mushroom_fields": "2022-12-01 23:36:36 +0100",
       "minecraft:taiga": "2022-11-28 00:32:28 +0100",
+      "minecraft:deep_ocean": "2022-12-01 23:20:31 +0100",
       "minecraft:sunflower_plains": "2022-11-19 22:20:27 +0100",
       "minecraft:birch_forest": "2022-11-24 01:03:58 +0100",
       "minecraft:beach": "2022-11-26 23:36:28 +0100",
+      "minecraft:dark_forest": "2022-12-01 23:27:58 +0100",
+      "minecraft:sparse_jungle": "2022-12-01 23:17:08 +0100",
       "minecraft:river": "2022-11-19 22:06:47 +0100",
+      "minecraft:lukewarm_ocean": "2022-12-01 23:37:51 +0100",
       "minecraft:stony_shore": "2022-11-19 22:06:25 +0100",
       "minecraft:dripstone_caves": "2022-11-25 22:33:19 +0100",
       "minecraft:grove": "2022-11-18 23:15:59 +0100",
@@ -1416,11 +1463,14 @@
       "minecraft:forest": "2022-11-18 23:08:25 +0100",
       "minecraft:frozen_ocean": "2022-11-28 23:40:30 +0100",
       "minecraft:ocean": "2022-11-26 23:12:17 +0100",
+      "minecraft:jungle": "2022-12-01 23:27:59 +0100",
       "minecraft:old_growth_spruce_taiga": "2022-11-28 00:38:25 +0100",
+      "minecraft:deep_lukewarm_ocean": "2022-12-01 23:36:29 +0100",
       "minecraft:flower_forest": "2022-11-18 23:50:42 +0100",
       "minecraft:old_growth_birch_forest": "2022-11-25 22:38:21 +0100",
       "minecraft:deep_dark": "2022-11-21 23:24:55 +0100",
       "minecraft:meadow": "2022-11-18 23:14:15 +0100",
+      "minecraft:savanna": "2022-12-01 23:09:48 +0100",
       "minecraft:plains": "2022-11-18 23:07:48 +0100"
     },
     "done": false
@@ -1584,6 +1634,12 @@
   "minecraft:recipes/building_blocks/quartz_bricks_from_quartz_block_stonecutting": {
     "criteria": {
       "has_quartz_block": "2022-11-28 00:56:08 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2022-12-01 23:33:44 +0100"
     },
     "done": true
   },
@@ -2442,6 +2498,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2022-12-01 23:23:39 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/baked_potato_from_smoking": {
     "criteria": {
       "has_potato": "2022-11-19 22:07:37 +0100"
@@ -2517,6 +2579,12 @@
   "minecraft:recipes/decorations/magenta_carpet_from_white_carpet": {
     "criteria": {
       "has_white_carpet": "2022-11-22 00:02:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2022-12-01 23:23:39 +0100"
     },
     "done": true
   },
@@ -2637,6 +2705,12 @@
   "minecraft:recipes/building_blocks/lime_wool": {
     "criteria": {
       "has_white_wool": "2022-11-18 23:14:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_planks": "2022-12-01 23:23:39 +0100"
     },
     "done": true
   },
@@ -2817,6 +2891,12 @@
   "minecraft:recipes/tools/netherite_axe_smithing": {
     "criteria": {
       "has_netherite_ingot": "2022-11-24 00:59:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2022-12-01 23:23:39 +0100"
     },
     "done": true
   },
@@ -3213,6 +3293,12 @@
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_stone": "2022-11-20 20:27:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_trapdoor": {
+    "criteria": {
+      "has_planks": "2022-12-01 23:23:39 +0100"
     },
     "done": true
   },

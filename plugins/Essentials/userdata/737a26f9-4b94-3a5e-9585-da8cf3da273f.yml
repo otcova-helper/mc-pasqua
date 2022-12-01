@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1669656748146
-  login: 1669649485238
+  logout: 1669932676610
+  login: 1669932664692
 money: '0'
 last-account-name: dantelio
 logoutlocation:
@@ -26,8 +26,8 @@ logoutlocation:
   x: 91.17118199159643
   y: 70.0
   z: -1168.0813195742458
-  yaw: -172.47146606445312
-  pitch: 28.349950790405273
+  yaw: -178.471435546875
+  pitch: 4.499941349029541
 homes:
   home:
     world: 7e41ec44-729a-4440-9812-99e728587efb
