@@ -11,23 +11,23 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1670099921822
+  lastteleport: 1670166281185
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1670101157429
-  login: 1670098899725
+  logout: 1670166511145
+  login: 1670165325612
 money: '0'
 last-account-name: Solo3d
 logoutlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: 96.15245645974097
+  x: 101.10384396720714
   y: 71.0
-  z: 412.70367525188544
-  yaw: -40.47412109375
-  pitch: 15.542536735534668
+  z: 421.76616736582554
+  yaw: 67.26950073242188
+  pitch: 5.624598503112793
 homes:
   home:
     world: 7e41ec44-729a-4440-9812-99e728587efb
@@ -40,8 +40,8 @@ homes:
 lastlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: 835.5804470961384
-  y: 89.0
-  z: 610.4058482213044
-  yaw: 44.687744140625
-  pitch: 67.45801544189453
+  x: 99.60166766109543
+  y: 63.0
+  z: 78.505830111118
+  yaw: -31.973388671875
+  pitch: 11.210609436035156
