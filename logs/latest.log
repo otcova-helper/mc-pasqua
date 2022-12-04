@@ -1,336 +1,462 @@
-[17:15:39] [ServerMain/INFO]: Building unoptimized datafixer
-[17:15:41] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17:15:45] [ServerMain/INFO]: Loaded 7 recipes
-[17:15:47] [Server thread/INFO]: Starting minecraft server version 1.19.2
-[17:15:47] [Server thread/INFO]: Loading properties
-[17:15:47] [Server thread/INFO]: This server is running Paper version git-Paper-271 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: 2151112)
-[17:15:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:15:47] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:15:48] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[17:15:48] [Server thread/INFO]: Default game type: SURVIVAL
-[17:15:48] [Server thread/INFO]: Generating keypair
-[17:15:48] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:15:48] [Server thread/INFO]: Using default channel type
-[17:15:48] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[17:15:48] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[17:15:49] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_19_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[17:15:57] [Server thread/WARN]: Legacy plugin MCAuthenticator v2.0.4 does not specify an api-version.
-[17:15:57] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.52
-[17:15:57] [Server thread/INFO]: [voicechat] Loading voicechat v1.19.2-2.3.15
-[17:15:57] [Server thread/INFO]: [FartherViewDistance] Loading FartherViewDistance v9.7.3
-[17:15:57] [Server thread/INFO]: [MCAuthenticator] Loading MCAuthenticator v2.0.4
-[17:15:57] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.0-dev+17-6e931b2
-[17:15:57] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:15:57] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.52
-[17:15:58] [Server thread/INFO]:         __    
-[17:15:58] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.52
-[17:15:58] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[17:15:58] [Server thread/INFO]: 
-[17:15:58] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[17:15:59] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[17:16:00] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[17:16:00] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[17:16:01] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3219ms)
-[17:16:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:16:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:16:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:16:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:16:01] [Server thread/INFO]: Preparing level "world"
-[17:16:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:16:02] [Server thread/INFO]: Time elapsed: 153 ms
-[17:16:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[17:16:02] [Server thread/INFO]: Time elapsed: 55 ms
-[17:16:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[17:16:02] [Server thread/INFO]: Time elapsed: 17 ms
-[17:16:02] [Server thread/INFO]: [voicechat] Enabling voicechat v1.19.2-2.3.15
-[17:16:02] [Server thread/INFO]: [voicechat] Compatibility version 15
-[17:16:02] [Server thread/INFO]: [voicechat] Loading translations
-[17:16:02] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[17:16:02] [Server thread/INFO]: [FartherViewDistance] Enabling FartherViewDistance v9.7.3
-[17:16:02] [Server thread/INFO]: [MCAuthenticator] Enabling MCAuthenticator v2.0.4*
-[17:16:02] [Server thread/INFO]: [MCAuthenticator] Using RFC6238 (Google Authenticator 2FA) based authentication.
-[17:16:03] [Server thread/INFO]: [MCAuthenticator] Could not validate the server's time! Ensure that the server's time is within specification!
-[17:16:03] [Server thread/INFO]: [MCAuthenticator] Using data source: (SingleFileDataSource: plugins\MCAuthenticator\playerData.json)
-[17:16:03] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.0-dev+17-6e931b2
-[17:16:04] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[17:16:04] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[17:16:04] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
-[17:16:04] [Server thread/INFO]: [Essentials] Using locale ca_ES
-[17:16:04] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[17:16:04] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[17:16:04] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[17:16:04] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[17:16:04] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[17:16:04] [Server thread/INFO]: Running delayed init tasks
-[17:16:04] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
-[17:16:04] [Server thread/INFO]: [voicechat] Loading plugins
-[17:16:04] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
-[17:16:04] [Server thread/INFO]: [voicechat] Initializing plugins
-[17:16:04] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
-[17:16:04] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[17:16:04] [Server thread/INFO]: [voicechat] Using default voicechat socket implementation
-[17:16:04] [Server thread/INFO]: Done (16.973s)! For help, type "help"
-[17:16:04] [Server thread/INFO]: Timings Reset
-[17:16:04] [VoiceChatServerThread/INFO]: [voicechat] Server started at port 25565
-[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:05] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] You're 1 EssentialsX dev build(s) out of date!
-[17:16:05] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
-[17:16:42] [User Authenticator #0/INFO]: UUID of player dann_hd is 3c6f7844-972c-30f7-a83c-d4c4bfbed489
-[17:16:42] [Server thread/INFO]: dann_hd joined the game
-[17:16:42] [Server thread/INFO]: dann_hd[/62.14.88.132:52985] logged in with entity id 179 at ([world]81.9955445612332, 71.0, 420.98827291605795)
-[17:16:42] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:43] [Server thread/INFO]: [voicechat] Received secret request of dann_hd (15)
-[17:16:43] [Server thread/INFO]: [voicechat] Sent secret to dann_hd
-[17:16:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:44] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 3c6f7844-972c-30f7-a83c-d4c4bfbed489
-[17:16:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:47] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:47] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:47] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:47] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:47] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:48] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:48] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:51] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 18.73, 19.73, 19.91
-[17:17:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:32] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:32] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:32] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:32] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:32] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:32] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:33] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:33] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:33] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:33] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:33] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:37] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:37] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:37] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:37] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:37] [Server thread/INFO]: [Not Secure] [Server] se sierra mi pana
-[17:17:37] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:46] [Server thread/INFO]: dann_hd lost connection: Disconnected
-[17:17:46] [Server thread/INFO]: [voicechat] Disconnecting client dann_hd
-[17:17:46] [Server thread/INFO]: dann_hd left the game
-[17:17:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:47] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:47] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:47] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:48] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:48] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:48] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:48] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:48] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:48] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:48] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:48] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:48] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:49] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:49] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:49] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:49] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:49] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:49] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:49] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:49] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:49] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:17:49] [Server thread/INFO]: Stopping the server
-[17:17:49] [Server thread/INFO]: Stopping server
-[17:17:49] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.0-dev+17-6e931b2
-[17:17:49] [Server thread/INFO]: [MCAuthenticator] Disabling MCAuthenticator v2.0.4
-[17:17:49] [Server thread/INFO]: [FartherViewDistance] Disabling FartherViewDistance v9.7.3
-[17:17:49] [Server thread/INFO]: [voicechat] Disabling voicechat v1.19.2-2.3.15
-[17:17:49] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.52
-[17:17:49] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[17:17:49] [Server thread/INFO]: [LuckPerms] Closing storage...
-[17:17:50] [Server thread/INFO]: [LuckPerms] Goodbye!
-[17:17:50] [Server thread/INFO]: Saving players
-[17:17:50] [Server thread/INFO]: Saving worlds
-[17:17:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:17:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[17:17:50] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[17:17:50] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[17:17:52] [Server thread/INFO]: [ChunkHolderManager] Saved 929 block chunks, 929 entity chunks, 1 poi chunks in world 'world' in 2,37s
-[17:17:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:17:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[17:17:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[17:17:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[17:17:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[17:17:53] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 1,07s
-[17:17:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:17:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[17:17:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[17:17:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[17:17:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[17:17:53] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0,20s
-[17:17:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:17:53] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[17:17:53] [Server thread/INFO]: Flushing Chunk IO
-[17:17:53] [Server thread/INFO]: Closing Thread Pool
-[17:17:53] [Server thread/INFO]: Closing Server
+[17:49:35] [ServerMain/INFO]: Building unoptimized datafixer
+[17:49:37] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:49:39] [ServerMain/INFO]: Loaded 7 recipes
+[17:49:41] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[17:49:41] [Server thread/INFO]: Loading properties
+[17:49:41] [Server thread/INFO]: This server is running Paper version git-Paper-271 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: 2151112)
+[17:49:42] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:49:42] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:49:42] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[17:49:42] [Server thread/INFO]: Default game type: SURVIVAL
+[17:49:42] [Server thread/INFO]: Generating keypair
+[17:49:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:49:42] [Server thread/INFO]: Using default channel type
+[17:49:42] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[17:49:42] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[17:49:43] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_19_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[17:49:48] [Server thread/WARN]: Legacy plugin MCAuthenticator v2.0.4 does not specify an api-version.
+[17:49:48] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.52
+[17:49:49] [Server thread/INFO]: [voicechat] Loading voicechat v1.19.2-2.3.15
+[17:49:49] [Server thread/INFO]: [FartherViewDistance] Loading FartherViewDistance v9.7.3
+[17:49:49] [Server thread/INFO]: [MCAuthenticator] Loading MCAuthenticator v2.0.4
+[17:49:49] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.0-dev+17-6e931b2
+[17:49:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:49:49] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.52
+[17:49:50] [Server thread/INFO]:         __    
+[17:49:50] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.52
+[17:49:50] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[17:49:50] [Server thread/INFO]: 
+[17:49:50] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[17:49:50] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[17:49:51] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[17:49:51] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[17:49:51] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1905ms)
+[17:49:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:49:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:49:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:49:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:49:51] [Server thread/INFO]: Preparing level "world"
+[17:49:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:49:52] [Server thread/INFO]: Time elapsed: 159 ms
+[17:49:52] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:49:52] [Server thread/INFO]: Time elapsed: 48 ms
+[17:49:52] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:49:52] [Server thread/INFO]: Time elapsed: 41 ms
+[17:49:52] [Server thread/INFO]: [voicechat] Enabling voicechat v1.19.2-2.3.15
+[17:49:52] [Server thread/INFO]: [voicechat] Compatibility version 15
+[17:49:52] [Server thread/INFO]: [voicechat] Loading translations
+[17:49:52] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[17:49:52] [Server thread/INFO]: [FartherViewDistance] Enabling FartherViewDistance v9.7.3
+[17:49:53] [Server thread/INFO]: [MCAuthenticator] Enabling MCAuthenticator v2.0.4*
+[17:49:53] [Server thread/INFO]: [MCAuthenticator] Using RFC6238 (Google Authenticator 2FA) based authentication.
+[17:49:53] [Server thread/INFO]: [MCAuthenticator] Could not validate the server's time! Ensure that the server's time is within specification!
+[17:49:54] [Server thread/INFO]: [MCAuthenticator] Using data source: (SingleFileDataSource: plugins\MCAuthenticator\playerData.json)
+[17:49:54] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.0-dev+17-6e931b2
+[17:49:54] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[17:49:54] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[17:49:54] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[17:49:54] [Server thread/INFO]: [Essentials] Using locale en_GB
+[17:49:54] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[17:49:55] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[17:49:55] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[17:49:55] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[17:49:55] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[17:49:55] [Server thread/INFO]: Running delayed init tasks
+[17:49:55] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
+[17:49:55] [Server thread/INFO]: [voicechat] Loading plugins
+[17:49:55] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[17:49:55] [Server thread/INFO]: [voicechat] Initializing plugins
+[17:49:55] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[17:49:55] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[17:49:55] [Server thread/INFO]: [voicechat] Using default voicechat socket implementation
+[17:49:55] [Server thread/INFO]: Done (13.410s)! For help, type "help"
+[17:49:55] [Server thread/INFO]: Timings Reset
+[17:49:55] [VoiceChatServerThread/INFO]: [voicechat] Server started at port 25565
+[17:49:55] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] You're 1 EssentialsX dev build(s) out of date!
+[17:49:55] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[17:49:58] [User Authenticator #0/INFO]: UUID of player xiangfeng is ecb46dc2-f3db-37aa-afd9-4f3e83032a8f
+[17:49:59] [User Authenticator #0/INFO]: UUID of player Octova is ed3c1a2d-930e-3887-ba63-f8b41c70c134
+[17:49:59] [Server thread/INFO]: xiangfeng joined the game
+[17:49:59] [Server thread/INFO]: xiangfeng[/188.26.220.211:57778] logged in with entity id 188 at ([world]-4105.69746661836, 70.0, 1549.5801837938475)
+[17:49:59] [Server thread/INFO]: Octova joined the game
+[17:49:59] [Server thread/INFO]: Octova[/90.168.174.228:51248] logged in with entity id 190 at ([world]-59.37993059128655, 77.0, 355.69999998807907)
+[17:50:00] [Server thread/INFO]: [voicechat] Received secret request of xiangfeng (15)
+[17:50:00] [Server thread/INFO]: [voicechat] Sent secret to xiangfeng
+[17:50:00] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player ecb46dc2-f3db-37aa-afd9-4f3e83032a8f
+[17:50:07] [Server thread/INFO]: [voicechat] Received secret request of Octova (15)
+[17:50:07] [Server thread/INFO]: [voicechat] Sent secret to Octova
+[17:50:08] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player ed3c1a2d-930e-3887-ba63-f8b41c70c134
+[18:01:13] [Server thread/INFO]: xiangfeng has made the advancement [We Need to Go Deeper]
+[18:05:14] [Server thread/INFO]: Octova has made the advancement [We Need to Go Deeper]
+[18:05:41] [Async Chat Thread - #0/INFO]: [Not Secure] <xiangfeng> -500 300
+[18:07:17] [Async Chat Thread - #2/INFO]: [Not Secure] <Octova> 0, 60
+[18:09:40] [Server thread/INFO]: xiangfeng was slain by Piglin
+[18:09:54] [Async Chat Thread - #4/INFO]: [Not Secure] <xiangfeng> -348 37 148
+[18:10:27] [Server thread/INFO]: xiangfeng was slain by Hoglin
+[18:13:44] [Server thread/INFO]: Octova fell from a high place
+[18:14:03] [Async Chat Thread - #6/INFO]: [Not Secure] <Octova> 77, 39, 31
+[18:23:54] [User Authenticator #1/INFO]: UUID of player pasqu17 is 191cbce6-a575-3c1d-b5a1-0d7bd165b4a2
+[18:23:54] [Server thread/INFO]: pasqu17 joined the game
+[18:23:54] [Server thread/INFO]: pasqu17[/83.40.150.61:64010] logged in with entity id 11308 at ([world]87.37168851539647, 80.0, 554.7007411119916)
+[18:23:54] [Server thread/INFO]: [voicechat] Received secret request of pasqu17 (15)
+[18:23:54] [Server thread/INFO]: [voicechat] Sent secret to pasqu17
+[18:23:55] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 191cbce6-a575-3c1d-b5a1-0d7bd165b4a2
+[18:24:04] [Async Chat Thread - #8/INFO]: [Not Secure] <pasqu17> hey
+[18:26:45] [Async Chat Thread - #10/INFO]: [Not Secure] <pasqu17> que feu
+[18:26:50] [Async Chat Thread - #10/INFO]: [Not Secure] <Octova> nether
+[18:27:02] [Async Chat Thread - #10/INFO]: [Not Secure] <pasqu17> ou guai
+[18:32:49] [Server thread/INFO]: Octova was killed by [Intentional Game Design]
+[18:33:01] [Async Chat Thread - #12/INFO]: [Not Secure] <pasqu17> wtf
+[18:33:38] [Async Chat Thread - #12/INFO]: [Not Secure] <pasqu17> jo et sento
+[18:33:40] [Async Chat Thread - #12/INFO]: [Not Secure] <pasqu17> tu a mi no
+[18:35:34] [Async Chat Thread - #14/INFO]: [Not Secure] <Octova> posali un nametag
+[18:35:44] [Async Chat Thread - #14/INFO]: [Not Secure] <pasqu17> no en tinc
+[18:35:53] [Async Chat Thread - #14/INFO]: [Not Secure] <Octova> f
+[18:36:01] [Async Chat Thread - #14/INFO]: [Not Secure] <pasqu17> tu si?
+[18:36:04] [Async Chat Thread - #14/INFO]: [Not Secure] <Octova> no
+[18:36:34] [Async Chat Thread - #14/INFO]: [Not Secure] <pasqu17> jajaj sembla que tingui una serra girant al seu voltant
+[18:36:37] [Async Chat Thread - #14/INFO]: [Not Secure] <pasqu17> on ets?
+[18:36:42] [Async Chat Thread - #14/INFO]: [Not Secure] <Octova> nether
+[18:37:27] [Async Chat Thread - #14/INFO]: [Not Secure] <Octova> on estas?
+[18:38:02] [Async Chat Thread - #14/INFO]: [Not Secure] <pasqu17> encara amb el senyor aquatic
+[18:39:02] [Async Chat Thread - #16/INFO]: [Not Secure] <pasqu17> que ratas segur que m'han agafat a mi els aldeanos
+[18:42:58] [User Authenticator #2/INFO]: UUID of player Solo3d is f2cfd97d-e32d-3e62-a91f-797c12fc7df9
+[18:42:58] [Server thread/INFO]: Solo3d joined the game
+[18:42:58] [Server thread/INFO]: Solo3d[/139.47.66.33:20450] logged in with entity id 16425 at ([world]101.10384396720714, 71.0, 421.76616736582554)
+[18:43:11] [Async Chat Thread - #18/INFO]: [Not Secure] <pasqu17> hola
+[18:43:37] [Async Chat Thread - #18/INFO]: [Not Secure] <Solo3d> buen dia pasqu
+[18:44:33] [Server thread/INFO]: Octova was slain by xiangfeng
+[18:45:57] [Async Chat Thread - #20/INFO]: [Not Secure] <Solo3d> como llevas el examen pasqu?ç
+[18:47:50] [Async Chat Thread - #22/INFO]: [Not Secure] <Solo3d> buen dia
+[18:48:09] [Server thread/INFO]: xiangfeng fell from a high place
+[18:48:11] [Async Chat Thread - #22/INFO]: [Not Secure] <Solo3d> a
+[18:48:14] [Async Chat Thread - #22/INFO]: [Not Secure] <Solo3d> grande pasqu
+[18:48:15] [Async Chat Thread - #22/INFO]: [Not Secure] <pasqu17> jajajaja
+[18:48:23] [Async Chat Thread - #22/INFO]: [Not Secure] <pasqu17> tranqui no es ladron
+[18:48:29] [Async Chat Thread - #22/INFO]: [Not Secure] <pasqu17> solo ha matado al otger
+[18:48:40] [Async Chat Thread - #22/INFO]: [Not Secure] <Solo3d> ah bueno
+[18:48:53] [Async Chat Thread - #22/INFO]: [Not Secure] <pasqu17> re chula la casa
+[18:49:00] [Async Chat Thread - #22/INFO]: [Not Secure] <Solo3d> gracias brodi
+[18:54:00] [Server thread/INFO]: Octova was shot by Skeleton
+[18:56:27] [Async Chat Thread - #24/INFO]: [Not Secure] <Solo3d> sabeis quine ha matado al caballo?
+[18:58:15] [Async Chat Thread - #26/INFO]: [Not Secure] <Solo3d> podeis iros de mi casa?
+[18:58:39] [Async Chat Thread - #26/INFO]: [Not Secure] <pasqu17> que te hacen?
+[18:58:50] [Async Chat Thread - #26/INFO]: [Not Secure] <Solo3d> me han cogido los libros de un cofre
+[18:58:53] [Async Chat Thread - #26/INFO]: [Not Secure] <Solo3d> me los han devuelto
+[18:59:00] [Async Chat Thread - #26/INFO]: [Not Secure] <Solo3d> pero estan dando poir culo
+[19:00:20] [Async Chat Thread - #28/INFO]: [Not Secure] <pasqu17> que payos
+[19:00:42] [Server thread/INFO]: Solo3d issued server command: /home
+[19:00:45] [Server thread/WARN]: Solo3d moved too quickly! 170.01780311943543,3.0,-7.79271897420341
+[19:01:41] [User Authenticator #3/INFO]: UUID of player dann_hd is 3c6f7844-972c-30f7-a83c-d4c4bfbed489
+[19:01:41] [Server thread/INFO]: dann_hd joined the game
+[19:01:41] [Server thread/INFO]: dann_hd[/62.14.88.132:63705] logged in with entity id 21193 at ([world]77.20493310155607, 71.0, 379.41000390933465)
+[19:01:42] [Server thread/INFO]: [voicechat] Received secret request of dann_hd (15)
+[19:01:42] [Server thread/INFO]: [voicechat] Sent secret to dann_hd
+[19:01:43] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 3c6f7844-972c-30f7-a83c-d4c4bfbed489
+[19:10:55] [Server thread/INFO]: pasqu17 issued server command: /msg Octova teniu blazerod?
+[19:11:25] [Async Chat Thread - #30/INFO]: [Not Secure] <Octova> algu te barras de blaze?
+[19:11:31] [Async Chat Thread - #30/INFO]: [Not Secure] <pasqu17> xd
+[19:11:41] [Async Chat Thread - #30/INFO]: [Not Secure] <pasqu17> algu te brewering stand?
+[19:15:19] [Server thread/INFO]: xiangfeng issued server command: /msg
+[19:15:36] [Server thread/INFO]: xiangfeng issued server command: /msg Solo3d quieres unirte i matar a alguin?
+[19:16:51] [Server thread/INFO]: xiangfeng issued server command: /msg pasqu17 quieres unirte i matar a alguien?
+[19:18:05] [Server thread/INFO]: xiangfeng issued server command: /msg Octova quieres unirte i matar a alguin?
+[19:18:18] [Server thread/INFO]: Octova issued server command: /msg si
+[19:18:22] [Server thread/INFO]: Octova issued server command: /msg xiangfeng si
+[19:18:29] [Server thread/INFO]: Solo3d issued server command: /reply x
+[19:18:51] [Server thread/INFO]: Solo3d issued server command: /reply xiangfeng ven a mi casa
+[19:18:59] [Server thread/INFO]: xiangfeng issued server command: /msg Solo3d si o no?
+[19:21:10] [Server thread/INFO]: xiangfeng issued server command: /msg Solo3d donde estas?
+[19:21:53] [Server thread/INFO]: Solo3d issued server command: /r en la skybase
+[19:23:34] [Async Chat Thread - #32/INFO]: [Not Secure] <pasqu17> no tienes voice chat?
+[19:23:49] [Async Chat Thread - #32/INFO]: [Not Secure] <Solo3d> el puto urbano no me dice como instalarmelo
+[19:23:56] [Async Chat Thread - #32/INFO]: [Not Secure] <pasqu17> entra al discord
+[19:23:56] [Async Chat Thread - #32/INFO]: [Not Secure] <Solo3d> y soy un inutil
+[19:24:03] [Async Chat Thread - #32/INFO]: [Not Secure] <pasqu17> esta puesto
+[19:24:58] [Async Chat Thread - #32/INFO]: [Not Secure] <Solo3d> luego lo hago que va a jugar inglaterra
+[19:25:04] [Async Chat Thread - #32/INFO]: [Not Secure] <Solo3d> y quiero acabar la casa mas o menosç
+[19:25:08] [Server thread/INFO]: pasqu17 issued server command: /tellraw @a {"text":"Add Epic text here","color":"#02FF00","underlined":true,"clickEvent":{"action":"open_url","value":"insert link here"}}
+[19:26:18] [Server thread/INFO]: pasqu17 issued server command: /tellraw @a {"text":"Add Epic text here","color":"#02FF00","clickEvent":{"action":"open_url","value":"insert link here"}}
+[19:27:34] [Server thread/INFO]: Octova lost connection: Disconnected
+[19:27:34] [Server thread/INFO]: [voicechat] Disconnecting client Octova
+[19:27:34] [Server thread/INFO]: Octova left the game
+[19:28:02] [luckperms-command-executor/INFO]: [LP] Preparing a new editor session, please wait...
+[19:28:03] [luckperms-command-executor/INFO]: [LP] Click the link below to open the editor:
+[19:28:03] [luckperms-command-executor/INFO]: https://luckperms.net/editor/uoM5qqkPCP
+[19:28:13] [luckperms-worker-1/INFO]: [LP] An editor window has connected, but it is not yet trusted.
+[19:28:13] [luckperms-worker-1/INFO]: [LP] (session id = eaf0-7c48, browser = Chrome on Windows)
+[19:28:13] [luckperms-worker-1/INFO]: [LP] If it was you, run /lp trusteditor eaf0-7c48 to trust the session!
+[19:28:18] [luckperms-command-executor/INFO]: [LP] The editor session has been marked as trusted.
+[19:28:18] [luckperms-command-executor/INFO]: [LP] In the future, connections from the same browser will be trusted automatically.
+[19:28:18] [luckperms-command-executor/INFO]: [LP] The plugin will now attempt to establish a connection with the editor...
+[19:28:18] [luckperms-worker-1/INFO]: [LP] Editor window connected successfully.
+[19:29:58] [luckperms-worker-0/INFO]: [LP] Changes have been received from the connected web editor session.
+[19:29:58] [luckperms-worker-0/INFO]: [LP] Web editor data was applied to user pasqu17 successfully.
+[19:29:58] [luckperms-worker-0/INFO]: [LP] (1 addition and 0 deletions)
+[19:29:58] [luckperms-worker-0/INFO]: +  group.good-person (true)
+[19:29:58] [luckperms-worker-0/INFO]: [LP] Web editor data was applied to group good-person successfully.
+[19:29:58] [luckperms-worker-0/INFO]: [LP] (1 addition and 0 deletions)
+[19:29:58] [luckperms-worker-0/INFO]: +  minecraft.command.tellraw (true)
+[19:30:07] [Async Chat Thread - #34/INFO]: [Not Secure] <pasqu17> zzz
+[19:30:44] [User Authenticator #4/INFO]: UUID of player Octova is ed3c1a2d-930e-3887-ba63-f8b41c70c134
+[19:30:44] [Server thread/INFO]: Octova joined the game
+[19:30:44] [Server thread/INFO]: Octova[/90.168.174.228:55415] logged in with entity id 29190 at ([world]135.1952981109487, 109.5, 426.97592602702963)
+[19:30:46] [Server thread/INFO]: [voicechat] Received secret request of Octova (15)
+[19:30:46] [Server thread/INFO]: [voicechat] Sent secret to Octova
+[19:30:47] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player ed3c1a2d-930e-3887-ba63-f8b41c70c134
+[19:31:04] [Async Chat Thread - #34/INFO]: [Not Secure] <pasqu17> has tornat a posarte a la conta normal xd
+[19:31:10] [Async Chat Thread - #34/INFO]: [Not Secure] <Octova> ja
+[19:31:16] [Async Chat Thread - #34/INFO]: [Not Secure] <Octova> pero ja tens permisos
+[19:31:34] [Async Chat Thread - #34/INFO]: [Not Secure] <pasqu17> a okey
+[19:31:53] [Async Chat Thread - #34/INFO]: [Not Secure] <pasqu17> @solo3d el discord /tellraw @a {"text":"Add Epic text here","color":"#02FF00","clickEvent":{"action":"open_url","value":"insert link here"}}
+[19:31:57] [Async Chat Thread - #34/INFO]: [Not Secure] <pasqu17> ups
+[19:31:59] [Server thread/INFO]: pasqu17 issued server command: /tellraw @a {"text":"Add Epic text here","color":"#02FF00","clickEvent":{"action":"open_url","value":"insert link here"}}
+[19:32:05] [Async Chat Thread - #34/INFO]: [Not Secure] <pasqu17> vale no va
+[19:32:09] [Async Chat Thread - #34/INFO]: [Not Secure] <Solo3d> ya lo tengo eh
+[19:32:11] [Async Chat Thread - #34/INFO]: [Not Secure] <Solo3d> el dc
+[19:32:15] [Async Chat Thread - #34/INFO]: [Not Secure] <pasqu17> a okey
+[19:32:23] [Async Chat Thread - #34/INFO]: [Not Secure] <pasqu17> pues esta en tutos
+[19:32:38] [Async Chat Thread - #34/INFO]: [Not Secure] <Octova> tutos?
+[19:32:58] [Async Chat Thread - #34/INFO]: [Not Secure] <pasqu17> quiero decir en configurar mods
+[19:34:01] [Async Chat Thread - #36/INFO]: [Not Secure] <xiangfeng> estas mutejat
+[19:35:39] [Server thread/INFO]: xiangfeng was shot by Solo3d
+[19:35:46] [Async Chat Thread - #38/INFO]: [Not Secure] <pasqu17> bien hecho
+[19:41:08] [Server thread/INFO]: xiangfeng fell from a high place
+[19:41:12] [Server thread/INFO]: pasqu17 issued server command: /msg Octova no funciona
+[19:41:17] [Server thread/INFO]: pasqu17 issued server command: /tellraw @a {"text":"Add Epic text here","color":"#02FF00","clickEvent":{"action":"open_url","value":"insert link here"}}
+[19:41:30] [Server thread/INFO]: pasqu17 issued server command: /msg Octova a cony res
+[19:41:43] [Async Chat Thread - #40/INFO]: [Not Secure] <pasqu17> me piro gente
+[19:41:49] [Async Chat Thread - #40/INFO]: [Not Secure] <Solo3d> bendiciones
+[19:41:55] [Async Chat Thread - #40/INFO]: [Not Secure] <pasqu17> zzz
+[19:41:59] [Server thread/INFO]: Octova issued server command: /msg pasqu17 no funciona el tellraw?
+[19:42:11] [Server thread/INFO]: pasqu17 issued server command: /msg Octova res res, si era aixo pero no
+[19:42:20] [Async Chat Thread - #40/INFO]: [Not Secure] <pasqu17> vaya bien la tarde pana
+[19:42:24] [Async Chat Thread - #40/INFO]: [Not Secure] <pasqu17> s
+[19:43:30] [Server thread/INFO]: xiangfeng fell from a high place
+[19:44:11] [Server thread/INFO]: Solo3d issued server command: /home
+[19:48:29] [Server thread/INFO]: xiangfeng was slain by Drowned
+[19:48:36] [Server thread/INFO]: xiangfeng lost connection: Disconnected
+[19:48:36] [Server thread/INFO]: [voicechat] Disconnecting client xiangfeng
+[19:48:36] [Server thread/INFO]: xiangfeng left the game
+[19:48:40] [User Authenticator #5/INFO]: UUID of player xiangfeng is ecb46dc2-f3db-37aa-afd9-4f3e83032a8f
+[19:48:40] [Server thread/INFO]: xiangfeng joined the game
+[19:48:40] [Server thread/INFO]: xiangfeng[/188.26.220.211:55153] logged in with entity id 35771 at ([world]79.64299218793461, 66.0, 122.492587358654)
+[19:48:40] [Server thread/INFO]: [voicechat] Received secret request of xiangfeng (15)
+[19:48:40] [Server thread/INFO]: [voicechat] Sent secret to xiangfeng
+[19:48:41] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player ecb46dc2-f3db-37aa-afd9-4f3e83032a8f
+[19:51:24] [Async Chat Thread - #42/INFO]: [Not Secure] <pasqu17> casi xd
+[19:52:15] [Server thread/INFO]: xiangfeng fell from a high place
+[19:53:25] [Server thread/INFO]: Solo3d issued server command: /home
+[19:53:28] [Server thread/WARN]: Solo3d moved too quickly! -66.02780806285384,-62.0,-15.185149932902164
+[19:53:55] [Server thread/INFO]: xiangfeng fell from a high place
+[19:55:41] [Server thread/INFO]: Solo3d issued server command: /home
+[19:55:44] [Server thread/WARN]: Solo3d moved too quickly! -65.88383870369489,-62.0,-9.480999468277105
+[19:57:06] [Server thread/INFO]: xiangfeng fell from a high place
+[19:57:31] [Server thread/INFO]: xiangfeng fell from a high place
+[19:58:05] [Server thread/INFO]: xiangfeng fell from a high place
+[19:59:41] [Server thread/INFO]: Villager EntityVillager['Librarian'/435, uuid='a4e06dca-7841-4bdb-8866-74105b3d8379', l='ServerLevel[world]', x=77.50, y=88.06, z=378.51, cpos=[4, 23], tl=408542, v=true] died, message: 'Librarian was slain by Zombie'
+[20:01:23] [Server thread/INFO]: xiangfeng fell from a high place
+[20:01:28] [Server thread/INFO]: pasqu17 fell from a high place
+[20:05:06] [Server thread/INFO]: Octova lost connection: Disconnected
+[20:05:06] [Server thread/INFO]: [voicechat] Disconnecting client Octova
+[20:05:06] [Server thread/INFO]: Octova left the game
+[20:05:14] [Server thread/INFO]: Solo3d issued server command: /home
+[20:05:18] [Server thread/WARN]: Solo3d moved too quickly! 77.80968028177026,12.0,52.065212616380904
+[20:05:23] [Server thread/INFO]: xiangfeng fell from a high place
+[20:05:24] [Server thread/INFO]: pasqu17 fell from a high place
+[20:05:25] [Server thread/INFO]: Solo3d lost connection: Disconnected
+[20:05:25] [Server thread/INFO]: [voicechat] Disconnecting client Solo3d
+[20:05:25] [Server thread/INFO]: Solo3d left the game
+[20:05:43] [Server thread/INFO]: xiangfeng lost connection: Disconnected
+[20:05:43] [Server thread/INFO]: [voicechat] Disconnecting client xiangfeng
+[20:05:43] [Server thread/INFO]: xiangfeng left the game
+[20:05:46] [User Authenticator #6/INFO]: UUID of player xiangfeng is ecb46dc2-f3db-37aa-afd9-4f3e83032a8f
+[20:05:46] [Server thread/INFO]: xiangfeng joined the game
+[20:05:46] [Server thread/INFO]: xiangfeng[/188.26.220.211:55216] logged in with entity id 40187 at ([world]-26.296720656651217, 281.47029311212845, 406.3228712916825)
+[20:05:46] [Server thread/INFO]: [voicechat] Received secret request of xiangfeng (15)
+[20:05:46] [Server thread/INFO]: [voicechat] Sent secret to xiangfeng
+[20:05:46] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player ecb46dc2-f3db-37aa-afd9-4f3e83032a8f
+[20:05:49] [Server thread/INFO]: xiangfeng lost connection: Disconnected
+[20:05:49] [Server thread/INFO]: [voicechat] Disconnecting client xiangfeng
+[20:05:49] [Server thread/INFO]: xiangfeng left the game
+[20:05:51] [User Authenticator #6/INFO]: UUID of player xiangfeng is ecb46dc2-f3db-37aa-afd9-4f3e83032a8f
+[20:05:51] [Server thread/INFO]: xiangfeng joined the game
+[20:05:51] [Server thread/INFO]: xiangfeng[/188.26.220.211:55221] logged in with entity id 40201 at ([world]-26.296720656651217, 158.5398037341269, 406.3228712916825)
+[20:05:51] [Server thread/INFO]: [voicechat] Received secret request of xiangfeng (15)
+[20:05:51] [Server thread/INFO]: [voicechat] Sent secret to xiangfeng
+[20:05:52] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player ecb46dc2-f3db-37aa-afd9-4f3e83032a8f
+[20:05:54] [Server thread/INFO]: xiangfeng fell from a high place
+[20:06:11] [Server thread/INFO]: xiangfeng lost connection: Disconnected
+[20:06:11] [Server thread/INFO]: [voicechat] Disconnecting client xiangfeng
+[20:06:11] [Server thread/INFO]: xiangfeng left the game
+[20:06:13] [User Authenticator #6/INFO]: UUID of player xiangfeng is ecb46dc2-f3db-37aa-afd9-4f3e83032a8f
+[20:06:13] [Server thread/INFO]: xiangfeng joined the game
+[20:06:13] [Server thread/INFO]: xiangfeng[/188.26.220.211:55229] logged in with entity id 40282 at ([world]-27.033745105439582, 160.85103233363535, 405.8068701391673)
+[20:06:13] [Server thread/INFO]: [voicechat] Received secret request of xiangfeng (15)
+[20:06:13] [Server thread/INFO]: [voicechat] Sent secret to xiangfeng
+[20:06:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player ecb46dc2-f3db-37aa-afd9-4f3e83032a8f
+[20:06:16] [Server thread/INFO]: xiangfeng fell from a high place
+[20:06:27] [Server thread/INFO]: xiangfeng fell from a high place
+[20:06:36] [Async Chat Thread - #44/INFO]: [Not Secure] <xiangfeng> posa l'aigua
+[20:06:45] [Server thread/INFO]: xiangfeng fell from a high place
+[20:06:58] [Server thread/INFO]: xiangfeng fell from a high place
+[20:07:10] [Server thread/INFO]: xiangfeng fell from a high place
+[20:07:23] [Server thread/INFO]: xiangfeng fell from a high place
+[20:07:35] [Server thread/INFO]: xiangfeng fell from a high place
+[20:07:48] [Server thread/INFO]: xiangfeng fell from a high place
+[20:08:00] [Server thread/INFO]: xiangfeng fell from a high place
+[20:08:15] [Async Chat Thread - #46/INFO]: [Not Secure] <xiangfeng> posa l'auga en el arbre
+[20:08:25] [Server thread/INFO]: xiangfeng fell from a high place
+[20:08:33] [Async Chat Thread - #46/INFO]: [Not Secure] <pasqu17> merda es fica dins de les fulles
+[20:08:38] [Server thread/INFO]: xiangfeng fell from a high place
+[20:08:52] [Async Chat Thread - #46/INFO]: [Not Secure] <xiangfeng> trenca la fulla del mitg
+[20:09:03] [Async Chat Thread - #46/INFO]: [Not Secure] <pasqu17> esta posada sobre el cofre
+[20:09:05] [Server thread/INFO]: xiangfeng fell from a high place
+[20:09:20] [Server thread/INFO]: xiangfeng fell from a high place
+[20:09:32] [Server thread/INFO]: xiangfeng fell from a high place
+[20:09:36] [Async Chat Thread - #46/INFO]: [Not Secure] <pasqu17> casiii
+[20:09:45] [Server thread/INFO]: xiangfeng fell from a high place
+[20:10:01] [Async Chat Thread - #46/INFO]: [Not Secure] <pasqu17> pels pels
+[20:10:03] [Async Chat Thread - #46/INFO]: [Not Secure] <pasqu17> xd
+[20:10:40] [Async Chat Thread - #46/INFO]: [Not Secure] <pasqu17> el got de l'otger
+[20:11:10] [Async Chat Thread - #46/INFO]: [Not Secure] <xiangfeng> wow
+[20:11:22] [Async Chat Thread - #46/INFO]: [Not Secure] <pasqu17> jeje
+[20:11:46] [Async Chat Thread - #46/INFO]: [Not Secure] <pasqu17> aixo es teu?
+[20:11:50] [Async Chat Thread - #46/INFO]: [Not Secure] <xiangfeng> no
+[20:11:56] [Async Chat Thread - #46/INFO]: [Not Secure] <pasqu17> a
+[20:12:06] [Async Chat Thread - #46/INFO]: [Not Secure] <pasqu17> i que fots aqui xD
+[20:12:45] [Async Chat Thread - #46/INFO]: [Not Secure] <xiangfeng> jo marcho ya
+[20:12:50] [Async Chat Thread - #46/INFO]: [Not Secure] <pasqu17> oke
+[20:12:51] [Async Chat Thread - #46/INFO]: [Not Secure] <xiangfeng> adeu
+[20:12:53] [Server thread/INFO]: xiangfeng lost connection: Disconnected
+[20:12:53] [Server thread/INFO]: [voicechat] Disconnecting client xiangfeng
+[20:12:53] [Server thread/INFO]: xiangfeng left the game
+[20:12:54] [Async Chat Thread - #46/INFO]: [Not Secure] <pasqu17> adeu
+[20:13:48] [Async Chat Thread - #46/INFO]: [Not Secure] <pasqu17> yo piro igual
+[20:13:49] [Async Chat Thread - #46/INFO]: [Not Secure] <pasqu17> chau
+[20:14:06] [Server thread/INFO]: pasqu17 lost connection: Disconnected
+[20:14:06] [Server thread/INFO]: [voicechat] Disconnecting client pasqu17
+[20:14:06] [Server thread/INFO]: pasqu17 left the game
+[20:39:46] [Server thread/INFO]: dann_hd issued server command: /home
+[20:45:03] [Server thread/INFO]: dann_hd fell from a high place
+[20:45:41] [Server thread/WARN]: dann_hd was kicked for floating too long!
+[20:45:41] [Server thread/INFO]: dann_hd lost connection: Flying is not enabled on this server
+[20:45:41] [Server thread/INFO]: [voicechat] Disconnecting client dann_hd
+[20:45:41] [Server thread/INFO]: dann_hd left the game
+[20:45:49] [User Authenticator #7/INFO]: UUID of player dann_hd is 3c6f7844-972c-30f7-a83c-d4c4bfbed489
+[20:45:49] [Server thread/INFO]: dann_hd joined the game
+[20:45:49] [Server thread/INFO]: dann_hd[/62.14.88.132:56482] logged in with entity id 46314 at ([world_nether]8.690865034106634, 75.84610397459554, 57.29947819252614)
+[20:45:49] [Server thread/INFO]: [voicechat] Received secret request of dann_hd (15)
+[20:45:49] [Server thread/INFO]: [voicechat] Sent secret to dann_hd
+[20:45:50] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 3c6f7844-972c-30f7-a83c-d4c4bfbed489
+[20:47:02] [Server thread/INFO]: dann_hd was slain by Piglin
+[20:49:32] [Server thread/INFO]: dann_hd issued server command: /home
+[20:55:11] [Server thread/INFO]: dann_hd has made the advancement [Into Fire]
+[20:58:00] [Server thread/INFO]: dann_hd issued server command: /home
+[21:02:00] [Server thread/INFO]: dann_hd has made the advancement [Local Brewery]
+[21:04:46] [Server thread/INFO]: Villager EntityVillager['Librarian'/28292, uuid='d565a626-5e32-4b12-872d-c0bcb5af1d9f', l='ServerLevel[world]', x=77.50, y=88.06, z=378.51, cpos=[4, 23], tl=100662, v=true] died, message: 'Librarian was slain by Zombie'
+[21:05:28] [User Authenticator #8/INFO]: UUID of player yiyi2003 is de6b4bcc-6b2c-3194-992c-e3cda2a19836
+[21:05:28] [Server thread/INFO]: yiyi2003 joined the game
+[21:05:28] [Server thread/INFO]: yiyi2003[/84.78.158.250:52537] logged in with entity id 49213 at ([world]15.49515131031058, 64.0, 343.8591893430738)
+[21:16:08] [User Authenticator #9/INFO]: UUID of player pauurbano_ is 0a255547-a46f-3a0b-a0ff-4eb063bb57a7
+[21:16:08] [Server thread/INFO]: pauurbano_ joined the game
+[21:16:08] [Server thread/INFO]: pauurbano_[/90.162.230.95:57451] logged in with entity id 50649 at ([world]-83.96220751369093, 89.0, 368.21987071361383)
+[21:16:09] [Server thread/INFO]: [voicechat] Received secret request of pauurbano_ (15)
+[21:16:09] [Server thread/INFO]: [voicechat] Sent secret to pauurbano_
+[21:16:10] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 0a255547-a46f-3a0b-a0ff-4eb063bb57a7
+[21:17:34] [Server thread/INFO]: Villager EntityVillager['Librarian'/49652, uuid='0ad4d327-e5c2-4e81-9e5a-9f324ead4e75', l='ServerLevel[world]', x=77.50, y=88.06, z=378.51, cpos=[4, 23], tl=10244, v=true] died, message: 'Librarian was slain by Zombie'
+[21:18:16] [User Authenticator #10/INFO]: UUID of player Solo3d is f2cfd97d-e32d-3e62-a91f-797c12fc7df9
+[21:18:16] [Server thread/INFO]: Solo3d joined the game
+[21:18:16] [Server thread/INFO]: Solo3d[/139.47.66.33:19832] logged in with entity id 51218 at ([world]106.2368386891076, 75.0, 416.96621371638884)
+[21:18:58] [Server thread/INFO]: dann_hd was slain by Enderman
+[21:20:38] [Server thread/WARN]: Boat (vehicle of Solo3d) moved wrongly! 0.25128893215022235
+[21:23:12] [Server thread/INFO]: Villager EntityVillager['Farmer'/52495, uuid='a3a73bed-3c20-4241-9392-f555d5d7d341', l='ServerLevel[world]', x=-418.30, y=64.18, z=944.75, cpos=[-27, 59], tl=116503, v=true] died, message: 'Farmer was slain by Zombie'
+[21:29:21] [Server thread/INFO]: Solo3d issued server command: /home
+[21:29:24] [Server thread/WARN]: Solo3d moved too quickly! 695.3460504752064,12.0,-410.8065517468533
+[21:35:20] [Server thread/INFO]: dann_hd lost connection: Disconnected
+[21:35:20] [Server thread/INFO]: [voicechat] Disconnecting client dann_hd
+[21:35:20] [Server thread/INFO]: dann_hd left the game
+[21:35:53] [Server thread/INFO]: yiyi2003 lost connection: Disconnected
+[21:35:53] [Server thread/INFO]: [voicechat] Disconnecting client yiyi2003
+[21:35:53] [Server thread/INFO]: yiyi2003 left the game
+[21:36:51] [User Authenticator #11/INFO]: UUID of player dann_hd is 3c6f7844-972c-30f7-a83c-d4c4bfbed489
+[21:36:51] [Server thread/INFO]: dann_hd joined the game
+[21:36:51] [Server thread/INFO]: dann_hd[/62.14.88.132:52525] logged in with entity id 57950 at ([world]81.96188550333169, 71.0, 376.49890571267343)
+[21:36:52] [Server thread/INFO]: [voicechat] Received secret request of dann_hd (15)
+[21:36:52] [Server thread/INFO]: [voicechat] Sent secret to dann_hd
+[21:36:53] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 3c6f7844-972c-30f7-a83c-d4c4bfbed489
+[21:37:15] [Server thread/INFO]: Solo3d issued server command: /home
+[21:37:18] [Server thread/WARN]: Solo3d moved too quickly! -46.64440955403276,-51.0,-16.825689871992324
+[21:38:35] [User Authenticator #12/INFO]: UUID of player yiyi2003 is de6b4bcc-6b2c-3194-992c-e3cda2a19836
+[21:38:35] [Server thread/INFO]: yiyi2003 joined the game
+[21:38:35] [Server thread/INFO]: yiyi2003[/84.78.158.250:52618] logged in with entity id 58585 at ([world]-51.30000001192093, 60.0, 468.22006397584477)
+[21:40:56] [Server thread/INFO]: dann_hd issued server command: /home
+[21:41:05] [Server thread/INFO]: dann_hd lost connection: Disconnected
+[21:41:05] [Server thread/INFO]: [voicechat] Disconnecting client dann_hd
+[21:41:05] [Server thread/INFO]: dann_hd left the game
+[21:43:19] [Server thread/INFO]: yiyi2003 issued server command: /home
+[21:43:22] [Server thread/WARN]: yiyi2003 moved too quickly! -25.48141566455959,-10.0,-272.02743241724886
+[21:47:02] [Server thread/WARN]: Horse (vehicle of Solo3d) moved wrongly! 0.31418862987916896
+[21:47:02] [Server thread/WARN]: Horse (vehicle of Solo3d) moved wrongly! 0.35209462509951095
+[21:47:02] [Server thread/WARN]: Horse (vehicle of Solo3d) moved wrongly! 0.4287012014409868
+[21:47:02] [Server thread/WARN]: Horse (vehicle of Solo3d) moved wrongly! 0.30336410623775123
+[21:47:02] [Server thread/WARN]: Horse (vehicle of Solo3d) moved wrongly! 0.3784829436091286
+[21:47:02] [Server thread/WARN]: Horse (vehicle of Solo3d) moved wrongly! 0.4535212960572892
+[21:47:03] [Server thread/WARN]: Horse (vehicle of Solo3d) moved wrongly! 0.25426021574108404
+[21:47:03] [Server thread/WARN]: Horse (vehicle of Solo3d) moved wrongly! 0.32957983086092213
+[21:47:03] [Server thread/WARN]: Horse (vehicle of Solo3d) moved wrongly! 0.40491597588345485
+[21:47:03] [Server thread/WARN]: Horse (vehicle of Solo3d) moved wrongly! 0.4802535455620216
+[21:47:03] [Server thread/WARN]: Horse (vehicle of Solo3d) moved wrongly! 0.2799827797974501
+[21:47:03] [Server thread/WARN]: Horse (vehicle of Solo3d) moved wrongly! 0.35464280146490523
+[21:47:03] [Server thread/WARN]: Horse (vehicle of Solo3d) moved wrongly! 0.4293390868279232
+[21:47:03] [Server thread/WARN]: Horse (vehicle of Solo3d) moved wrongly! 0.429003300681444
+[21:47:04] [Server thread/WARN]: Horse (vehicle of Solo3d) moved wrongly! 0.29611037190196043
+[21:47:04] [Server thread/WARN]: Horse (vehicle of Solo3d) moved wrongly! 0.3692972955103073
+[21:47:04] [Server thread/WARN]: Horse (vehicle of Solo3d) moved wrongly! 0.44343848860202684
+[21:47:34] [Server thread/INFO]: Solo3d issued server command: /home
+[21:51:40] [Server thread/WARN]: Horse (vehicle of Solo3d) moved wrongly! 0.26692797389137013
+[21:51:41] [Server thread/WARN]: Horse (vehicle of Solo3d) moved wrongly! 0.430343819608197
+[21:51:41] [Server thread/WARN]: Horse (vehicle of Solo3d) moved wrongly! 1.0007054763649421
+[21:51:41] [Server thread/WARN]: Horse (vehicle of Solo3d) moved wrongly! 0.45314706132251104
+[21:51:41] [Server thread/WARN]: Horse (vehicle of Solo3d) moved wrongly! 0.47476298795146477
+[21:56:58] [User Authenticator #13/INFO]: UUID of player dann_hd is 3c6f7844-972c-30f7-a83c-d4c4bfbed489
+[21:56:58] [Server thread/INFO]: dann_hd joined the game
+[21:56:58] [Server thread/INFO]: dann_hd[/62.14.88.132:59737] logged in with entity id 64260 at ([world]78.44719469694466, 71.0, 375.19523292650274)
+[21:56:58] [Server thread/INFO]: [voicechat] Received secret request of dann_hd (15)
+[21:56:58] [Server thread/INFO]: [voicechat] Sent secret to dann_hd
+[21:56:59] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 3c6f7844-972c-30f7-a83c-d4c4bfbed489
+[22:00:12] [Server thread/INFO]: dann_hd issued server command: /home
+[22:02:58] [Server thread/INFO]: Solo3d issued server command: /home
+[22:03:42] [Server thread/INFO]: dann_hd has made the advancement [Cover Me with Diamonds]
+[22:04:42] [Server thread/INFO]: yiyi2003 lost connection: Disconnected
+[22:04:42] [Server thread/INFO]: [voicechat] Disconnecting client yiyi2003
+[22:04:42] [Server thread/INFO]: yiyi2003 left the game
+[22:04:44] [User Authenticator #14/INFO]: UUID of player yiyi2003 is de6b4bcc-6b2c-3194-992c-e3cda2a19836
+[22:04:44] [Server thread/INFO]: yiyi2003 joined the game
+[22:04:44] [Server thread/INFO]: yiyi2003[/84.78.158.250:52591] logged in with entity id 67344 at ([world]64.4229936705215, -12.0, 222.35807425308576)
+[22:06:03] [Server thread/INFO]: pauurbano_ issued server command: /home
+[22:06:06] [Server thread/WARN]: pauurbano_ moved too quickly! -187.9678492778855,-62.0,-16.665845953996325
+[22:06:06] [Server thread/WARN]: pauurbano_ moved too quickly! -187.9678492778855,-62.0,-16.665845953996325
+[22:06:23] [Server thread/INFO]: Villager EntityVillager['Librarian'/55518, uuid='6ae46455-3e63-4c82-9fc0-693e3e9c4976', l='ServerLevel[world]', x=77.50, y=88.06, z=378.51, cpos=[4, 23], tl=46251, v=true] died, message: 'Librarian was slain by Zombie'
+[22:06:57] [Server thread/INFO]: pauurbano_ lost connection: Disconnected
+[22:06:57] [Server thread/INFO]: [voicechat] Disconnecting client pauurbano_
+[22:06:57] [Server thread/INFO]: pauurbano_ left the game
+[22:09:28] [Server thread/INFO]: Solo3d lost connection: Disconnected
+[22:09:28] [Server thread/INFO]: [voicechat] Disconnecting client Solo3d
+[22:09:28] [Server thread/INFO]: Solo3d left the game
+[22:10:19] [Server thread/INFO]: yiyi2003 issued server command: /home
+[22:10:22] [Server thread/WARN]: yiyi2003 moved too quickly! 54.579839088749225,94.0,-111.61608400103023
+[22:17:34] [Server thread/INFO]: yiyi2003 lost connection: Disconnected
+[22:17:34] [Server thread/INFO]: [voicechat] Disconnecting client yiyi2003
+[22:17:34] [Server thread/INFO]: yiyi2003 left the game
+[22:27:32] [Server thread/INFO]: dann_hd issued server command: /home
+[22:40:11] [Server thread/INFO]: dann_hd issued server command: /home
+[22:43:35] [User Authenticator #15/INFO]: UUID of player pasqu17 is 191cbce6-a575-3c1d-b5a1-0d7bd165b4a2
+[22:43:35] [Server thread/INFO]: pasqu17 joined the game
+[22:43:35] [Server thread/INFO]: pasqu17[/83.40.150.61:52763] logged in with entity id 76477 at ([world]57.546571773160274, 71.0, 507.4968755616087)
+[22:43:37] [Server thread/INFO]: [voicechat] Received secret request of pasqu17 (15)
+[22:43:37] [Server thread/INFO]: [voicechat] Sent secret to pasqu17
+[22:43:38] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 191cbce6-a575-3c1d-b5a1-0d7bd165b4a2
+[22:43:52] [Async Chat Thread - #48/INFO]: [Not Secure] <pasqu17> hey
+[22:43:59] [Async Chat Thread - #48/INFO]: [Not Secure] <dann_hd> hey
+[22:46:35] [Async Chat Thread - #50/INFO]: [Not Secure] <pasqu17> on vius?

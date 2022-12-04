@@ -11,31 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1670159039785
+  lastteleport: 1670187966072
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1670159768493
-  login: 1670158454435
+  logout: 1670188017138
+  login: 1670184968761
 money: '0'
 last-account-name: pauurbano_
 logoutlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: -83.96220751369093
-  y: 89.0
-  z: 368.21987071361383
-  yaw: -159.7919921875
-  pitch: 76.8369369506836
+  x: -23.30000001192093
+  y: 58.0
+  z: 405.6378393503307
+  yaw: 156.4482879638672
+  pitch: 6.974090576171875
 lastlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: 36.242398805927394
-  y: 70.0
-  z: 471.0733017285884
-  yaw: 45.50923156738281
-  pitch: 23.381004333496094
+  x: 160.4678492778855
+  y: 126.0
+  z: 425.1658459539963
+  yaw: -106.59188079833984
+  pitch: -20.391372680664062
 homes:
   home:
     world: 7e41ec44-729a-4440-9812-99e728587efb

@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1669464244698
-  login: 1669461065328
+  logout: 1670181173080
+  login: 1670180773430
 money: '0'
 last-account-name: xiangfeng
 logoutlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: -4105.69746661836
-  y: 70.0
-  z: 1549.5801837938475
-  yaw: -88.05886840820312
-  pitch: 43.20766067504883
+  x: -51.05181823507508
+  y: 72.9375
+  z: 409.08197868923276
+  yaw: 142.3065185546875
+  pitch: 12.616230010986328
