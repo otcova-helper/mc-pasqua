@@ -1,2 +1,0 @@
-ip=83.40.150.61
-username=ThePasqu17
