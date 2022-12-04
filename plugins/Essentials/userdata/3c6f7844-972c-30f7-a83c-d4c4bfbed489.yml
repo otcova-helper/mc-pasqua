@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 62.14.88.132
+ip-address: 127.0.0.1
 afk: false
 socialspy: false
 npc: false
@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1670167859191
-  login: 1670163864535
+  logout: 1670170216178
+  login: 1670170155473
 money: '0'
 last-account-name: dann_hd
 logoutlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: 82.25656921978485
+  x: 81.9955445612332
   y: 71.0
-  z: 374.53408866264635
-  yaw: -33.299041748046875
-  pitch: 16.950044631958008
+  z: 420.98827291605795
+  yaw: -113.3980712890625
+  pitch: 11.100069999694824
 homes:
   home:
     world: 7e41ec44-729a-4440-9812-99e728587efb
