@@ -239,9 +239,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2022-12-04 23:15:31 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2022-11-18 17:21:13 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2022-12-04 23:22:38 +0100"
     },
     "done": true
   },
@@ -1411,6 +1423,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/wax_on": {
+    "criteria": {
+      "wax_on": "2022-12-04 23:43:23 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2022-11-18 17:14:21 +0100"
@@ -2028,6 +2046,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2022-12-04 23:15:31 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_shovel": {
     "criteria": {
       "has_diamond": "2022-11-25 01:36:22 +0100"
@@ -2085,6 +2109,12 @@
   "minecraft:recipes/transportation/birch_chest_boat": {
     "criteria": {
       "has_boat": "2022-11-27 23:21:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2022-12-04 23:22:38 +0100"
     },
     "done": true
   },
@@ -2259,6 +2289,12 @@
   "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
     "criteria": {
       "has_moss_block": "2022-11-25 01:35:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2022-12-04 23:15:13 +0100"
     },
     "done": true
   },
@@ -2517,6 +2553,12 @@
   "minecraft:recipes/building_blocks/snow_block": {
     "criteria": {
       "has_snowball": "2022-11-19 16:29:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2022-12-04 23:15:31 +0100"
     },
     "done": true
   },
