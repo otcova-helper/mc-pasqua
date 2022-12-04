@@ -1,1523 +1,336 @@
-[17:07:35] [ServerMain/INFO]: Building unoptimized datafixer
-[17:07:37] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17:07:38] [ServerMain/INFO]: Loaded 7 recipes
-[17:07:40] [Server thread/INFO]: Starting minecraft server version 1.19.2
-[17:07:40] [Server thread/INFO]: Loading properties
-[17:07:40] [Server thread/INFO]: This server is running Paper version git-Paper-271 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: 2151112)
-[17:07:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:07:40] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:07:40] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[17:07:40] [Server thread/INFO]: Default game type: SURVIVAL
-[17:07:40] [Server thread/INFO]: Generating keypair
-[17:07:41] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:07:41] [Server thread/INFO]: Using default channel type
-[17:07:41] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[17:07:41] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[17:07:42] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_19_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[17:07:46] [Server thread/WARN]: Legacy plugin MCAuthenticator v2.0.4 does not specify an api-version.
-[17:07:47] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.52
-[17:07:47] [Server thread/INFO]: [voicechat] Loading voicechat v1.19.2-2.3.15
-[17:07:47] [Server thread/INFO]: [FartherViewDistance] Loading FartherViewDistance v9.7.3
-[17:07:47] [Server thread/INFO]: [MCAuthenticator] Loading MCAuthenticator v2.0.4
-[17:07:47] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.0-dev+17-6e931b2
-[17:07:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:07:47] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.52
-[17:07:48] [Server thread/INFO]:         __    
-[17:07:48] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.52
-[17:07:48] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[17:07:48] [Server thread/INFO]: 
-[17:07:48] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[17:07:48] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[17:07:49] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[17:07:49] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[17:07:49] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1952ms)
-[17:07:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:07:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:07:49] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:07:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:07:49] [Server thread/INFO]: Preparing level "world"
-[17:07:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:07:50] [Server thread/INFO]: Time elapsed: 118 ms
-[17:07:50] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[17:07:50] [Server thread/INFO]: Time elapsed: 25 ms
-[17:07:50] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[17:07:50] [Server thread/INFO]: Time elapsed: 21 ms
-[17:07:50] [Server thread/INFO]: [voicechat] Enabling voicechat v1.19.2-2.3.15
-[17:07:50] [Server thread/INFO]: [voicechat] Compatibility version 15
-[17:07:50] [Server thread/INFO]: [voicechat] Loading translations
-[17:07:50] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[17:07:50] [Server thread/INFO]: [FartherViewDistance] Enabling FartherViewDistance v9.7.3
-[17:07:50] [Server thread/INFO]: [MCAuthenticator] Enabling MCAuthenticator v2.0.4*
-[17:07:50] [Server thread/INFO]: [MCAuthenticator] Using RFC6238 (Google Authenticator 2FA) based authentication.
-[17:07:51] [Server thread/INFO]: [MCAuthenticator] Could not validate the server's time! Ensure that the server's time is within specification!
-[17:07:51] [Server thread/INFO]: [MCAuthenticator] Using data source: (SingleFileDataSource: plugins\MCAuthenticator\playerData.json)
-[17:07:51] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.0-dev+17-6e931b2
-[17:07:51] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[17:07:51] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[17:07:52] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
-[17:07:52] [Server thread/INFO]: [Essentials] Using locale es_ES
-[17:07:52] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[17:07:52] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[17:07:52] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[17:07:52] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[17:07:52] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[17:07:52] [Server thread/INFO]: Running delayed init tasks
-[17:07:52] [Server thread/INFO]: [voicechat] Loading plugins
-[17:07:52] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
-[17:07:52] [Server thread/INFO]: [voicechat] Initializing plugins
-[17:07:52] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
-[17:07:52] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[17:07:52] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Obteniendo información de versión...
-[17:07:52] [Server thread/INFO]: [voicechat] Using default voicechat socket implementation
-[17:07:52] [Server thread/INFO]: Done (11.862s)! For help, type "help"
-[17:07:52] [Server thread/INFO]: Timings Reset
-[17:07:52] [VoiceChatServerThread/INFO]: [voicechat] Server started at port 25565
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Craft Scheduler Thread - 2 - Essentials/WARN]: [Essentials] ¡Estás a 1 compilación(es) de desactualización de EssentialsX!
-[17:07:52] [Craft Scheduler Thread - 2 - Essentials/WARN]: [Essentials] Descárgala aquí: https://essentialsx.net/downloads.html
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:53] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:53] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:53] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:53] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:53] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:53] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:53] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:53] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:53] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:53] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:54] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:54] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:54] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:54] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:54] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:54] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:54] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:54] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:54] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:54] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:54] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:55] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:55] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:55] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:55] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:55] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:55] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:55] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:55] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:55] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:55] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:55] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:57] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:57] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:57] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:57] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:57] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:57] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:57] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:57] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:57] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:57] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:57] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:57] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:58] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:58] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:58] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:58] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:58] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:58] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:58] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:58] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:58] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:58] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:58] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:58] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:59] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:59] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:59] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:59] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:59] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:59] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:59] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:59] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:59] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:59] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:59] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:07:59] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:00] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:00] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:00] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:00] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:00] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:00] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:00] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:00] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:00] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:00] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:00] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:00] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:01] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:01] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:01] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:01] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:01] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:01] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:01] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:01] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:01] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:01] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:01] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:02] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:02] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:02] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:02] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:02] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:02] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:02] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:02] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:02] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:02] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:02] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:03] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:03] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:03] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:03] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:03] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:03] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:03] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:03] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:03] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:03] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:05] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:05] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:05] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:05] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:05] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:05] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:05] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:05] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:06] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:06] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:06] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:06] [User Authenticator #0/INFO]: UUID of player pasqu17 is 191cbce6-a575-3c1d-b5a1-0d7bd165b4a2
-[17:08:06] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:06] [Server thread/INFO]: [voicechat] Received secret request of pasqu17 (15)
-[17:08:06] [Server thread/INFO]: [voicechat] Sent secret to pasqu17
-[17:08:07] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:07] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:07] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 19.92, 19.98, 19.99
-[17:08:07] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 19.92, 19.98, 19.99
-[17:08:07] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 19.92, 19.98, 19.99
-[17:08:07] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 19.92, 19.98, 19.99
-[17:08:08] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 19.92, 19.98, 19.99
-[17:08:08] [Server thread/INFO]: pasqu17 joined the game
-[17:08:08] [Server thread/INFO]: pasqu17[/83.40.150.61:56387] logged in with entity id 189 at ([world]75.59152686967688, 76.0, 557.9182456990125)
-[17:08:08] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:08] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:09] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:09] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:09] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:09] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:09] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:10] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:10] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:10] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:10] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:10] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:11] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:11] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:11] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:11] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:11] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:12] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:12] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:12] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:12] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:12] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:12] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:12] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:12] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:13] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:13] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:13] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:13] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:13] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:13] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:14] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:14] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:14] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:14] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:14] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:14] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:14] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:14] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:14] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:14] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:14] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:15] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:15] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:15] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:15] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:15] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:15] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:15] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:15] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:15] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:16] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:16] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:16] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:16] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:16] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:16] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:16] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:16] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:17] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:17] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:17] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:17] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:17] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:18] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:18] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:18] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:18] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:18] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:19] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:19] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:19] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:20] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:20] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:21] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:21] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:21] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:22] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:22] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:22] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:22] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:22] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:23] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:23] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:23] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:23] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:23] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:23] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:23] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:23] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:23] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:23] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:23] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:24] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:24] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:24] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:24] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:24] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:24] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:24] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:24] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:24] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:24] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:24] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:24] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:25] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:25] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:25] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:25] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:25] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:25] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:25] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:25] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:25] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:25] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:25] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:25] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:26] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:26] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:26] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:26] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:26] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:26] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:26] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:26] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:27] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:27] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:27] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:27] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:27] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:28] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:28] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:28] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:28] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:28] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:28] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:28] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:28] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:28] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:28] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:29] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:29] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:29] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:29] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:29] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:29] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:29] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:29] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:29] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:32] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:32] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:32] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:32] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:32] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:32] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:32] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:32] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:32] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:32] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:32] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:32] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:33] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:33] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:33] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:33] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:33] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:33] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:33] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:33] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:33] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:33] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:33] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:33] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:37] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:37] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:37] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:37] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:37] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:37] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:37] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:37] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:37] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:37] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:37] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:37] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:38] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:38] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:38] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:38] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:38] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:38] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:38] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:38] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:38] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:38] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:38] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:38] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:39] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:39] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:39] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:39] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:39] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:39] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:39] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:39] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:39] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:39] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:39] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:39] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:40] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:40] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:40] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:40] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:40] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:40] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:40] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:40] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:40] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:40] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:40] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:42] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:42] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:42] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:42] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:42] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:42] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:42] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:42] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:42] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:42] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:42] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:42] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:47] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:47] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:47] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:47] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:47] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:47] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:47] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:47] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:47] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:47] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:47] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:47] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:48] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:48] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:48] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:48] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:48] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:48] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:48] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:48] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:48] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:48] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:48] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:48] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:49] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:49] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:49] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:49] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:49] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:49] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:49] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:49] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:49] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:49] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:49] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:49] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:50] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:50] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:50] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:50] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:50] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:50] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:50] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:50] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:50] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:50] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:50] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:50] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:51] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:51] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:51] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:51] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:51] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:51] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:51] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:51] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:51] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:51] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:51] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:51] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:53] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:53] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:53] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:53] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:53] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:53] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:53] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:53] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:53] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:53] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:53] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:53] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:54] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:54] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:54] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:54] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:54] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:54] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:54] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:54] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:54] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:54] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:54] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:54] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:55] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:55] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:55] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:55] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:55] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:55] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:55] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:55] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:55] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:55] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:55] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:55] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:57] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:57] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:57] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:57] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:57] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:57] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:57] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:57] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:57] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:57] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:57] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:57] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:58] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:58] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:58] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:58] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:58] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:58] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:58] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:58] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:58] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:58] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:58] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:58] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:59] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:59] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:59] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:59] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:59] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:59] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:59] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:59] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:59] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:59] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:59] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:08:59] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:00] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:00] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:00] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:00] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:00] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:00] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:00] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:00] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:00] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:00] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:00] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:00] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:01] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:01] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:01] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:01] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:01] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:01] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:01] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:01] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:01] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:01] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:01] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:01] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:02] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:02] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:02] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:02] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:02] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:02] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:02] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:02] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:02] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:02] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:02] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:02] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:03] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:03] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:03] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:03] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:03] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:03] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:03] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:03] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:03] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:03] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:03] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:03] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:05] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:05] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:05] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:05] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:05] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:05] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:05] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:05] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:05] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:05] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:05] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:05] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:06] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:06] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:06] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:06] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:06] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:06] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:06] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:06] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:06] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:06] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:06] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:06] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:07] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:07] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:07] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:07] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:07] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:07] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:07] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:07] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:07] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:07] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:07] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:07] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:08] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:08] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:08] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:08] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:08] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:08] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:08] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:08] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:08] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:08] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:08] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:08] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:09] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:09] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:09] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:09] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:09] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:09] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:09] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:09] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:09] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:09] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:09] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:09] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:10] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:10] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:10] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:10] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:10] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:10] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:10] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:10] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:10] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:10] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:10] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:10] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:11] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:11] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:11] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:11] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:11] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:11] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:11] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:11] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:11] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:11] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:11] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:11] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:12] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:12] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:12] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:12] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:12] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:12] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:12] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:12] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:12] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:12] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:12] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:12] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:13] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:13] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:13] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:13] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:13] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:13] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:13] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:13] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:13] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:13] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:13] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:13] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:14] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:14] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:14] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:14] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:14] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:14] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:14] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:14] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:14] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:14] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:14] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:14] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:15] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:15] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:15] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:15] [User Authenticator #1/INFO]: UUID of player dann_hd is 3c6f7844-972c-30f7-a83c-d4c4bfbed489
-[17:09:15] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:15] [Server thread/INFO]: dann_hd joined the game
-[17:09:15] [Server thread/INFO]: dann_hd[/127.0.0.1:56694] logged in with entity id 538 at ([world]82.25656921978485, 71.0, 374.53408866264635)
-[17:09:15] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:15] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:15] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:15] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:16] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:16] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:16] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:16] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:16] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:16] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:16] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:16] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:16] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:16] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:16] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:17] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:17] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:17] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:17] [Server thread/INFO]: [voicechat] Received secret request of dann_hd (15)
-[17:09:17] [Server thread/INFO]: [voicechat] Sent secret to dann_hd
-[17:09:17] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:17] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:17] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:17] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:17] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:17] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:17] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:17] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:17] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:18] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:18] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 3c6f7844-972c-30f7-a83c-d4c4bfbed489
-[17:09:18] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:18] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:18] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:18] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:18] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:18] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:18] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:18] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:18] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:18] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:19] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:19] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:19] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:19] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:19] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:19] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:19] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:19] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:19] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:20] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:20] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:20] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:21] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:21] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:21] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:22] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 19.96, 19.99, 20.0
-[17:09:22] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 19.96, 19.99, 20.0
-[17:09:22] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 19.96, 19.99, 20.0
-[17:09:22] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 19.96, 19.99, 20.0
-[17:09:23] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 19.96, 19.99, 20.0
-[17:09:23] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:23] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:23] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:23] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:23] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:23] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:23] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:23] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:24] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:24] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:24] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:24] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:24] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:24] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:24] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:24] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:24] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:24] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:24] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:24] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:25] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:25] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:25] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:25] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:25] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:25] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:25] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:25] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:25] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:25] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:25] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:26] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:26] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:26] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:26] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:26] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:26] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:26] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:26] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:26] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:27] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:27] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:27] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:27] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:27] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:27] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:27] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:27] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:27] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:27] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:27] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:28] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:28] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:28] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:28] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:28] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:28] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:28] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:28] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:28] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:28] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:29] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:29] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:29] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:29] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:29] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:29] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:29] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:29] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:29] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:29] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:29] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:32] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:32] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:32] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:32] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:32] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:32] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:32] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:32] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:32] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:32] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:33] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:33] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:33] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:33] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:33] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:33] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:33] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:33] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:33] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:33] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:33] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:37] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:37] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:37] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:37] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:37] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:37] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:37] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:37] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:37] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:37] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:37] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:37] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:38] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:38] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:38] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:38] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:38] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:38] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:38] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:38] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:38] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:38] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:38] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:38] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:39] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:39] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:39] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:39] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:39] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:39] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:39] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:39] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:39] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:39] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:40] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:40] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:40] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:40] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:40] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:40] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:40] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:40] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:40] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:40] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:40] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:40] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 19.99, 20.0, 20.0
-[17:09:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 19.99, 20.0, 20.0
-[17:09:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 19.99, 20.0, 20.0
-[17:09:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 19.99, 20.0, 20.0
-[17:09:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 19.99, 20.0, 20.0
-[17:09:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 19.99, 20.0, 20.0
-[17:09:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 19.99, 20.0, 20.0
-[17:09:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 19.99, 20.0, 20.0
-[17:09:42] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 19.99, 20.0, 20.0
-[17:09:42] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 19.99, 20.0, 20.0
-[17:09:42] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:42] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:42] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:42] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:42] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:42] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:42] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:42] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:42] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:09:47] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:10:16] [Server thread/INFO]: dann_hd lost connection: Disconnected
-[17:10:16] [Server thread/INFO]: [voicechat] Disconnecting client dann_hd
-[17:10:16] [Server thread/INFO]: dann_hd left the game
-[17:10:16] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 19.93, 19.99, 20.0
-[17:11:10] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:11:10] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:11:10] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:11:10] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:11:10] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:11:10] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:11:10] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:11:10] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:11:10] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:11:11] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:11:11] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:11:11] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:11:11] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:11:11] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:11:11] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:11:11] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:13:23] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:13:23] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:13:23] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:13:23] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:13:23] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:13:23] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:13:23] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:13:23] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:13:24] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:13:24] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:13:24] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:13:24] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:13:24] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:13:25] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:13:25] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:13:28] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:13:28] [Server thread/INFO]: Stopping the server
-[17:13:28] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[17:13:28] [Server thread/INFO]: Stopping server
-[17:13:28] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.0-dev+17-6e931b2
-[17:13:28] [Server thread/INFO]: [MCAuthenticator] Disabling MCAuthenticator v2.0.4
-[17:13:28] [Server thread/INFO]: [FartherViewDistance] Disabling FartherViewDistance v9.7.3
-[17:13:28] [Server thread/INFO]: [voicechat] Disabling voicechat v1.19.2-2.3.15
-[17:13:28] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.52
-[17:13:28] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[17:13:28] [Server thread/INFO]: [LuckPerms] Closing storage...
-[17:13:28] [Server thread/INFO]: [LuckPerms] Goodbye!
-[17:13:28] [Server thread/INFO]: Saving players
-[17:13:28] [Server thread/INFO]: pasqu17 lost connection: Server closed
-[17:13:28] [Server thread/INFO]: pasqu17 left the game
-[17:13:28] [Server thread/INFO]: Saving worlds
-[17:13:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:13:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[17:13:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[17:13:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[17:13:29] [Server thread/INFO]: [ChunkHolderManager] Saved 176 block chunks, 363 entity chunks, 0 poi chunks in world 'world' in 0,35s
-[17:13:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:13:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[17:13:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[17:13:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[17:13:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[17:13:29] [Server thread/INFO]: [ChunkHolderManager] Saved 32 block chunks, 68 entity chunks, 0 poi chunks in world 'world_nether' in 0,04s
-[17:13:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:13:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[17:13:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[17:13:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[17:13:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[17:13:29] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,01s
-[17:13:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:13:29] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[17:13:29] [Server thread/INFO]: Flushing Chunk IO
-[17:13:29] [Server thread/INFO]: Closing Thread Pool
-[17:13:29] [Server thread/INFO]: Closing Server
+[17:15:39] [ServerMain/INFO]: Building unoptimized datafixer
+[17:15:41] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:15:45] [ServerMain/INFO]: Loaded 7 recipes
+[17:15:47] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[17:15:47] [Server thread/INFO]: Loading properties
+[17:15:47] [Server thread/INFO]: This server is running Paper version git-Paper-271 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: 2151112)
+[17:15:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:15:47] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:15:48] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[17:15:48] [Server thread/INFO]: Default game type: SURVIVAL
+[17:15:48] [Server thread/INFO]: Generating keypair
+[17:15:48] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:15:48] [Server thread/INFO]: Using default channel type
+[17:15:48] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[17:15:48] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[17:15:49] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_19_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[17:15:57] [Server thread/WARN]: Legacy plugin MCAuthenticator v2.0.4 does not specify an api-version.
+[17:15:57] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.52
+[17:15:57] [Server thread/INFO]: [voicechat] Loading voicechat v1.19.2-2.3.15
+[17:15:57] [Server thread/INFO]: [FartherViewDistance] Loading FartherViewDistance v9.7.3
+[17:15:57] [Server thread/INFO]: [MCAuthenticator] Loading MCAuthenticator v2.0.4
+[17:15:57] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.0-dev+17-6e931b2
+[17:15:57] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:15:57] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.52
+[17:15:58] [Server thread/INFO]:         __    
+[17:15:58] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.52
+[17:15:58] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[17:15:58] [Server thread/INFO]: 
+[17:15:58] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[17:15:59] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[17:16:00] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[17:16:00] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[17:16:01] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3219ms)
+[17:16:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:16:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:16:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:16:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:16:01] [Server thread/INFO]: Preparing level "world"
+[17:16:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:16:02] [Server thread/INFO]: Time elapsed: 153 ms
+[17:16:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:16:02] [Server thread/INFO]: Time elapsed: 55 ms
+[17:16:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:16:02] [Server thread/INFO]: Time elapsed: 17 ms
+[17:16:02] [Server thread/INFO]: [voicechat] Enabling voicechat v1.19.2-2.3.15
+[17:16:02] [Server thread/INFO]: [voicechat] Compatibility version 15
+[17:16:02] [Server thread/INFO]: [voicechat] Loading translations
+[17:16:02] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[17:16:02] [Server thread/INFO]: [FartherViewDistance] Enabling FartherViewDistance v9.7.3
+[17:16:02] [Server thread/INFO]: [MCAuthenticator] Enabling MCAuthenticator v2.0.4*
+[17:16:02] [Server thread/INFO]: [MCAuthenticator] Using RFC6238 (Google Authenticator 2FA) based authentication.
+[17:16:03] [Server thread/INFO]: [MCAuthenticator] Could not validate the server's time! Ensure that the server's time is within specification!
+[17:16:03] [Server thread/INFO]: [MCAuthenticator] Using data source: (SingleFileDataSource: plugins\MCAuthenticator\playerData.json)
+[17:16:03] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.0-dev+17-6e931b2
+[17:16:04] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[17:16:04] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[17:16:04] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[17:16:04] [Server thread/INFO]: [Essentials] Using locale ca_ES
+[17:16:04] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[17:16:04] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[17:16:04] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[17:16:04] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[17:16:04] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[17:16:04] [Server thread/INFO]: Running delayed init tasks
+[17:16:04] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
+[17:16:04] [Server thread/INFO]: [voicechat] Loading plugins
+[17:16:04] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[17:16:04] [Server thread/INFO]: [voicechat] Initializing plugins
+[17:16:04] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[17:16:04] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[17:16:04] [Server thread/INFO]: [voicechat] Using default voicechat socket implementation
+[17:16:04] [Server thread/INFO]: Done (16.973s)! For help, type "help"
+[17:16:04] [Server thread/INFO]: Timings Reset
+[17:16:04] [VoiceChatServerThread/INFO]: [voicechat] Server started at port 25565
+[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:04] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:05] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] You're 1 EssentialsX dev build(s) out of date!
+[17:16:05] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[17:16:42] [User Authenticator #0/INFO]: UUID of player dann_hd is 3c6f7844-972c-30f7-a83c-d4c4bfbed489
+[17:16:42] [Server thread/INFO]: dann_hd joined the game
+[17:16:42] [Server thread/INFO]: dann_hd[/62.14.88.132:52985] logged in with entity id 179 at ([world]81.9955445612332, 71.0, 420.98827291605795)
+[17:16:42] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:43] [Server thread/INFO]: [voicechat] Received secret request of dann_hd (15)
+[17:16:43] [Server thread/INFO]: [voicechat] Sent secret to dann_hd
+[17:16:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:44] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 3c6f7844-972c-30f7-a83c-d4c4bfbed489
+[17:16:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:47] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:47] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:47] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:47] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:47] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:48] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:48] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:51] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:52] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:16:56] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 18.73, 19.73, 19.91
+[17:17:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:30] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:31] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:32] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:32] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:32] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:32] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:32] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:32] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:33] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:33] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:33] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:33] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:33] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:34] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:35] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:36] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:37] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:37] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:37] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:37] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:37] [Server thread/INFO]: [Not Secure] [Server] se sierra mi pana
+[17:17:37] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:41] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:45] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:46] [Server thread/INFO]: dann_hd lost connection: Disconnected
+[17:17:46] [Server thread/INFO]: [voicechat] Disconnecting client dann_hd
+[17:17:46] [Server thread/INFO]: dann_hd left the game
+[17:17:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:46] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:47] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:47] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:47] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:48] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:48] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:48] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:48] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:48] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:48] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:48] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:48] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:48] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:49] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:49] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:49] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:49] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:49] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:49] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:49] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:49] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:49] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[17:17:49] [Server thread/INFO]: Stopping the server
+[17:17:49] [Server thread/INFO]: Stopping server
+[17:17:49] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.0-dev+17-6e931b2
+[17:17:49] [Server thread/INFO]: [MCAuthenticator] Disabling MCAuthenticator v2.0.4
+[17:17:49] [Server thread/INFO]: [FartherViewDistance] Disabling FartherViewDistance v9.7.3
+[17:17:49] [Server thread/INFO]: [voicechat] Disabling voicechat v1.19.2-2.3.15
+[17:17:49] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.52
+[17:17:49] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[17:17:49] [Server thread/INFO]: [LuckPerms] Closing storage...
+[17:17:50] [Server thread/INFO]: [LuckPerms] Goodbye!
+[17:17:50] [Server thread/INFO]: Saving players
+[17:17:50] [Server thread/INFO]: Saving worlds
+[17:17:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:17:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[17:17:50] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[17:17:50] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[17:17:52] [Server thread/INFO]: [ChunkHolderManager] Saved 929 block chunks, 929 entity chunks, 1 poi chunks in world 'world' in 2,37s
+[17:17:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:17:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[17:17:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[17:17:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[17:17:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[17:17:53] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 1,07s
+[17:17:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:17:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[17:17:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[17:17:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[17:17:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[17:17:53] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0,20s
+[17:17:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:17:53] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:17:53] [Server thread/INFO]: Flushing Chunk IO
+[17:17:53] [Server thread/INFO]: Closing Thread Pool
+[17:17:53] [Server thread/INFO]: Closing Server
