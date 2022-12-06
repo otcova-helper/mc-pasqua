@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1669495562867
-  login: 1669495211555
+  logout: 1670254978721
+  login: 1670254726163
 money: '0'
 last-account-name: TheDMC75
 logoutlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: -39.69171878366945
-  y: 72.875
-  z: 414.8923548232798
-  yaw: 107.58201599121094
-  pitch: 20.25005340576172
+  x: -50.362268265425726
+  y: 72.9375
+  z: 409.23355953396646
+  yaw: 122.15519714355469
+  pitch: 14.976349830627441
 homes:
   home:
     world: 7e41ec44-729a-4440-9812-99e728587efb

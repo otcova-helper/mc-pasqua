@@ -11,23 +11,23 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1670188222578
+  lastteleport: 1670283827113
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1670188654786
-  login: 1670187884373
+  logout: 1670283848624
+  login: 1670281783776
 money: '0'
 last-account-name: yiyi2003
 logoutlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: 69.29154333108171
+  x: 66.02920244431057
   y: 62.0
-  z: 128.53615239756056
-  yaw: -144.63320922851562
-  pitch: 3.763263702392578
+  z: 132.09461054556365
+  yaw: 41.0329704284668
+  pitch: 14.575029373168945
 homes:
   home:
     world: 7e41ec44-729a-4440-9812-99e728587efb
@@ -40,8 +40,8 @@ homes:
 lastlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: 8.920160911250779
-  y: -33.0
-  z: 251.11608400103023
-  yaw: -17.1826171875
-  pitch: 7.230267524719238
+  x: 39.11748466764759
+  y: 72.0
+  z: -1057.5770347612477
+  yaw: 144.72418212890625
+  pitch: 6.160447120666504

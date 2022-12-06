@@ -47,5 +47,12 @@
     "secret": "F3E3EK6SH33ZS6CS",
     "locked": false,
     "authtype": 0
+  },
+  {
+    "uuid": "3c6f7844-972c-30f7-a83c-d4c4bfbed489",
+    "ip": "62.14.88.132",
+    "secret": "4WUYLU6TJSW2M53H",
+    "locked": false,
+    "authtype": 0
   }
 ]
