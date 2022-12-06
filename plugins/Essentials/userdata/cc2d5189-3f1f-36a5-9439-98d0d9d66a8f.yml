@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1669584982973
-  login: 1669579373105
+  logout: 1670326515966
+  login: 1670326002616
 money: '0'
 last-account-name: elosoamoroso
 logoutlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: 443.69999998807907
-  y: 58.0
-  z: 135.5588451019927
-  yaw: 102.07470703125
-  pitch: -5.316779613494873
+  x: 384.07499998807907
+  y: 74.0
+  z: 100.4434489409843
+  yaw: -118.63653564453125
+  pitch: 19.650054931640625
