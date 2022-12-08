@@ -245,6 +245,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2022-12-08 01:57:54 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2022-11-18 17:21:13 +0100"
@@ -657,6 +663,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
+    "criteria": {
+      "has_azure_bluet": "2022-12-08 02:55:45 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_nugget_from_smelting": {
     "criteria": {
       "has_iron_axe": "2022-11-24 00:10:05 +0100"
@@ -867,6 +879,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2022-12-08 02:32:51 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2022-12-08 01:52:01 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/netherite_chestplate_smithing": {
     "criteria": {
       "has_netherite_ingot": "2022-11-24 00:11:17 +0100"
@@ -942,6 +966,12 @@
   "minecraft:recipes/transportation/mangrove_chest_boat": {
     "criteria": {
       "has_boat": "2022-11-27 23:21:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2022-12-08 01:52:01 +0100"
     },
     "done": true
   },
@@ -1138,12 +1168,17 @@
       "minecraft:taiga": "2022-11-28 00:32:24 +0100",
       "minecraft:sunflower_plains": "2022-11-18 17:15:42 +0100",
       "minecraft:birch_forest": "2022-11-22 17:43:54 +0100",
+      "minecraft:bamboo_jungle": "2022-12-08 01:56:09 +0100",
       "minecraft:beach": "2022-11-28 00:42:10 +0100",
+      "minecraft:dark_forest": "2022-12-08 01:57:52 +0100",
+      "minecraft:stony_peaks": "2022-12-08 02:22:44 +0100",
+      "minecraft:sparse_jungle": "2022-12-08 01:51:12 +0100",
       "minecraft:river": "2022-11-18 17:15:38 +0100",
       "minecraft:stony_shore": "2022-11-18 17:13:54 +0100",
       "minecraft:grove": "2022-11-19 16:13:58 +0100",
       "minecraft:jagged_peaks": "2022-11-19 16:17:29 +0100",
       "minecraft:forest": "2022-11-18 17:06:35 +0100",
+      "minecraft:jungle": "2022-12-08 01:58:48 +0100",
       "minecraft:old_growth_spruce_taiga": "2022-11-28 00:42:01 +0100",
       "minecraft:flower_forest": "2022-11-18 17:15:35 +0100",
       "minecraft:frozen_peaks": "2022-11-24 01:00:30 +0100",
@@ -1243,6 +1278,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_tulip": {
+    "criteria": {
+      "has_red_flower": "2022-12-08 02:55:49 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2022-11-18 17:14:21 +0100"
@@ -1327,6 +1368,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cookie": {
+    "criteria": {
+      "has_cocoa": "2022-12-08 01:51:18 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_nugget_from_smelting": {
     "criteria": {
       "has_golden_boots": "2022-11-19 20:24:10 +0100"
@@ -1390,6 +1437,12 @@
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2022-11-18 17:14:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brown_dye": {
+    "criteria": {
+      "has_cocoa_beans": "2022-12-08 01:51:18 +0100"
     },
     "done": true
   },
@@ -1631,6 +1684,7 @@
       "bread": "2022-11-18 17:22:17 +0100",
       "rotten_flesh": "2022-11-19 20:30:17 +0100",
       "salmon": "2022-11-21 20:49:30 +0100",
+      "melon_slice": "2022-12-08 02:18:46 +0100",
       "beetroot": "2022-11-18 18:34:59 +0100",
       "carrot": "2022-11-18 18:11:45 +0100"
     },
@@ -1832,7 +1886,8 @@
     "criteria": {
       "minecraft:pig": "2022-11-18 18:52:10 +0100",
       "minecraft:sheep": "2022-11-18 18:58:52 +0100",
-      "minecraft:cow": "2022-11-18 18:54:01 +0100"
+      "minecraft:cow": "2022-11-18 18:54:01 +0100",
+      "minecraft:wolf": "2022-12-08 01:40:51 +0100"
     },
     "done": false
   },
@@ -1995,6 +2050,12 @@
   "minecraft:recipes/tools/iron_shovel": {
     "criteria": {
       "has_iron_ingot": "2022-11-18 17:21:13 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2022-12-08 01:57:54 +0100"
     },
     "done": true
   },
