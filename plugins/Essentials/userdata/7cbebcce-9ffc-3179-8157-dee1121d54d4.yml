@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 81.0.0.189
+ip-address: 95.17.181.52
 afk: false
 socialspy: false
 npc: false
@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1669828836233
-  login: 1669826823300
+  logout: 1670673658001
+  login: 1670673121697
 money: '0'
 last-account-name: _ssassy_
 logoutlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: -42.5
+  x: -43.84572347703984
   y: 72.0
-  z: 408.5
-  yaw: -179.54978942871094
-  pitch: 34.350006103515625
+  z: 409.63401972988004
+  yaw: 16.2012939453125
+  pitch: 6.600293159484863
 homes:
   home:
     world: 7e41ec44-729a-4440-9812-99e728587efb

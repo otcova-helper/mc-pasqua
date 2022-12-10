@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1669224453482
-  login: 1669224074467
+  logout: 1670708939281
+  login: 1670706250381
 money: '0'
 last-account-name: tifanybpinheiro
 logoutlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: -12.447580089196416
-  y: 92.0
-  z: 272.8334735919135
-  yaw: 18.590635299682617
-  pitch: 27.150005340576172
+  x: 55.90515231074923
+  y: 70.0
+  z: 487.4123645034011
+  yaw: 55.571563720703125
+  pitch: 12.449986457824707
