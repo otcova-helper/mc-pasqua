@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 87.220.125.87
+ip-address: 66.81.171.224
 afk: false
 socialspy: false
 npc: false
@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1670326515966
-  login: 1670326002616
+  logout: 1670597173846
+  login: 1670596871285
 money: '0'
 last-account-name: elosoamoroso
 logoutlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: 384.07499998807907
-  y: 74.0
-  z: 100.4434489409843
-  yaw: -118.63653564453125
-  pitch: 19.650054931640625
+  x: 397.816416716583
+  y: 73.5
+  z: 104.25634067253482
+  yaw: 84.75311279296875
+  pitch: 45.14996337890625
