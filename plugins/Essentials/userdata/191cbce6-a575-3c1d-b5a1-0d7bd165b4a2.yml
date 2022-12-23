@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1670767362323
-  login: 1670757196985
+  logout: 1671839141881
+  login: 1671838307526
 money: '0'
 last-account-name: pasqu17
 logoutlocation:
   world: 7e41ec44-729a-4440-9812-99e728587efb
   world-name: world
-  x: 75.06786685606585
-  y: 76.5625
-  z: 557.2128839588026
-  yaw: -58.650146484375
-  pitch: 23.099878311157227
+  x: 57.5
+  y: 70.0
+  z: 498.5
+  yaw: 40.04998779296875
+  pitch: 11.84999942779541
 homes:
   home:
     world: 7e41ec44-729a-4440-9812-99e728587efb
